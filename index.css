@@ -1,0 +1,65 @@
+#navigation {
+    background-image: url(Images/Bar.png);
+    padding: 0.001em;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#AboutButton {
+    background-image: url(Images/SmallNavButton.png);
+}
+
+#ImagesButton {
+    background-image: url(Images/MediumLargeNavButton.png);
+}
+
+#HomeButton {
+    background-image: url(Images/SmallNavButton.png);
+}
+
+#DDRescueGUIButton {
+    background-image: url(Images/LargeNavButton.png);
+}
+
+#WineAutostartButton {
+    background-image: url(Images/LargeNavButton.png);
+}
+
+#WxFixBootButton {
+    background-image: url(Images/MediumNavButton.png);
+}
+
+#MainContent {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.5em;;
+}
+
+#Footer {
+    background-image: url(Images/BottomBar.png);
+    padding: 0.001em;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+a:link { color: rgb(0, 255, 0) }
+a:visited { color: rgb(0, 190, 0) }
+a:hover { color: rgb(255, 162, 0) }
+a:active { color: rgb(255, 0, 102) }
