@@ -1,34 +1,55 @@
 html {
-    background: rgb(255,255,255)
-}
-
-#navigation {
-    background-image: url(Images/Bar.png);
-    padding: 0.001em;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    text-align: center;
-    font-weight: normal;
-}
-
-#navlist li {
-    display: inline;
-    list-style-type: none;
-    padding: 10px;
+    background: rgb(255,255,255) /* Set background below footer to white in case the page doesn't need to scroll */
 }
 
 body {
-    background: rgb(0,172,255);
+    background: rgb(0,172,255); /* Set background colour to the deepest blue used in the Bar.png and BottomBar.png imagesso it blends in nicely */
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
+/* -- Main Navigation -- */
+
+#navigation {
+    background-image: url(Images/Bar.png);
+    padding: 1px;
+    font-weight: normal;
+}
+
+#navlist li.main {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+
+/* -- End Main Navigation -- */
+/* -- Submenu Navigation -- */
+
+#navlist ul {
+    background:rgb(0,172,255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+
+#navlist ul li {
+    background: green;
+}
+
+#navlist li:hover ul { /* Display the dropdown on hover */
+    left:-30; /* Bring back on-screen when needed */
+}
+
+/* -- End Submenu Navigation -- */
+    
 #MainContent {
     background: rgb(255,255,255);
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 70px;
 }
 
 #Footer {
@@ -40,6 +61,10 @@ body {
     margin-bottom: 15px;
     text-align: center;
     font-weight: normal;
+}
+
+#Footer p {
+    text-align: center;
 }
 
 a { color: rgb(0, 255, 0) }
