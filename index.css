@@ -12,34 +12,7 @@
 #navlist li {
     display: inline;
     list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#AboutButton {
-    background-image: url(Images/SmallNavButton.png);
-}
-
-#ImagesButton {
-    background-image: url(Images/MediumLargeNavButton.png);
-}
-
-#HomeButton {
-    background-image: url(Images/SmallNavButton.png);
-}
-
-#DDRescueGUIButton {
-    background-image: url(Images/LargeNavButton.png);
-}
-
-#WineAutostartButton {
-    background-image: url(Images/LargeNavButton.png);
-}
-
-#WxFixBootButton {
-    background-image: url(Images/MediumNavButton.png);
+    padding: 10px;
 }
 
 #MainContent {
