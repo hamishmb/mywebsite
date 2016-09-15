@@ -42,7 +42,7 @@ body {
     font-weight: normal;
 }
 
-a:link { color: rgb(0, 255, 0) }
+a { color: rgb(0, 255, 0) }
 a:visited { color: rgb(0, 190, 0) }
 a:hover { color: rgb(255, 162, 0) }
 a:active { color: rgb(255, 0, 102) }
