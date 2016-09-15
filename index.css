@@ -1,10 +1,13 @@
+html {
+    background: rgb(255,255,255)
+}
+
 #navigation {
     background-image: url(Images/Bar.png);
     padding: 0.001em;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: 15px;
     text-align: center;
     font-weight: normal;
 }
@@ -15,10 +18,17 @@
     padding: 10px;
 }
 
-#MainContent {
-    background: rgb(255, 255, 255);
+body {
+    background: rgb(0,172,255);
     text-align: center;
-    padding: 0.5em;;
+    padding: 0;
+    margin: 0;
+}
+
+#MainContent {
+    background: rgb(255,255,255);
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #Footer {
