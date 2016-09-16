@@ -1,3 +1,5 @@
+/* Note to self: If something refuses to work, double-check you've put a ; at the end of each line. */
+
 html {
     background: rgb(255,255,255) /* Set background below footer to white in case the page doesn't need to scroll */
 }
@@ -12,7 +14,7 @@ body {
 /* -- Main Navigation -- */
 
 #navigation {
-    background-image: url(Images/Bar.png);
+    background-image: url(/Images/Bar.png);
     padding: 1px;
     font-weight: normal;
 }
@@ -44,7 +46,19 @@ body {
 }
 
 /* -- End Submenu Navigation -- */
-    
+/* -- Begin In-Page Navigation -- */
+
+#MainContent nav {
+    float: left;
+    border: 1px solid black;
+    width: 200px;
+    margin: 0;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* -- End In-Page Navigation -- */
+
 #MainContent {
     background: rgb(255,255,255);
     margin-left: 200px;
@@ -53,7 +67,7 @@ body {
 }
 
 #Footer {
-    background-image: url(Images/BottomBar.png);
+    background-image: url(/Images/BottomBar.png);
     padding: 0.001em;
     margin-top: -8px;
     margin-left: -8px;

@@ -2,13 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link href="/style.css" rel="stylesheet" type="text/css">
-        <title>My first webpage</title>
+        <link href="/style.css" type="text/css" rel="stylesheet">
+        <title>My first website</title>
     </head>
     <body>
+        <!-- Navigation between pages -->
         <div id="navigation">
             <ul id="navlist">
-                <li class="main"><a href="/index.html"><img src="/Images/SelectedHomeNavButton.png" alt="Home"></a></li>
+                <li class="main"><a href="/index.html"><img src="/Images/HomeNavButton.png" alt="Home"></a></li>
                 <li class="main"><a href="/blog.html"><img src="/Images/BlogNavButton.png" alt="Blog"></a></li>
                 <li class="main"><a href="/screenshots.html"><img src="/Images/ScreenshotsNavButton.png" alt="Screenshots"></a>
 
@@ -19,7 +20,7 @@
                     </ul>
 
                 </li>
-                <li class="main"><a href="/changelogs.html"><img src="/Images/ChangelogsNavButton.png" alt="Changelogs"></a>
+                <li class="main"><a href="/changelogs.html"><img src="/Images/SelectedChangelogsNavButton.png" alt="Changelogs"></a>
 
                     <ul id="programnavlist">
                         <li><a href="/Changelogs/ddrescue-gui.html">DDRescue-GUI</a></li>
@@ -59,14 +60,35 @@
                 <li class="main"><a href="/wineautostart.html"><img src="/Images/WineAutostartNavButton.png" alt="Wine Autostart"></a></li>
             </ul>
         </div>
+        <!-- Content of the Page -->
         <div id="MainContent">
-            <!-- Set a font! To Ariel perhaps.-->
-            <h1>Welcome to the home of DDRescue-GUI, WxFixBoot and Wine Autostart!</h1>
-            <p>
-            Here is some text that talks about my programs,
-            and other blurb :)
-            </p>
+            <h1>Changelog For DDRescue-GUI</h1>
+            <!-- In-Page Navigation -->
+            <nav>
+                <strong>Versions</strong>
+                <ol id="InPageNavigation">
+                    <li><a href="">1.6.1</a></li>
+                    <li><a href="">1.5</a></li>
+                    <li><a href="">1.4</a></li>
+                    <li><a href="">1.3</a></li>
+                    <li><a href="">1.2</a></li>
+                    <li><a href="">1.1</a></li>
+                    <li><a href="">1.0</a></li>
+                </ol>
+            </nav>
+
+            <!-- Page Content -->
+            <section>
+                <h2>DDRescue-GUI v1.6.1</h2>
+                <article>
+                    <p>
+                        * dftrdfgfr<br>
+                        * dfgtrgw<br>
+                    </p>
+                </article>
+            </section>
         </div>
+        <!-- Footer -->
         <footer>
             <div id="Footer">
                 <p>Contact info: blah blah blah</p>
