@@ -60,6 +60,10 @@ body {
     padding: 20px;
 }
 
+#InPageNavTitle {
+    text-align: center; /* The title for the in-page navigation should be centered *** FIX LATER *** */
+}
+
 #InPageNavigation, #InPageNavigation ol {
     counter-reset: item;
 }
