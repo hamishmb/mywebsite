@@ -43,7 +43,7 @@ body {
 }
 
 #navlist li:hover ul { /* Display the dropdown on hover */
-    left:-30; /* Bring back on-screen when needed */
+    left: -30px; /* Bring back on-screen when needed */
 }
 
 /* -- End Submenu Navigation -- */
@@ -89,6 +89,12 @@ body {
 /* -- Text frames -- */
 iframe {
     margin: 30px;
+    border: 0; /* Get rid of unwanted border around the edge of the control */
+    width: 100%;
+}
+
+iframe.BesideNav {
+    width: 60%; /* Use 60% width when the iframe is beside the in-page navigation, so it can wrap */
 }
 
 /* -- Footer -- */
