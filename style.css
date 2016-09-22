@@ -98,18 +98,18 @@ iframe.BesideNav {
 }
 
 /* -- Footer -- */
-#Footer {
+footer {
     background-image: url(/Images/BottomBar.png);
     padding: 0.001em;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     text-align: center;
     font-weight: normal;
 }
 
-#Footer p {
+footer p {
     text-align: center;
 }
 
