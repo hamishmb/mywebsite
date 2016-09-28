@@ -107,12 +107,32 @@ footer {
     margin-bottom: 0px;
     text-align: center;
     font-weight: normal;
+    overflow: auto;
 }
 
 footer p {
     text-align: center;
+
 }
 
+#FooterLinks {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#FooterLinks::after {
+    clear: both;
+}
+
+#HTML5Link {
+    float: left;
+}
+
+#CSS3Link {
+    float: right;
+}
+
+/* -- Links */
 a { color: rgb(0, 255, 0) }
 a:visited { color: rgb(0, 190, 0) }
 a:hover { color: rgb(255, 162, 0) }
