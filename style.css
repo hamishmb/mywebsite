@@ -39,11 +39,31 @@ body {
 }
 
 #navlist ul li {
-    background: green;
+    /* Radial background here. Try to support as many browsers as possible */
+    background: black; /* For browsers that have absolutely no support for radial gradients */
+    background: -webkit-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* For Firefox 3.6-15 */
+    background: -ms-linear-gradient(top, rgb(0, 172,255) 5%, black 95%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00acFF', endColorstr='#000000', GradientType=0); /* IE6-9 */
+    background: radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* Standard syntax */
+}
+
+#navlist ul li.first {
+    /* *** For some reason, this puts the 1st element behind the buttons. Need to find out why *** */
+    /* Radial background here. Try to support as many browsers as possible */
+    /* No background for older browsers */
+    background: -webkit-radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(ellipse, rgba(0,172,255,0)) 5%, black 95%); /* For Firefox 3.6-15 */
+    background: -ms-linear-gradient(top, rgba(0,172,255,0) 5%, black 95%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000ACFF', endColorstr='#FF000000', GradientType=0); /* IE6-9 */
+    background: radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* Standard syntax */
 }
 
 #navlist li:hover ul { /* Display the dropdown on hover */
-    left: -30px; /* Bring back on-screen when needed */
+    left: -38px; /* Bring back on-screen when needed */
+    top: -12px;
 }
 
 /* -- End Submenu Navigation -- */
