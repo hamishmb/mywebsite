@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: rgb(0,172,255); /* Set background colour to the deepest blue used in the Bar.png and BottomBar.png images so it blends in nicely */
+    background: rgb(0,112,195); /* Set background colour to the deepest blue used in the Bar.png and BottomBar.png images so it blends in nicely */
     text-align: center;
     padding: 0;
     margin: 0;
@@ -25,45 +25,81 @@ body {
     list-style-type: none;
     padding: 10px;
     position: relative;
+    font-weight: bold;
+}
+
+#CurrentPage {
+    color: rgb(255,0,0);
 }
 
 /* -- End Main Navigation -- */
 /* -- Submenu Navigation -- */
 
 #navlist ul {
-    background:rgb(0,172,255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
-    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
-    list-style:none;
-    position:absolute;
-    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    background: rgb(0,172,255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+
 }
 
 #navlist ul li {
-    /* Radial background here. Try to support as many browsers as possible */
-    background: black; /* For browsers that have absolutely no support for radial gradients */
-    background: -webkit-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* Safari 5.1-6.0 */
-    background: -o-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* For Opera 11.6-12.0 */
-    background: -moz-radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* For Firefox 3.6-15 */
-    background: -ms-linear-gradient(top, rgb(0, 172,255) 5%, black 95%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00acFF', endColorstr='#000000', GradientType=0); /* IE6-9 */
-    background: radial-gradient(ellipse, rgb(0,172,255) 5%, black 95%); /* Standard syntax */
+    background: white;
+    opacity: 0;
+    text-align: left;
+    box-shadow: 5px 5px 10px;
+    font-weight: normal;
+}
+
+/* Set correct widths */
+#navlist ul.Screenshots {
+    width: 130px;
+}
+
+#navlist ul.Changelogs {
+    width: 122px;
+}
+
+#navlist ul.Downloads {
+    width: 115px;
+}
+
+#navlist ul.Documentation {
+    width: 155px;
+}
+
+#navlist ul.Museum {
+    width: 93px;
 }
 
 #navlist ul li.first {
-    /* *** For some reason, this puts the 1st element behind the buttons. Need to find out why *** */
-    /* Radial background here. Try to support as many browsers as possible */
-    /* No background for older browsers */
-    background: -webkit-radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* Safari 5.1-6.0 */
-    background: -o-radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* For Opera 11.6-12.0 */
-    background: -moz-radial-gradient(ellipse, rgba(0,172,255,0)) 5%, black 95%); /* For Firefox 3.6-15 */
-    background: -ms-linear-gradient(top, rgba(0,172,255,0) 5%, black 95%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000ACFF', endColorstr='#FF000000', GradientType=0); /* IE6-9 */
-    background: radial-gradient(ellipse, rgba(0,172,255,0) 5%, black 95%); /* Standard syntax */
+    /* Support old Firefox and Webkit browsers */
+    -moz-border-radius-topleft: 5px; 
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#navlist ul li.last {
+    /* Support old Firefox and Webkit browsers */
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #navlist li:hover ul { /* Display the dropdown on hover */
     left: -38px; /* Bring back on-screen when needed */
-    top: -12px;
+}
+
+#navlist li:hover ul li {
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 
 /* -- End Submenu Navigation -- */
@@ -101,9 +137,10 @@ body {
 
 #MainContent {
     background: rgb(255,255,255);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* -- Text frames -- */
@@ -136,8 +173,8 @@ footer p {
 }
 
 #FooterLinks {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #FooterLinks::after {
@@ -153,11 +190,12 @@ footer p {
 }
 
 /* -- Links */
+/*
 a { color: rgb(0, 255, 0) }
 a:visited { color: rgb(0, 190, 0) }
 a:hover { color: rgb(255, 162, 0) }
 a:active { color: rgb(255, 0, 102) }
-
+*/
 a, img {
     border:none;
     outline:none;
