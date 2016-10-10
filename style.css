@@ -36,7 +36,7 @@ body {
 /* -- Submenu Navigation -- */
 
 #navlist ul {
-    background: rgb(0,172,255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background: rgb(255.255.255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
     background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
     list-style: none;
     position: absolute;
