@@ -12,6 +12,13 @@ body {
     margin: 0;
 }
 
+/* -- Links */
+
+a { color: rgb(0, 0, 255); } /* Default Colour */
+a:visited { color: rgb(85, 26, 139); } /* Default Colour */
+a:hover { color: rgb(0, 0, 255); } /* No difference when hovering */
+a:active { color: rgb(255, 0, 180); } /* Pink */
+
 /* -- Main Navigation -- */
 
 #navigation {
@@ -28,8 +35,20 @@ body {
     font-weight: bold;
 }
 
-.CurrentPage {
-    color: rgb(255,0,0);
+/* -- Links In Main Navigation -- */
+#navlist a:link { color: rgb(0, 0, 255); } /* Default Colour */
+#navlist a:visited { color: rgb(0, 0, 255); } /* Same as unvisited in navbar */
+#navlist a:hover { color: rgb(0, 0, 255); } /* No difference when hovering */
+#navlist a:active { color: rgb(255, 0, 180); } /* Pink */
+
+/* -- Current Page Links In Main Navigation */
+#navlist a.CurrentPage:link { color: red; }
+#navlist a.CurrentPage:visited { color: red; }
+#navlist a.CurrentPage:hover { color: red; }
+
+a, img {
+    border:none;
+    outline:none;
 }
 
 /* -- End Main Navigation -- */
@@ -187,16 +206,4 @@ footer p {
 
 #CSS3Link {
     float: right;
-}
-
-/* -- Links */
-/*
-a { color: rgb(0, 255, 0) }
-a:visited { color: rgb(0, 190, 0) }
-a:hover { color: rgb(255, 162, 0) }
-a:active { color: rgb(255, 0, 102) }
-*/
-a, img {
-    border:none;
-    outline:none;
 }
