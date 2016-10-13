@@ -1,0 +1,5 @@
+WxFixBoot (0.9):
+
+  * Initial preview release.
+
+ -- Hamish McIntyre-Bhatty

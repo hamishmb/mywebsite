@@ -1,0 +1,113 @@
+DDRescue-GUI(1.4):
+
+  * Changes since 1.3:
+
+  * Credit Minnie McIntyre-Bhatty for the idea for the splash screen, and for GUI design in this new version.
+
+  * Credit Holly McIntyre-Bhatty for logo and splash screen design in the about box as well as the release page.
+
+  * Update code (remove dependency on wx.lib.pubsub.Publisher()).
+
+  * Update about box.
+
+  * Use sizers with the Device Information Window.
+
+  * Redesign the Preferences Window, and also switch to using sizers.
+
+  * Redesign the Device Info Window.
+
+  * Integrate the new device detection method into DDRescue-GUI (imported from Wine Autostart 2.0~rc1) (MainWindow, and DeviceInfoWindow)
+
+  * Rewrite the finished window with sizers.
+
+  * Write logging information in, and add support for logging to /var/log/ddrescue-gui.log
+
+  * Do some future-proofing for python 3, including:
+
+  * Using the new absolute import statement,
+
+  * Using the new print function,
+
+  * Use only unicode strings and literals, internally dropping all ASCII strings.
+
+  * Update file choice wildcards for easier use.
+
+  * Use one button for both starting and aborting recovery.
+
+  * Get the Device Information Window to display properly on OS X (call self.DevInfoPanel.Layout(), and I now do this for every panel).
+
+  * Use docstrings at the start of functions and methods, instead of comments.
+
+  * Make the new device detection system work on OS X.
+
+  * Make the file choices more intelligent.
+
+  * Write logging stuff into the new device detection system.
+
+  * Redesign the main window.
+
+  * Remove all dependence on listdevices.sh and getblocksize.sh
+
+  * Get detailed recovery info working in the ListCtrl.
+
+  * Fully integrate the icon into the GUI.
+
+  * Remove the log file when exiting rather than when starting.
+
+  * Redesign the arrows on MainWindow.
+
+  * Make the wx.ListCtrls resize automatically.
+
+  * Make the main listctrl and the outputbox look nice in the GUI, and work together in a better way.
+
+  * Fix an important UI bug that occurs only when running a wxPython version newer than 2.8.12.1 (Only affects 1.4~rc1 active development, but not v1.3)
+
+  * Fix another UI bug with the throbber for Ubuntu 14.10 and 15.04 (Only affects 1.4~rc1 active development, but not v1.3).
+
+  * Unmount devices before attempting to recover any data.
+
+  * Disable the new settings button during a recovery.
+
+  * Enable experimental support for direct disk access (not yet tested on OS X)
+
+  * Fix a variety of bugs, and make the dialog messages more simple and clear-cut.
+
+  * Get the output box working fully.
+
+  * Compile new ddrescue (1.19) for OS X.
+
+  * Test the internal tools module on OS X.
+
+  * Design a plan for the new OS X authentication Dialog.
+
+  * Add OS X support in the new backend.
+
+  * Remove the old backend code.
+
+  * Remove startddrescue.sh
+
+  * Get the elapsed time counter working.
+
+  * Improve Linux mount support.
+
+  * Remove the separate Partition view Window, replacing it with a wx.SingleChoiceDialog() (I didn't know this existed at the time).
+
+  * Get rid of the temporary directory (no longer needed).
+
+  * Implement support for direct disk access for both Linux and OS X.
+
+  * Make an image for the DMG installer for OS X, simplifying installation.
+
+  * Create and semi-finalize the new authentication dialog.
+
+  * Remove a dependency on the "platform" module, instead using wx.PlatformInfo, and saving some RAM.
+
+  * Fix a number of OS X specific GUI bugs, and make the GUI more intuitive for Mac users.
+
+  * Add support for mounting finished (or semi-finished) images on OS X (Like on Linux in v1.3).
+
+  * Write the privacy policy.
+
+  * Update the image for the DMG installer.
+
+-- Hamish McIntyre-Bhatty
