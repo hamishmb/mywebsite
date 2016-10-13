@@ -3,7 +3,7 @@
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/blog.php">Blog</a></li>
-        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/screenshots.php">Screenshots</a>
+        <li class="main"><a <?php if (preg_match("/screenshots/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="/screenshots.php">Screenshots</a>
 
             <ul class="Screenshots">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/Screenshots/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
@@ -12,7 +12,7 @@
             </ul>
 
         </li>
-        <li class="main"><a href="">Changelogs</a>
+        <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Changelogs</a>
 
             <ul class="Changelogs">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/Changelogs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
