@@ -26,7 +26,6 @@
                         <a href="#2.0Series">2.0 Series</a>
                         <ol>
                             <li><a href="#2.0">2.0 (Stable)</a></li>
-                            <li><a href="#2.0rc1">2.0~rc1 (Development)</a></li>
                             <li><a href="#2.0pre2">2.0~pre2 (Development)</a></li>
                             <li><a href="#2.0pre1">2.0~pre1 (Development)</a></li>
                         </ol>
@@ -59,12 +58,6 @@
                     <h3 id="2.0">WxFixBoot v2.0</h3>
                     <p><iframe class="BesideNav" src="/files/Changelogs/wxfixboot/2.0.txt"></iframe>
                     </p>
-                </article>
-                <article>
-                    <h3 id="2.0rc1">WxFixBoot v2.0~rc1</h3>
-                    <p><iframe class="BesideNav" src="/files/Changelogs/wxfixboot/2.0rc1.txt" height="500"></iframe>
-                    </p>
-                    <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="2.0pre2">WxFixBoot v2.0~pre2</h3>
