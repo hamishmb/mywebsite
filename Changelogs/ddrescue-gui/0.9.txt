@@ -1,5 +1,0 @@
-DDRescue-GUI (0.9):
-
-  * Initial development release
-
--- Hamish McIntyre-Bhatty

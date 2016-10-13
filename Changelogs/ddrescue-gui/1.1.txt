@@ -1,7 +1,0 @@
-DDRescue-GUI (1.1):
-
-  * Fixed several bugs.
-
-  * First version to work with Parted Magic.
-
- -- Hamish McIntyre-Bhatty <email address hidden>

@@ -1,6 +1,0 @@
-DDRescue-GUI 1.6.1:
-  * Changes since v1.6:
-
-  * OS X - Fix bugs preventing the use of a normal (non device) file as the input file.
-
- -- Hamish McIntyre-Bhatty <email address hidden>
