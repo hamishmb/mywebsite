@@ -1,0 +1,5 @@
+DDRescue-GUI (1.0):
+
+  * Initial stable release
+
+ -- Hamish McIntyre-Bhatty <email address hidden>

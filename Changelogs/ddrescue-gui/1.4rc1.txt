@@ -1,0 +1,65 @@
+DDRescue-GUI(1.4~rc1):
+
+Changes since 1.3:
+
+  * Credit Minnie McIntyre-Bhatty for the idea for the splash screen, and for GUI design in this new version.
+
+  * Credit Holly McIntyre-Bhatty for logo and splash screen design in the about box as well as the release page.
+
+  * Update code (remove dependency on wx.lib.pubsub.Publisher()).
+
+  * Update about box.
+
+  * Use sizers with the Device Information Window.
+
+  * Redesign the Preferences Window, and also switch to using sizers.
+
+  * Redesign the Device Info Window.
+
+  * Integrate the new device detection method into DDRescue-GUI (imported from Wine Autostart 2.0~rc1) (MainWindow, and DeviceInfoWindow)
+
+  * Rewrite the finished window with sizers.
+
+  * Write logging information in, and add support for logging to /var/log/ddrescue-gui.log
+
+  * Do some future-proofing for python 3, including:
+
+  * Using the new absolute import statement,
+
+  * Using the new print function,
+
+  * Use only unicode strings and literals, internally dropping all ASCII strings.
+
+  * Update file choice wildcards for easier use.
+
+  * Use one button for both starting and aborting recovery.
+
+  * Get the Device Information Window to display properly on OS X (call self.DevInfoPanel.Layout(), and I now do this for every panel).
+
+  * Use docstrings at the start of functions and methods, instead of comments.
+
+  * Make the new device detection system work on OS X.
+
+  * Make the file choices more intelligent.
+
+  * Write logging stuff into the new device detection system.
+
+  * Redesign the main window.
+
+  * Remove all dependence on listdevices.sh and getblocksize.sh
+
+  * Get detailed recovery info working in the ListCtrl.
+
+  * Fully integrate the icon into the GUI.
+
+  * Remove the log file when exiting rather than when starting.
+
+  * Redesign the arrows on MainWindow.
+
+  * Make the wx.ListCtrls resize automatically.
+
+  * Make the main listctrl and the outputbox look nice in the GUI, and work together in a better way.
+
+  * Fix an important UI bug that occurs only when running a wxPython version newer than 2.8.12.1 (Only affects 1.4~rc1 active development, but not v1.3)
+
+-- Hamish McIntyre-Bhatty
