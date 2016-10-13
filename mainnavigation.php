@@ -1,4 +1,4 @@
-<!-- Use PHP to set 'class="CurrentPage"' where required. -->
+<!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
 <div id="navigation">
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
