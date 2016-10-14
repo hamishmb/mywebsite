@@ -153,7 +153,7 @@ a, img {
 }
 
 /* -- End In-Page Navigation -- */
-
+/* -- Main Content -- */
 #MainContent {
     background: rgb(255,255,255);
     margin-left: 100px;
@@ -173,9 +173,22 @@ iframe.BesideNav {
     width: 60%; /* Use 60% width when the iframe is beside the in-page navigation, so it can wrap */
 }
 
+/* -- Tables -- */
+table {
+    text-align: left;
+    border: 1px solid black;
+}
+
 /* -- Footer -- */
 footer {
-    background-image: url(/files/Images/BottomBar.png);
+    background: #ffb260; /* Older browsers */
+    background: -moz-linear-gradient(top,  #ffb260 0%, #ff7f13 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb260), color-stop(100%,#ff7f13)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffb260 0%,#ff7f13 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffb260 0%,#ff7f13 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffb260 0%,#ff7f13 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffb260 0%,#ff7f13 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb260', endColorstr='#ff7f13',GradientType=0 ); /* IE6-9 */
     padding: 0.001em;
     margin-top: -8px;
     margin-left: -8px;
