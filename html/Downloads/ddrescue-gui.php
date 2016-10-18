@@ -26,65 +26,74 @@
             UPDATE 29/8/2016: The Fedora package dependencies have been fixed, sorry for any inconvenience.<br><br>
 
             UPDATE 9/9/2016: The OS X packages have been confirmed to work with macOS Sierra (10.12).<br><br>
+
+            UPDATE 18/10/2016: There's now a package for Ubuntu 16.10 (Yakkety Yak) as well.<br><br>
             </p>
             <table>
-                <caption>Download Files</caption>
+                <caption><h2>Download Files</h2></caption>
                 <tr>
-                    <th>Download File</th>
+                    <th>Icon</th>
                     <th>Description</th>
+                    <th>Download</th>
                     <th>No. Of Downloads</th>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb</a></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10 LTS</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb</a></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td>***TODO***</td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 14.04 LTS</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb</a></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 12.04 LTS</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb</a></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/ddrescue-gui-1.6.1-1.fc24.x86_64.rpm">ddrescue-gui-1.6.1-1.fc24.x86_64.rpm</a></td>
-                    <td>DDRescue-GUI v1.6.1 (64-bit, Recommended) For Fedora 23 Or Higher</td>
+                    <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                    <td>DDRescue-GUI v1.6.1 For Mac OS X 10.6.8 Or Higher</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/ddrescue-gui-1.6.1-1.fc24.i686.rpm">ddrescue-gui-1.6.1-1.fc24.i686.rpm</a></td>
-                    <td>DDRescue-GUI v1.6.1 (32-bit) For Fedora 23 Or Higher</td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                    <td>DDRescue-GUI v1.6.1 For Fedora 23 Or Higher</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/ddrescue-gui-1.6.1-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/ddrescue-gui-1.6.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">DDRescue-GUI64-bit.dmg</a></td>
-                    <td>DDRescue-GUI v1.6.1 (64-bit, Recommended) For Mac OS X 10.6.8 Or Higher</td>
-                    <td>***TODO***</td>
-                </tr>
-                <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">DDRescue-GUI32-bit.dmg</a></td>
-                    <td>DDRescue-GUI v1.6.1 (32-bit) For Mac OS X 10.6.8</td>
-                    <td>***TODO***</td>
-                </tr>
-                <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz">ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz</a></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Parted Magic</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz">ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz</a></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Other Linux Distributions</td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
             </table>
+            <br>
+            Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a>.
         </div>
         <!-- Footer -->
         <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
