@@ -1,0 +1,7 @@
+ddrescue-gui (2:1.6.1~yakkety-0ubuntu1~ppa1) yakkety; urgency=low
+  * Changes since v1.6:
+
+  * OS X - Fix bugs preventing the use of a normal (non device) file as the input file.
+
+ -- Hamish T. McIntyre-Bhatty (PGP key for signing launchpad packages) <hamishmb@live.co.uk>  Tue, 18 Oct 2016 12:04:48 +0100
+
