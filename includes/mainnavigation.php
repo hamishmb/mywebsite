@@ -21,12 +21,12 @@
             </ul>
 
         </li>
-        <li class="main"><a href="">Downloads</a>
+        <li class="main"><a <?php if (preg_match("/downloads/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Downloads</a>
 
             <ul class="Downloads">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wxfixboot.php"><br>WxFixBoot<br></a></li>
-                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wineautostart.php"><br>Wine Autostart<br><br></a></li>
+                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 
         </li>

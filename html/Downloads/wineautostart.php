@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Downloads For DDRescue-GUI - errormania.altervista.org</title>
+        <title>Downloads For Wine Autostart - errormania.altervista.org</title>
         <?php $BASEDIR = '/var/www/html/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
-        <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
+        <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/wineautostart'; ?>
         <!--[if lte IE 9]>
             <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
         <![endif]-->

@@ -6,7 +6,7 @@
         <title>Downloads For DDRescue-GUI - errormania.altervista.org</title>
         <?php $BASEDIR = '/var/www/html/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
-        <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
+        <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/ddrescue-gui'; ?>
         <!--[if lte IE 9]>
             <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
         <![endif]-->

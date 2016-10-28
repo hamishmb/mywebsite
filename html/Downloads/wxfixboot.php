@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Downloads For DDRescue-GUI - errormania.altervista.org</title>
+        <title>Downloads For WxFixBoot - errormania.altervista.org</title>
         <?php $BASEDIR = '/var/www/html/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
-        <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
+        <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/wxfixboot'; ?>
         <!--[if lte IE 9]>
             <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
         <![endif]-->
@@ -16,18 +16,17 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Downloads For DDRescue-GUI</h1>
+            <h1>Downloads For WxFixBoot</h1>
             <p>
-            This a a minor update to DDRescue-GUI v1.6 that fixes some bugs on OS X that prevent using a standard file as an output file.<br>
-            Other than that, this release is identical to v1.6.<br><br>
+            This is the next major version of WxFixBoot. It adds tons of new features, such as support for Fedora, and support for LVM and RAID disks! It also offers better support for LILO and ELILO, and will create recovery boot entries for computers using them. The whole program has been written to handle errors better and operate more robustly.<br><br>
 
-            See the v1.6 post on my blog at www.errormania.altervista.org for all the details.<br><br>
+            This version features a redesigned GUI, written for ease of use, and it runs much more quickly than before. All information is gathered on startup now, so WxFixBoot can warn you about potential problems before they become problems, making this the most reliable version of WxFixBoot to date. If you liked the last version, you'll definitely like this one; it does everything v1.0.2 offered, and more, and it does all of these things better than before.<br><br>
 
-            UPDATE 29/8/2016: The Fedora package dependencies have been fixed, sorry for any inconvenience.<br><br>
+            In conclusion, I'm very happy with the program, and I hope you like it as well!<br><br>
 
-            UPDATE 9/9/2016: The OS X packages have been confirmed to work with macOS Sierra (10.12).<br><br>
+            You can check out my other packages at www.launchpad.net/~hamishmb/+related-projects<br><br>
 
-            UPDATE 18/10/2016: There's now a package for Ubuntu 16.10 (Yakkety Yak) as well.<br><br>
+            For the latest news on WxFixBoot, and a detailed breakdown of the new features in this release, head to my blog at http://errormania.altervista.org/<br><br>
             </p>
             <table>
                 <caption><h2>Download Files</h2></caption>
@@ -39,56 +38,44 @@
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td>WxFixBoot v2.0 For Ubuntu 16.10 LTS</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td>WxFixBoot v2.0 For Ubuntu 16.04 LTS</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Xenial/wxfixboot_2.0xenial~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 14.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td>WxFixBoot v2.0 For Ubuntu 14.04 LTS</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Trusty/wxfixboot_2.0trusty~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 12.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
-                    <td>***TODO***</td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
-                    <td>***TODO***</td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Mac OS X 10.6.8 Or Higher</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a></td>
+                    <td>WxFixBoot v2.0 For Ubuntu 12.04 LTS</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Precise/wxfixboot_2.0precise~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Fedora 23 Or Higher</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/ddrescue-gui-1.6.1-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/ddrescue-gui-1.6.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
+                    <td>WxFixBoot v2.0 For Fedora 23 Or Higher</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Fedora/i686/wxfixboot-2.0-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/wxfixboot/2.0/Fedora/x86_64/wxfixboot-2.0-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Parted Magic</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                    <td>WxFixBoot v2.0 For Parted Magic</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/Pmagic/wxfixboot_2.0pmagic~update1-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Other Linux Distributions</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                    <td>WxFixBoot v2.0 For Other Linux Distributions</td>
+                    <td><a href="/files/Downloads/wxfixboot/2.0/OtherDistro/wxfixboot_2.0otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
             </table>
