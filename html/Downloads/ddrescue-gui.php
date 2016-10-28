@@ -39,7 +39,7 @@
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10 LTS</td>
+                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
@@ -59,12 +59,6 @@
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 12.04 LTS</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
-                    <td>***TODO***</td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                    <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
