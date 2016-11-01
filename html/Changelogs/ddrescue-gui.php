@@ -87,108 +87,108 @@
                 <h2 id="1.6Series">DDRescue-GUI 1.6 Series</h2>
                 <article>
                     <h3 id="1.6.1">DDRescue-GUI v1.6.1</h3>
-                    <p><iframe class="BesideNav" src="/files/Changelogs/ddrescue-gui/1.6.1.txt"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.6.1.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h3 id="1.6">DDRescue-GUI v1.6</h3>
-                    <p><iframe class="BesideNav" src="/files/Changelogs/ddrescue-gui/1.6.txt" height="500"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.6.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.5Series">DDRescue-GUI 1.5 Series</h2>
                 <article>
                     <h3 id="1.5.1">DDRescue-GUI v1.5.1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.5.1.txt" width="100"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.5.1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.5">DDRescue-GUI v1.5</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.5.txt" height="820"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.5.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.5rc1">DDRescue-GUI v1.5~rc1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.5rc1.txt" height="800"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.5rc1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.5pre1">DDRescue-GUI v1.5~pre1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.5pre1.txt" height="500"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.5pre1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.4Series">DDRescue-GUI 1.4 Series</h2>
                 <article>
                     <h3 id="1.4">DDRescue-GUI v1.4</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.4.txt" height="1610"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.4.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.4rc2">DDRescue-GUI v1.4~rc2</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.4rc2.txt" height="1600"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.4rc2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.4rc1">DDRescue-GUI v1.4~rc1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.4rc1.txt" height="1100"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.4rc1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.3Series">DDRescue-GUI 1.3 Series</h2>
                 <article>
                     <h3 id="1.3">DDRescue-GUI v1.3</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.3.txt" height="800"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.3rc2">DDRescue-GUI v1.3~rc2</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.3rc2.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3rc2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.3rc1">DDRescue-GUI v1.3~rc1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.3rc1.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3rc1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.2Series">DDRescue-GUI 1.2 Series</h2>
                 <article>
                     <h3 id="1.2">DDRescue-GUI v1.2</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.2.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.2rc1">DDRescue-GUI v1.2~rc1</h3>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.2rc1.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.2rc1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h2 id="1.1">DDRescue-GUI v1.1</h2>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.1.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h2 id="1.0">DDRescue-GUI v1.0</h2>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/1.0.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.0.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h2 id="0.9">DDRescue-GUI v0.9</h2>
-                    <p><iframe src="/files/Changelogs/ddrescue-gui/0.9.txt" height="520"></iframe>
-                    <a href="#navigation">Back To Top</a>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/0.9.txt"))?>
                     </p>
+                    <a href="#navigation">Back To Top</a><br>
                 </article>
             </section>
         </div>

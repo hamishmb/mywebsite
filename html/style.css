@@ -169,15 +169,10 @@ a, img {
     margin-bottom: 30px;
 }
 
-/* -- Text frames -- */
-iframe {
-    margin: 30px;
-    border: 0; /* Get rid of unwanted border around the edge of the control */
-    width: 100%;
-}
-
-iframe.BesideNav {
-    width:; /* Use width when the iframe is beside the in-page navigation, so it can wrap */
+/* -- Text files -- */
+p.TextFile {
+    text-align: left;
+    padding: 50px;
 }
 
 /* -- Tables -- */
