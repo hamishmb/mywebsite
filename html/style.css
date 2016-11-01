@@ -167,12 +167,13 @@ a, img {
     margin-right: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* -- Text files -- */
 p.TextFile {
     text-align: left;
-    padding: 50px;
 }
 
 /* -- Tables -- */
@@ -183,7 +184,7 @@ table {
     border: 1px solid black;
 }
 
-table caption {
+table caption { /* *** Fix this *** */
     text-align: center;
 }
 
