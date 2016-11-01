@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>WxFixBoot Screenshots - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/html/'; ?>
+        <?php $BASEDIR = '/var/www/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Screenshots/wxfixboot'; ?>
         <!--[if lte IE 9]>

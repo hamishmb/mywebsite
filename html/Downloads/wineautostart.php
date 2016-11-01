@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Downloads For Wine Autostart - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/html/'; ?>
+        <?php $BASEDIR = '/var/www/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/wineautostart'; ?>
         <!--[if lte IE 9]>

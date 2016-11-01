@@ -16,7 +16,7 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Changelog For DDRescue-GUI</h1>
+            <h1>Changelogs For DDRescue-GUI</h1>
             <!-- In-Page Navigation -->
             <nav>
                 <strong id="InPageNavTitle">Versions</strong>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link href="/html/style.css" type="text/css" rel="stylesheet">
         <title>WxFixBoot Changelogs - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/html/'; ?>
+        <?php $BASEDIR = '/var/www/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Changelogs/wxfixboot'; ?>
         <!--[if lte IE 9]>
@@ -16,7 +16,7 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Changelog For WxFixBoot</h1>
+            <h1>Changelogs For WxFixBoot</h1>
             <!-- In-Page Navigation -->
             <nav>
                 <strong id="InPageNavTitle">Versions</strong>
@@ -56,69 +56,69 @@
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
                 <article>
                     <h3 id="2.0">WxFixBoot v2.0</h3>
-                    <p><iframe class="BesideNav" src="/files/Changelogs/wxfixboot/2.0.txt"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h3 id="2.0pre2">WxFixBoot v2.0~pre2</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/2.0pre2.txt" width="100"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0pre2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="2.0pre1">WxFixBoot v2.0~pre1</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/2.0pre1.txt" height="820"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0pre1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.0Series">WxFixBoot 1.0 Series</h2>
                 <article>
                     <h3 id="1.0.2">WxFixBoot v1.0.2</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0.2.txt" height="800"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0.1">WxFixBoot v1.0.1</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0.1.txt" height="500"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0">WxFixBoot v1.0</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0.txt" height="1610"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc4">WxFixBoot v1.0~rc4</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0rc4.txt" height="1600"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc4.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc3">WxFixBoot v1.0~rc3</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0rc3.txt" height="1100"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc3.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc2">WxFixBoot v1.0~rc2</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0rc2.txt" height="800"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc2.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc1">WxFixBoot v1.0~rc1</h3>
-                    <p><iframe src="/files/Changelogs/wxfixboot/1.0rc1.txt" height="520"></iframe>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc1.txt"))?>
                     </p>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h2 id="0.9">WxFixBoot v0.9</h2>
-                    <p><iframe src="/files/Changelogs/wxfixboot/0.9.txt" height="520"></iframe>
-                    <a href="#navigation">Back To Top</a>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/0.9.txt"))?>
                     </p>
+                    <a href="#navigation">Back To Top</a><br>
                 </article>
             </section>
         </div>
