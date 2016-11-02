@@ -962,8 +962,37 @@
                 </article>
                 <article>
                     <h2 id="1.0">DDRescue-GUI v1.0</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.0.txt"))?>
+                    <p>
+                    The first stable release of DDRescue-GUI! It doesn't support Lucid as 10.04 is EOL and hasn't got some of the features that are required. DDRescue-GUI aims to provide a good replacement for using the commandline for ddrescue for new linux users, and linux administrators and developers! It's designed to be as easy to use as possible. *** This version had fatal problems preventing it from working ***
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.0 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.0/Raring/ddrescue-gui_1.0raring-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.0 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.0/Quantal/ddrescue-gui_1.0quantal-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.0 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.0/Precise/ddrescue-gui_1.0precise-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
