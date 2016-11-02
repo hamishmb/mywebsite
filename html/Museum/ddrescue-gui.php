@@ -745,8 +745,24 @@
                 </article>
                 <article>
                     <h3 id="1.3rc2">DDRescue-GUI v1.3~rc2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3rc2.txt"))?>
+                    <p>
+                    *UNSTABLE* testing version. Note: the mac version probably won't work at this stage.<br><br>
+
+                    UPDATE: Package is now available for Ubuntu 14.10<br><br>
+
+                    There is now a new stable version, please download that instead.<br>
+                    There is also a new development version available.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc2 For Mac OS X 10.6.8 Or Higher</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc2/OS%20X/DDRescue-GUI.app.zip">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
