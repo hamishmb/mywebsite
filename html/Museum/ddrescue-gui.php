@@ -767,15 +767,115 @@
                 </article>
                 <article>
                     <h3 id="1.3rc1">DDRescue-GUI v1.3~rc1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3rc1.txt"))?>
+                    <p>
+                    *UNSTABLE* testing version.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Trusty/ddrescue-gui_1.3~rc1trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 13.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Saucy/ddrescue-gui_1.3~rc1saucy-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Raring/ddrescue-gui_1.3~rc1raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Quantal/ddrescue-gui_1.3~rc1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Precise/ddrescue-gui_1.3~rc1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Mac OS X 10.6.8 Or Higher</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/OS%20X/DDRescue-GUI.app.zip">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3~rc1 For Parted Magic</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Pmagic/ddrescue-gui_1.3~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.2Series">DDRescue-GUI 1.2 Series</h2>
                 <article>
                     <h3 id="1.2">DDRescue-GUI v1.2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.2.txt"))?>
+                    <p>
+                    This version features presets for the preferences dialog, a splash screen, and a time remaining feature, and many more features noted in the release notes. The deb (Installer) packages are now available.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Ubuntu 13.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/Saucy/ddrescue-gui_1.2saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/Raring/ddrescue-gui_1.2raring-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/Quantal/ddrescue-gui_1.2quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/Precise/ddrescue-gui_1.2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Parted Magic</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/Pmagic/ddrescue-gui_1.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.2 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.2/OtherDistro/ddrescue-gui_1.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
