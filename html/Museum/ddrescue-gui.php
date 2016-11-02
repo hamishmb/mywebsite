@@ -592,8 +592,67 @@
                 </article>
                 <article>
                     <h3 id="1.4rc1">DDRescue-GUI v1.4~rc1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.4rc1.txt"))?>
+                    <p>
+                    *** This doesn't represent the current state of development releases ***<br><br>
+
+                    This is the first release candidate for DDRescue-GUI 1.4! It features a completely redesigned GUI, thanks to Minnie McIntyre-Bhatty, and a better device detection system, that displays much more helpful information.<br><br>
+
+                    It also offers many, many bugfixes over 1.3, including some UI tweaks that make it easier to use, improvements in speed and efficiency, and fewer dependencies.<br><br>
+
+                    The backend hasn't been touched yet, at all, but all the modifications have been planned and will be available for testing in the next release candidate, which may perhaps be ready around late May, at a guess.<br><br>
+
+                    There isn't a Mac version for this as I don't currently have access to a Mac, but I tested it at various points during development, so it should be fine. There will be a Mac version for 1.4~rc2.<br><br>
+
+                    This version has now been released, and it should be a good precursor for the next release candidate, which should shortly thereafter become stable.<br><br>
+
+                    Note: This is NOT stable software! This is being released merely for testing by me and any others who wish to help, preferably in a virtual machine, and for informational purposes, so please don't use this on any production system, because it has the potential to do serious damage to your system! Having said that, I consider it incomplete, but reasonably stable, but it hasn't gone through proper testing yet.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Vivid/ddrescue-gui_1.4~rc1vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Utopic/ddrescue-gui_1.4~rc1utopic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Trusty/ddrescue-gui_1.4~rc1trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Precise/ddrescue-gui_1.4~rc1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Parted Magic</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Pmagic/ddrescue-gui_1.4~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc1 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/OtherDistro/ddrescue-gui_1.4~rc1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.3Series">DDRescue-GUI 1.3 Series</h2>
