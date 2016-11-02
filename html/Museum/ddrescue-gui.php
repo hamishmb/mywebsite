@@ -658,8 +658,89 @@
                 <h2 id="1.3Series">DDRescue-GUI 1.3 Series</h2>
                 <article>
                     <h3 id="1.3">DDRescue-GUI v1.3</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3.txt"))?>
+                    <p>
+                    *** There is now a newer version available ***<br><br>
+
+                    This is, by far and away, the best version of DDRescue-GUI I've ever released! It has even better error detection, fixes formatting issues on some systems (text appears in wrong place during recovery), works on Apple's OS X(R) 10.6 or newer, and include many other fixes, such as a remaining time feature that works when the average speed is being measured in bps, a new device information dialog, and include a fix with the terminal output option. It also can now restart after a recovery, and can (on Linux) mount the finished image (even if it has partitions) for you!<br><br>
+
+                    Note: Please only use the failsafe OS X option if the normal option won't work correctly, as it has more insecure permissions, possibly allowing tampering via other programs.<br><br>
+
+                    UPDATE: A package is now available for Ubuntu 14.10, and it also now works with ddrescue 1.18 -- download the source and follow the instructions inside.<br><br>
+
+                    UPDATE 9/2/2015: The packages for the obsolete Ubuntu 12.10 and 13.10 releases have been removed as they are using unnecessary space on Launchpad's servers.<br><br>
+
+                    UPDATE 17/2/2015: I have released updated packages for Ubuntu 14.10 and 15.04 because of changes in the version of wxpython ubuntu provides.<br><br>
+
+                    UPDATE 24/3/2015: I've now checked that this version also works with OS X Yosemite (10.10), and it's fine.<br><br>
+
+                    UPDATE 15/4/2015: I've fixed a bug for the OS X version that can prevent ddrescue from starting, and the new file is now available here. Please use this version instead.<br><br>
+
+                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Vivid/ddrescue-gui_1.3vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Utopic/ddrescue-gui_1.3utopic-0ubuntu1-update1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Trusty/ddrescue-gui_1.3trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 13.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Saucy/ddrescue-gui_1.3saucy-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Quantal/ddrescue-gui_1.3quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Precise/ddrescue-gui_1.3precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Mac OS X 10.6.8 Or Higher</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/OS%20X/Update%201/Package/DDRescue-GUI~Update1.dmg">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.3/OS%20X/DDRescue-GUIFS.dmg">Failsafe</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Parted Magic</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/Pmagic/ddrescue-gui_1.3pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.3 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.3/OtherDistro/ddrescue-gui_1.3otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
