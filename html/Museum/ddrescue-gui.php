@@ -711,7 +711,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.3 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.3 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Quantal/ddrescue-gui_1.3quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -798,7 +798,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Quantal/ddrescue-gui_1.3~rc1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -852,7 +852,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.2 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.2 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Quantal/ddrescue-gui_1.2quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -905,7 +905,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.2~rc1 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.2~rc1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2rc1/Quantal/ddrescue-gui_1.2rc1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -940,7 +940,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.1 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.1/Quantal/ddrescue-gui_1.1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -981,7 +981,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.0 For Ubuntu 12.10 LTS</td>
+                            <td>DDRescue-GUI v1.0 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.0/Quantal/ddrescue-gui_1.0quantal-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -997,8 +997,44 @@
                 </article>
                 <article>
                     <h2 id="0.9">DDRescue-GUI v0.9</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/0.9.txt"))?>
+                    <p>
+                    This is the first and is to be the only development release of DDRescue-GUI. It is a preview of the style for the GUI, containing no functionality, and it is likely to change slightly before the stable release. The installer (DEB) packages for Ubuntu are available in my ppa.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v0.9 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/0.9/Raring/ddrescue-gui_0.9raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v0.9 For Ubuntu 12.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/0.9/Quantal/ddrescue-gui_0.9quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v0.9 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/0.9/Precise/ddrescue-gui_0.9precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v0.9 For Ubuntu 10.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/0.9/Lucid/ddrescue-gui_0.9lucid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <a href="#navigation">Back To
                     <a href="#navigation">Back To Top</a><br>
                 </article>
             </section>
