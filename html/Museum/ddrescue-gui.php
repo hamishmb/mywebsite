@@ -471,7 +471,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>DDRescue-GUI v1.4 For Ubuntu 15.10</td>
+                            <td>DDRescue-GUI v1.4 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/Vivid/ddrescue-gui_1.4vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -511,8 +511,83 @@
                 </article>
                 <article>
                     <h3 id="1.4rc2">DDRescue-GUI v1.4~rc2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.4rc2.txt"))?>
+                    <p>
+                    *** v1.5 has now been released, so please download that instead. This is no longer the newest development version and doesn't represent the current state of development. ***<br><br>
+
+                    This is the second and final release candidate for DDRescue-GUI 1.4! There have been further performance tweaks and efficiency improvements over v1.4~rc1, as well as many bug fixes and new features.<br><br>
+
+                    The code can now be considered complete, and reasonably stable; now I just need to test everything again thoroughly, but I don't think there will be any issues.<br><br>
+
+                    If all goes to plan, this will be exactly the same as the stable version, except with a different version number.<br><br>
+
+                    Here's a brief summary of the major changes:<br><br>
+
+                    The backend has now been switched to the new model based on direct Inter-Process Communication,<br>
+                    A lot of the code has been revised and improved (both in terms of reliability and speed),<br>
+                    The new authentication dialog has been finished and semi-tested,<br>
+                    Disk image (and device) mounting is now fully supported and semi-tested on OS X, and improved on Linux,<br>
+                    A lot of bugs present when run on wxPython > 2.8.11.1 have been fixed (this affects Mac OS X, Ubuntu 14.10 and 15.04),<br>
+                    Elapsed time is now viewable on the Main Window,<br>
+                    Direct disk access is now available during a recovery (both OS X and Linux),<br>
+                    Python and wxPython have both been upgraded in the OS X bundle (to v2.7.10 and v3.0.2.0 respectively),<br>
+                    and various other bugs on Mac OS X have been fixed.<br>
+
+                    Note: This is NOT stable software! This is being released merely for testing by me and any others who wish to help, preferably in a virtual machine, and for informational purposes, so please don't use this on any production system, because it has the potential to do serious damage to your system! Having said that, I think it's very stable, and complete, but I haven't yet tested it thoroughly.<br><br>
+
+                    Note: The file names are wrong because of multiple build attempts because of a packaging problem.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Ubuntu 15.10</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Wily/ddrescue-gui_1.4~rc4wily-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Vivid/ddrescue-gui_1.4~rc4vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Trusty/ddrescue-gui_1.4~rc4trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Precise/ddrescue-gui_1.4~rc4precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Mac OS X 10.6.8 Or Higher</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/OS%20X/DDRescue-GUI.dmg">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Parted Magic</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Pmagic/ddrescue-gui_1.4~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>DDRescue-GUI v1.4~rc2 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/OtherDistro/ddrescue-gui_1.4~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
