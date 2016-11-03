@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <link href="/html/style.css" type="text/css" rel="stylesheet">
-        <title>WxFixBoot Changelogs - errormania.altervista.org</title>
+        <title>WxFixBoot Museum - errormania.altervista.org</title>
         <?php $BASEDIR = '/var/www/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
-        <?php $GLOBALS["CURRENTPAGE"] = 'Changelogs/wxfixboot'; ?>
+        <?php $GLOBALS["CURRENTPAGE"] = 'Museum/wxfixboot'; ?>
         <!--[if lte IE 9]>
             <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
         <![endif]-->
@@ -16,7 +16,12 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Changelogs For WxFixBoot</h1>
+            <h1>WxFixBoot Museum</h1>
+            <h3>Here you can download older versions of WxFixBoot.</h3>
+            <p>These versions can be downloaded for educational purposes and are useful if
+            you're trying to run one of my programs on an operating system that I no longer
+            support, such as Ubuntu 12.10.
+            </p>
             <!-- In-Page Navigation -->
             <nav>
                 <strong id="InPageNavTitle">Versions</strong>
@@ -25,7 +30,6 @@
                     <li>
                         <a href="#2.0Series">2.0 Series</a>
                         <ol>
-                            <li><a href="#2.0">2.0 (Stable)</a></li>
                             <li><a href="#2.0pre2">2.0~pre2 (Development)</a></li>
                             <li><a href="#2.0pre1">2.0~pre1 (Development)</a></li>
                         </ol>
@@ -50,19 +54,68 @@
                 </ol>
             </nav>
 
-            <!-- Page Content *** Sort out exact lengths *** -->
-            <!-- Heights are in px, but use digits only -->
+            <!-- Page Content -->
             <section>
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
                 <article>
-                    <h3 id="2.0">WxFixBoot v2.0</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0.txt"))?>
-                    </p>
-                </article>
-                <article>
                     <h3 id="2.0pre2">WxFixBoot v2.0~pre2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0pre2.txt"))?>
+                    <p>
+                    This is the second development release of WxFixBoot 2.0!<br>
+                    It brings a lot of important changes and improvements over the last version, and adds much better error detection and avoidance, and support for Fedora!<br>
+                    See the page on my blog at www.errormania.altervista.org, and the changelog, for more details.<br>
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Ubuntu 16.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/wxfixboot_2.0~pre2xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Ubuntu 15.10</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/wxfixboot_2.0~pre2wily-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/wxfixboot_2.0~pre2trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/wxfixboot_2.0~pre2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Fedora 22 Or Higher</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/wxfixboot-2.0~pre2-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/wxfixboot-2.0~pre2-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/wxfixboot_2.0~pre2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v2.0~pre2 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/wxfixboot_2.0~pre2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>
