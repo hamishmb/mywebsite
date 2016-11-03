@@ -167,13 +167,14 @@ a, img {
     margin-right: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: left;
 }
 
-/* -- Text files -- */
-p.TextFile {
-    text-align: left;
+/* -- Headers -- */
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    text-align: center;
 }
 
 /* -- Tables -- */

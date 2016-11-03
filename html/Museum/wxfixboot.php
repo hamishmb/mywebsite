@@ -175,8 +175,92 @@
                 <h2 id="1.0Series">WxFixBoot 1.0 Series</h2>
                 <article>
                     <h3 id="1.0.2">WxFixBoot v1.0.2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.2.txt"))?>
+                    <p>
+                    This is a maintenance release that fixes some bugs in 1.0.1.<br>
+                    You can see the changes below, which are still identical to 1.0.<br><br>
+
+                    The summary from 1.0:<br><br>
+
+                    This is the first stable release of WxFixBoot! After 9 months of development, it is finally ready! This program can be considered to be an alternative to boot-repair, except that it can also do other things as well.<br><br>
+
+                    WxFixBoot can update your bootloader's configuration, reinstall/fix it, and change to a different bootloader. It can do these while you're running the operating system you're working on, from another OS installed on your hard drive, or from a live disk (such as an Ubuntu installer disk or image, or Parted Magic). It can also check your filesystems, either quickly, or for bad sectors as well, and backup and restore your partition table and boot sector.<br><br>
+
+                    It features a simple, unique and intuitive GUI, which is clear, but also provides lots of helpful information and gives you advice as you use it, and it also warns you of potential pitfalls while you're setting it up. Once you've started your operation(s), it will accurately show operation and total progress, and also provide you with terminal output if you wish to see it.<br><br>
+
+                    All in all, I'm very happy with this program, and I hope people enjoy using it.<br><br>
+
+                    If you're interested, you can see the full changelog since version 1.0~rc4 and release notes below.<br><br>
+
+                    *** Important: this program does not support systems that use LVM (Logical Volume Management). This is commonly used in RAID arrays. Most systems don't use LVM, so if you didn't set it up yourself or don't know what it is, you don't need to worry and can ignore this warning. If you have LVM, sorry for the inconvenience. Support is available in the current development release.<br><br>
+
+                    UPDATE 18/2/2015: A package for Ubuntu 15.04 is now available as well!<br><br>
+
+                    UPDATE 24/4/2015: The Ubuntu 15.04 package has been updated to fix a bug that prevented it from starting (only affects Ubuntu 15.04).<br><br>
+
+                    UPDATE 15/8/2015: A package has now been added for Ubuntu 15.10 (Wily Werewolf).<br><br>
+
+                    UPDATE 7/4/2016: There's now a package available for Ubuntu 16.04 LTS (Xenial Xerus).<br><br>
+
+                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 16.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Xenial/wxfixboot_1.0.2~actualreleasexenial-0ubuntu1-update1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 15.10</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Wily/wxfixboot_1.0.2wily-0ubuntu1-update1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Vivid/wxfixboot_1.0.2vivid-0ubuntu1-update1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Utopic/wxfixboot_1.0.2utopic-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Trusty/wxfixboot_1.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Precise/wxfixboot_1.0.2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/wxfixboot_1.0.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0.2 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/wxfixboot_1.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a href="#navigation">Back To Top</a>
                 </article>
                 <article>

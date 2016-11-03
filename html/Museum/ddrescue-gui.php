@@ -91,8 +91,6 @@
                 <article>
                     <h3 id="1.6">DDRescue-GUI v1.6</h3>
                     <p>
-                    ***This has been superseded by v1.6.1 ***<br><br>
-
                     This is the next major release of DDRescue-GUI and it fixes a lot of important bugs, adds some new safety features, and adds support for Fedora! The bundled ddrescue and Python in the OS X package have also been updated.<br><br>
 
                     See my blog at www.errormania.altervista.org for all the details.
@@ -155,8 +153,6 @@
                 <article>
                     <h3 id="1.5.1">DDRescue-GUI v1.5.1</h3>
                     <p>
-                    Important: This has been replaced by v1.6.1, which fixes a lot of important bugs.<br><br>
-
                     This release fixes a bug (not security related) in the authentication dialog in v1.5, but other than that it is identical.<br>
                     The release info for v1.5 is as follows:<br><br>
 
@@ -225,8 +221,6 @@
                 <article>
                     <h3 id="1.5">DDRescue-GUI v1.5</h3>
                     <p>
-                    IMPORTANT: This has been superseded by v1.6.1, please download that instead.<br><br>
-
                     This is the latest release of DDRescue-GUI, and it's even more stable than the last one!<br><br>
 
                     A lot of the changes in this release are to improve stability and to fix bugs, but there are also some new features, such as the output box behaving like a terminal, the settings windows remembering settings if you check back later, and a ton of improvements for Mac users :)<br><br>
@@ -298,8 +292,6 @@
                 <article>
                     <h3 id="1.5rc1">DDRescue-GUI v1.5~rc1</h3>
                     <p>
-                    *** This has been superseded ***<br><br>
-
                     This is the first release candidate for DDRescue-GUI v1.5, and it has a lot of fixes and improvements over v1.5~pre1 and v1.4!<br><br>
 
                     Since v1.5~pre1, the GUI works better and uses much less CPU power on OS X, including the output box especially, the settings window now remembers settings if you check back, direct disk access is enabled by default, the elapsed time counter now works better, and a complete recovery is detected more reliably on OS X. See the changelog for more details.<br><br>
@@ -369,8 +361,6 @@
                 <article>
                     <h3 id="1.5pre1">DDRescue-GUI v1.5~pre1</h3>
                     <p>
-                    *** This has been superseded ***<br><br>
-
                     This is the first development version of v1.5, which has loads of little improvements over v1.4 but needs some work to improve the efficiency of the backend, especially on OS X, where for some reason CPU usage is high and there is a big delay before the first GUI update (fixed for 1.5~pre2, memory leak on OS X too! (also fixed)), and some testing, but this is nonetheless helpful for checking that stuff is working properly :)<br><br>
 
                     Note: This is NOT stable software! This is being released merely for testing by me and any others who wish to help, preferably in a virtual machine, and for informational purposes, so please don't use this on any production system, because it has the potential to do serious damage to your system! Having said that, I think it's reasonably stable, but I haven't yet tested it thoroughly.
@@ -439,8 +429,6 @@
                 <article>
                     <h3 id="1.4">DDRescue-GUI v1.4</h3>
                     <p>
-                    *** There is now a newer version available, v1.6. The newer releases fix a lot of important bugs and add new features. ***<br><br>
-
                     This new version is now finally ready! I said the last version was the best I'd ever released, but this is even better!<br><br>
 
                     The whole GUI has been redesigned from the ground up, and it's now much faster, sleeker and smoother, as well as more intuitive and helpful to the user.<br><br>
@@ -512,8 +500,6 @@
                 <article>
                     <h3 id="1.4rc2">DDRescue-GUI v1.4~rc2</h3>
                     <p>
-                    *** v1.5 has now been released, so please download that instead. This is no longer the newest development version and doesn't represent the current state of development. ***<br><br>
-
                     This is the second and final release candidate for DDRescue-GUI 1.4! There have been further performance tweaks and efficiency improvements over v1.4~rc1, as well as many bug fixes and new features.<br><br>
 
                     The code can now be considered complete, and reasonably stable; now I just need to test everything again thoroughly, but I don't think there will be any issues.<br><br>
@@ -593,8 +579,6 @@
                 <article>
                     <h3 id="1.4rc1">DDRescue-GUI v1.4~rc1</h3>
                     <p>
-                    *** This doesn't represent the current state of development releases ***<br><br>
-
                     This is the first release candidate for DDRescue-GUI 1.4! It features a completely redesigned GUI, thanks to Minnie McIntyre-Bhatty, and a better device detection system, that displays much more helpful information.<br><br>
 
                     It also offers many, many bugfixes over 1.3, including some UI tweaks that make it easier to use, improvements in speed and efficiency, and fewer dependencies.<br><br>
@@ -659,8 +643,6 @@
                 <article>
                     <h3 id="1.3">DDRescue-GUI v1.3</h3>
                     <p>
-                    *** There is now a newer version available ***<br><br>
-
                     This is, by far and away, the best version of DDRescue-GUI I've ever released! It has even better error detection, fixes formatting issues on some systems (text appears in wrong place during recovery), works on Apple's OS X(R) 10.6 or newer, and include many other fixes, such as a remaining time feature that works when the average speed is being measured in bps, a new device information dialog, and include a fix with the terminal output option. It also can now restart after a recovery, and can (on Linux) mount the finished image (even if it has partitions) for you!<br><br>
 
                     Note: Please only use the failsafe OS X option if the normal option won't work correctly, as it has more insecure permissions, possibly allowing tampering via other programs.<br><br>
