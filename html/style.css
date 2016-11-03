@@ -188,6 +188,12 @@ table caption { /* *** Fix this *** */
     text-align: center;
 }
 
+/* Create borders for each table header and data cell */
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 /* -- Footer -- */
 footer {
     background: #2780c2; /* Older browsers */

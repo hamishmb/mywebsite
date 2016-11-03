@@ -30,7 +30,7 @@
             </ul>
 
         </li>
-        <li class="main"><a href="">Documentation</a>
+        <li class="main"><a <?php if (preg_match("/docs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Documentation</a>
 
             <ul class="Documentation">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Docs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
@@ -39,7 +39,7 @@
             </ul>
 
         </li>
-        <li class="main"><a href="">Museum</a>
+        <li class="main"><a <?php if (preg_match("/museum/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Museum</a>
 
             <ul class="Museum">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Museum/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
