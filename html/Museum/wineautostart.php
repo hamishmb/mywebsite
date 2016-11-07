@@ -20,7 +20,9 @@
             <h3>Here you can download older versions of Wine Autostart.</h3>
             <p>These versions can be downloaded for educational purposes and are useful if
             you're trying to run one of my programs on an operating system that I no longer
-            support, such as Ubuntu 12.10.
+            support, such as Ubuntu 12.10.<br><br>
+
+            Note: Some of these downloads are .tar.gz packages instead of installable packages. I don't have .deb packages for some of the older versions, so I just uploaded what I have.
             </p>
             <!-- In-Page Navigation -->
             <nav>
