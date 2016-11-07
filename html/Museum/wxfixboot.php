@@ -488,8 +488,55 @@
                 </article>
                 <article>
                     <h3 id="1.0rc2">WxFixBoot v1.0~rc2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc2.txt"))?>
+                    <p>
+                    An unstable release used to test whether the new finished startup scripts work well.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/wxfixboot_1.0~rc2trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 13.10 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Precise/wxfixboot_1.0~rc2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/wxfixboot_1.0~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc2 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/wxfixboot_1.0~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
