@@ -116,7 +116,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="2.0pre1">WxFixBoot v2.0~pre1</h3>
@@ -170,7 +170,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="1.0Series">WxFixBoot 1.0 Series</h2>
                 <article>
@@ -261,7 +261,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0.1">WxFixBoot v1.0.1</h3>
@@ -321,7 +321,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0">WxFixBoot v1.0</h3>
@@ -370,7 +370,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0rc4">WxFixBoot v1.0~rc4</h3>
@@ -437,7 +437,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0rc3">WxFixBoot v1.0~rc3</h3>
@@ -484,7 +484,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0rc2">WxFixBoot v1.0~rc2</h3>
@@ -537,7 +537,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.0rc1">WxFixBoot v1.0~rc1</h3>
@@ -584,7 +584,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h2 id="0.9">WxFixBoot v0.9</h2>
@@ -637,7 +637,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a><br>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>
         </div>

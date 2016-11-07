@@ -147,7 +147,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="1.5Series">DDRescue-GUI 1.5 Series</h2>
                 <article>
@@ -216,7 +216,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.5">DDRescue-GUI v1.5</h3>
@@ -287,7 +287,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.5rc1">DDRescue-GUI v1.5~rc1</h3>
@@ -356,7 +356,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.5pre1">DDRescue-GUI v1.5~pre1</h3>
@@ -423,7 +423,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article> <!-- ************************************************************************************ -->
                 <h2 id="1.4Series">DDRescue-GUI 1.4 Series</h2>
                 <article>
@@ -495,7 +495,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.4rc2">DDRescue-GUI v1.4~rc2</h3>
@@ -574,7 +574,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.4rc1">DDRescue-GUI v1.4~rc1</h3>
@@ -637,7 +637,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="1.3Series">DDRescue-GUI 1.3 Series</h2>
                 <article>
@@ -723,7 +723,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.3rc2">DDRescue-GUI v1.3~rc2</h3>
@@ -745,7 +745,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.3rc1">DDRescue-GUI v1.3~rc1</h3>
@@ -804,7 +804,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="1.2Series">DDRescue-GUI 1.2 Series</h2>
                 <article>
@@ -858,7 +858,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.2rc1">DDRescue-GUI v1.2~rc1</h3>
@@ -899,7 +899,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h2 id="1.1">DDRescue-GUI v1.1</h2>
@@ -940,7 +940,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h2 id="1.0">DDRescue-GUI v1.0</h2>
@@ -975,7 +975,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a class="BackToTop" href="#navigation">Back To Top</a>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h2 id="0.9">DDRescue-GUI v0.9</h2>
@@ -1017,7 +1017,7 @@
                     </table>
                     <br>
                     <a href="#navigation">Back To
-                    <a class="BackToTop" href="#navigation">Back To Top</a><br>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>
         </div>

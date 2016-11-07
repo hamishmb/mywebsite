@@ -186,7 +186,7 @@ table {
     border: 1px solid black;
 }
 
-table caption { /* *** Fix this *** */
+table caption {
     text-align: center;
 }
 
@@ -197,7 +197,7 @@ table th, table td {
 }
 
 /* -- Back to top links */
-a.BackToTop { /* *** Fix this *** */
+p.BackToTop {
     text-align: center;
 }
 
