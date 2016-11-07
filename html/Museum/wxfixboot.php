@@ -588,8 +588,55 @@
                 </article>
                 <article>
                     <h2 id="0.9">WxFixBoot v0.9</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/0.9.txt"))?>
+                    <p>
+                    A preview version of wxfixboot, that has no functionality, it only shows what would happen if it did have functionality, and the functionality the program will have on final release, so there will be plenty of time to add functionality if needed. The GUI is the only functioning element, and as always, it is subject to change before the final release.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Trusty/wxfixboot_0.9trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Ubuntu 13.10 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Ubuntu 12.10 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Precise/wxfixboot_0.9precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Pmagic/wxfixboot_0.9pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v0.9 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/OtherDistro/wxfixboot_0.9otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a class="BackToTop" href="#navigation">Back To Top</a><br>
                 </article>
             </section>
