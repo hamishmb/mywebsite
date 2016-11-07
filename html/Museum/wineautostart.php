@@ -308,8 +308,25 @@
                 </article>
                 <article>
                     <h3 id="0.8">Wine Autostart v0.8</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.8.txt"))?>
+                    <p>
+                    An updated version of Wine Autostart, featuring many bugfixes, simplifications to the code and a modified indicator.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.8 For Ubuntu</td>
+                            <td><a href="/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
