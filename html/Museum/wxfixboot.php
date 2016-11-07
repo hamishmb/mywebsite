@@ -441,8 +441,49 @@
                 </article>
                 <article>
                     <h3 id="1.0rc3">WxFixBoot v1.0~rc3</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc3.txt"))?>
+                    <p>
+                    The penultimate development release. This version is literally miles ahead of 1.0rc2, and a lot has changed and improved! Read the (alarmingly long!) changelog for more details. The only thing left to do is program the task running code, and then, possibly, a little maintenance. Still, it'd be wise to use it only in VMs.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc3 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/wxfixboot_1.0~rc3.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc3 For Ubuntu 13.10 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc3 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Precise/wxfixboot_1.0~rc3.1precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc3 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/wxfixboot_1.0~rc3pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc3 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/wxfixboot_1.0~rc3otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
