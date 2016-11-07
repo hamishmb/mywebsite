@@ -143,7 +143,8 @@ a, img {
 }
 
 #InPageNavTitle {
-    text-align: center; /* The title for the in-page navigation should be centered *** FIX LATER *** */
+    text-align: center;
+    font-weight: bold;
 }
 
 #InPageNavigation, #InPageNavigation ol {

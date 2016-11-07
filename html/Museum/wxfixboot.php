@@ -24,7 +24,7 @@
             </p>
             <!-- In-Page Navigation -->
             <nav>
-                <strong id="InPageNavTitle">Versions</strong>
+                <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
                     <!-- 2.0 Series-->
                     <li>

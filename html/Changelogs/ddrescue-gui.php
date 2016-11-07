@@ -19,7 +19,7 @@
             <h1>Changelogs For DDRescue-GUI</h1>
             <!-- In-Page Navigation -->
             <nav>
-                <strong id="InPageNavTitle">Versions</strong>
+                <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
                     <!-- 1.6 Series -->
                     <li>

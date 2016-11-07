@@ -19,7 +19,7 @@
             <h1>Changelogs For WxFixBoot</h1>
             <!-- In-Page Navigation -->
             <nav>
-                <strong id="InPageNavTitle">Versions</strong>
+                <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
                     <!-- 2.0 Series-->
                     <li>
