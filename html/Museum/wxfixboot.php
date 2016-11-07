@@ -116,7 +116,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="2.0pre1">WxFixBoot v2.0~pre1</h3>
@@ -170,7 +170,7 @@
                         </tr>
                     </table>
                     <br>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <h2 id="1.0Series">WxFixBoot 1.0 Series</h2>
                 <article>
@@ -261,49 +261,103 @@
                         </tr>
                     </table>
                     <br>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0.1">WxFixBoot v1.0.1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.1.txt"))?>
+                    <p>
+                    This is a new version fixing some bugs in 1.0 and adding support for Parted Magic.<br>
+                    You can see the changes below, which are still identical to 1.0.<br><br>
+
+                    The summary from 1.0:<br><br>
+
+                    This is the first stable release of WxFixBoot! After 9 months of development, it is finally ready! This program can be considered to be an alternative to boot-repair, except that it can also do other things as well.<br><br>
+
+                    WxFixBoot can update your bootloader's configuration, reinstall/fix it, and change to a different bootloader. It can do these while you're running the operating system you're working on, from another OS installed on your hard drive, or from a live disk (such as an Ubuntu installer disk or image, or Parted Magic). It can also check your filesystems, either quickly, or for bad sectors as well, and backup and restore your partition table and boot sector.<br><br>
+
+                    It features a simple, unique and intuitive GUI, which is clear, but also provides lots of helpful information and gives you advice as you use it, and it also warns you of potential pitfalls while you're setting it up. Once you've started your operation(s), it will accurately show operation and total progress, and also provide you with terminal output if you wish to see it.<br><br>
+
+                    All in all, I'm very happy with this program, and I hope people enjoy using it.<br><br>
+
+                    If you're interested, you can see the full changelog since version 1.0~rc4 and release notes below.
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.1 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Utopic/wxfixboot_1.0.1utopic-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.1 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Trusty/wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0.1 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Precise/wxfixboot_1.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0.1 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/wxfixboot_1.0.1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0.1 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/wxfixboot_1.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0">WxFixBoot v1.0</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc4">WxFixBoot v1.0~rc4</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc4.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc3">WxFixBoot v1.0~rc3</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc3.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc2">WxFixBoot v1.0~rc2</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc2.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h3 id="1.0rc1">WxFixBoot v1.0~rc1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc1.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a>
+                    <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
                     <h2 id="0.9">WxFixBoot v0.9</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/0.9.txt"))?>
                     </p>
-                    <a href="#navigation">Back To Top</a><br>
+                    <a class="BackToTop" href="#navigation">Back To Top</a><br>
                 </article>
             </section>
         </div>

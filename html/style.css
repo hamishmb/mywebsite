@@ -195,6 +195,11 @@ table th, table td {
     padding: 10px;
 }
 
+/* -- Back to top links */
+a.BackToTop { /* *** Fix this *** */
+    text-align: center;
+}
+
 /* -- Footer -- */
 footer {
     background: #2780c2; /* Older browsers */
