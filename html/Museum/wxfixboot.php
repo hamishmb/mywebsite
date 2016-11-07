@@ -374,8 +374,69 @@
                 </article>
                 <article>
                     <h3 id="1.0rc4">WxFixBoot v1.0~rc4</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc4.txt"))?>
+                    <p>
+                    This is wxfixboot's final development release before the stable version 1.0. It has all of the features that will be present in version 1.0, with the exception of saving a system report. It also has a glitch with the overall progress bar, but that'll be fixed with 1.0 too.<br>
+                    This version is mostly okay, so here is a list of operations I know are fine, are probably fine, and that I haven't tested at all.<br>
+                    It has come on a long way from 1.0rc3 in terms of, well, everything! The changelog speaks for itself, being more than two sides of A4 paper!<br><br>
+
+                    The following operations are known to work properly in most cases:<br>
+                    Quick FS Check,<br>
+                    Bad Sector Check,<br>
+                    All bootloader operations with ELILO,<br>
+                    All bootloader operations with GRUB2-UEFI,<br>
+                    Backing up the bootsector,<br>
+                    Backing up the partition table.<br><br>
+
+                    The following operations should work properly, but aren't fully tested.<br>
+                    All bootloader operations with GRUB2-MBR,<br>
+                    All bootloader operations with LILO.<br><br>
+
+                    The following operations have *NOT* been tested.<br>
+                    Restoring the bootsector,<br>
+                    Restoring the partition table,<br>
+                    Making a system report,<br>
+                    Support for picky/buggy EFI implementations.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc4 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/wxfixboot_1.0~rc4utopic-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc4 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/wxfixboot_1.0~rc4trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc4 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Precise/wxfixboot_1.0~rc4precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc4 For Parted Magic</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/wxfixboot_1.0~rc4pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>WxFixBoot v1.0~rc4 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/wxfixboot_1.0~rc4otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <a class="BackToTop" href="#navigation">Back To Top</a>
                 </article>
                 <article>
