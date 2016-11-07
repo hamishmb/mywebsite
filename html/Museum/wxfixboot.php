@@ -460,7 +460,7 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v1.0~rc3 For Ubuntu 13.10 LTS</td>
+                            <td>WxFixBoot v1.0~rc3 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -507,13 +507,13 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v1.0~rc2 For Ubuntu 13.10 LTS</td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v1.0~rc2 For Ubuntu 12.10 LTS</td>
+                            <td>WxFixBoot v1.0~rc2 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -560,13 +560,13 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v1.0~rc1 For Ubuntu 13.10 LTS</td>
+                            <td>WxFixBoot v1.0~rc1 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/wxfixboot_1.0~rc1saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v1.0~rc1 For Ubuntu 12.10 LTS</td>
+                            <td>WxFixBoot v1.0~rc1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/wxfixboot_1.0~rc1quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
@@ -607,13 +607,13 @@
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v0.9 For Ubuntu 13.10 LTS</td>
+                            <td>WxFixBoot v0.9 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
-                            <td>WxFixBoot v0.9 For Ubuntu 12.10 LTS</td>
+                            <td>WxFixBoot v0.9 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>

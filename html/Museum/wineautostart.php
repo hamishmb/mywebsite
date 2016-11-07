@@ -176,14 +176,110 @@
                 </article>
                 <article>
                     <h2 id="1.0">Wine Autostart v1.0</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/1.0.txt"))?>
+                    <p>
+                    The latest-and-greatest version of Wine Autostart so far! It has many new features, noted in the release notes, including a new indicator and a complete rewrite in python with pygtk and wxpython. The deb (installer) packages are now available, also in the PPA at www.launchpad.net/~hamishmb/+archive/myppa<br><br>
+
+                    * This has now been updated to include a package for Ubuntu 14.04 LTS, and Ubuntu 14.10.<br><br>
+
+                    UPDATE 18/2/2015: A package for Ubuntu 15.04 has now been added. It is also available in my ppa.<br><br>
+
+                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 13.10</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 12.10</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v1.0 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h2 id="0.9">Wine Autostart v0.9</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.9.txt"))?>
+                    <p>
+                    A newer, more stable version of Wine Autostart focusing on stability and, using a new technique to start wine, reliability as well. It's still a development version, but it's a big step closer to being stable, and will be the last development version. It is a known bug that this version has incorrect permissions inside the package, but that isn't an issue (ubuntu software centre just gives an ugly warning, it's safe to continue). It also has a slight problem with the ejecting area of the program (always comes up even if no software was run), but not a huge problem and will be fixed with the stable release.<br><br>
+
+                    This version and all previous versions used a python script which powered the indicator (cappind.py), which is written by WebUpd8 reader Reda El Khattabi, and may well be helpful for others.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.9 For Ubuntu 13.04</td>
+                            <td><a href="/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.9 For Ubuntu 12.10</td>
+                            <td><a href="/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.9 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.9 For Ubuntu 10.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="0.8Series">Wine Autostart 0.8 Series</h2>
