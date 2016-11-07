@@ -285,8 +285,25 @@
                 <h2 id="0.8Series">Wine Autostart 0.8 Series</h2>
                 <article>
                     <h3 id="0.8.5">Wine Autostart v0.8.5</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.8.5.txt"))?>
+                    <p>
+                    Beta preview for version 0.9 to include the general idea for the new layout of the code.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.8.5 For Ubuntu</td>
+                            <td><a href="/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
