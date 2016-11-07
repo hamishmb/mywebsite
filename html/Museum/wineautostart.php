@@ -331,8 +331,25 @@
                 </article>
                 <article>
                     <h2 id="0.7">Wine Autostart v0.7</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.7.txt"))?>
+                    <p>
+                    Broken. Very few features, and most of those features don't work without modification
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v0.7 For Ubuntu</td>
+                            <td><a href="/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>
