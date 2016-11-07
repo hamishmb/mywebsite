@@ -125,8 +125,53 @@
                 </article>
                 <article>
                     <h3 id="2.0rc1">Wine Autostart v2.0~rc1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0rc1.txt"))?>
+                    <p>
+                    This is the first, and the only release candidate for version 2.0.<br><br>
+
+                    This has now been released. 2.0 stable was released on the 5th of May. As I expected, this was almost exactly the same as 2.0, bar the version name and the release date, and all went to plan.<br><br>#
+
+                    UPDATE 5/5/2015: There have been several updates to these packages to fix various last-minute bugs.
                     </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v2.0~rc1 For Ubuntu 15.04</td>
+                            <td><a href="/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v2.0~rc1 For Ubuntu 14.10</td>
+                            <td><a href="/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v2.0~rc1 For Ubuntu 14.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td>Wine Autostart v2.0~rc1 For Ubuntu 12.04 LTS</td>
+                            <td><a href="/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td>Wine Autostart v2.0~rc1 For Other Linux Distributions</td>
+                            <td><a href="/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz">All Systems</a></td>
+                            <td>***TODO***</td>
+                        </tr>
+                    </table>
+                    <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
