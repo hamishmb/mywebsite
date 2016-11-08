@@ -106,43 +106,43 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.6 For Ubuntu 16.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/Xenial/ddrescue-gui_1.6~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.6 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/Trusty/ddrescue-gui_1.6~trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.6 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/Precise/ddrescue-gui_1.6~precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.6 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.6 For Fedora 22 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/Fedora/32-bit/ddrescue-gui-1.6-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6/Fedora/64-bit/ddrescue-gui-1.6-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.6 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/Pmagic/ddrescue-gui_1.6~pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.6 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.6/OtherDistro/ddrescue-gui_1.6~otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -175,43 +175,43 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Ubuntu 16.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Xenial/ddrescue-gui_1.5.1xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Ubuntu 15.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Wily/ddrescue-gui_1.5.1wily-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Trusty/ddrescue-gui_1.5.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Precise/ddrescue-gui_1.5.1precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/OS%20X/32-bit/DDRescue-GUI-32bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.5.1/OS%20X/64-bit/DDRescue-GUI-64bit.dmg">64-bit (Recommended)</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Pmagic/ddrescue-gui_1.5.1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5.1 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5.1/Otherdistro/ddrescue-gui_1.5.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -240,49 +240,49 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5 For Ubuntu 16.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Xenial/ddrescue-gui_1.5xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5 For Ubuntu 15.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Wily/ddrescue-gui_1.5wily-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Vivid/ddrescue-gui_1.5vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Trusty/ddrescue-gui_1.5trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Precise/ddrescue-gui_1.5precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.5 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/OS%20X/Builds/32-bit/Install%20DDRescue-GUI.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.5/OS%20X/Builds/64-bit/Install%20DDRescue-GUI-64bit.dmg">64-bit (Recommended)</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/Pmagic/ddrescue-gui_1.5pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5/OtherDistro/ddrescue-gui_1.5otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -309,49 +309,49 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Ubuntu 16.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Xenial/ddrescue-gui_1.5~rc2xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Ubuntu 15.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Wily/ddrescue-gui_1.5~rc2wily-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Vivid/ddrescue-gui_1.5~rc2vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Trusty/ddrescue-gui_1.5~rc2trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Precise/ddrescue-gui_1.5~rc2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/OS%20X/Builds/32-bit/DDRescue-GUI-32-bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.5~rc1/OS%20X/Builds/64-bit/DDRescue-GUI-64-bit.dmg">64-bit (Recommended)</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/Pmagic/ddrescue-gui_1.5~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5~rc1 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~rc1/OtherDistro/ddrescue-gui_1.5~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -376,49 +376,49 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Ubuntu 16.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Xenial/ddrescue-gui_1.5~pre1xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Ubuntu 15.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Wily/ddrescue-gui_1.5~pre1wily-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Vivid/ddrescue-gui_1.5~pre1vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Trusty/ddrescue-gui_1.5~pre1trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Precise/ddrescue-gui_1.5~pre1precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/OS%20X/DDRescue-GUI.dmg">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/Pmagic/ddrescue-gui_1.5~pre1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.5~pre1 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.5~pre1/OtherDistro/ddrescue-gui_1.5~pre1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -460,37 +460,37 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/Vivid/ddrescue-gui_1.4vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/Trusty/ddrescue-gui_1.4trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/Precise/ddrescue-gui_1.4precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.4 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/OS%20X/DDRescue-GUI.dmg">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/Pmagic/ddrescue-gui_1.4pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4/OtherDistro/ddrescue-gui_1.4otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -533,43 +533,43 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Ubuntu 15.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Wily/ddrescue-gui_1.4~rc4wily-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Vivid/ddrescue-gui_1.4~rc4vivid-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Trusty/ddrescue-gui_1.4~rc4trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Precise/ddrescue-gui_1.4~rc4precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/OS%20X/DDRescue-GUI.dmg">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/Pmagic/ddrescue-gui_1.4~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4~rc2 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc2/OtherDistro/ddrescue-gui_1.4~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -602,37 +602,37 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Vivid/ddrescue-gui_1.4~rc1vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Ubuntu 14.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Utopic/ddrescue-gui_1.4~rc1utopic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Trusty/ddrescue-gui_1.4~rc1trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Precise/ddrescue-gui_1.4~rc1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/Pmagic/ddrescue-gui_1.4~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.4~rc1 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.4~rc1/OtherDistro/ddrescue-gui_1.4~rc1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -670,55 +670,55 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 15.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Vivid/ddrescue-gui_1.3vivid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 14.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Utopic/ddrescue-gui_1.3utopic-0ubuntu1-update1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Trusty/ddrescue-gui_1.3trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Saucy/ddrescue-gui_1.3saucy-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Quantal/ddrescue-gui_1.3quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Precise/ddrescue-gui_1.3precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.3 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/OS%20X/Update%201/Package/DDRescue-GUI~Update1.dmg">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.3/OS%20X/DDRescue-GUIFS.dmg">Failsafe</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.3 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/Pmagic/ddrescue-gui_1.3pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.3 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3/OtherDistro/ddrescue-gui_1.3otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -740,7 +740,7 @@
                     <table>
                         <caption><h2>Download Files</h2></caption>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.3~rc2 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc2/OS%20X/DDRescue-GUI.app.zip">All Systems</a></td>
                             <td>***TODO***</td>
@@ -763,43 +763,43 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Trusty/ddrescue-gui_1.3~rc1trusty-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Saucy/ddrescue-gui_1.3~rc1saucy-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Raring/ddrescue-gui_1.3~rc1raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Quantal/ddrescue-gui_1.3~rc1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Precise/ddrescue-gui_1.3~rc1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Mac OS X 10.6.8 Or Higher</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/OS%20X/DDRescue-GUI.app.zip">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.3~rc1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.3rc1/Pmagic/ddrescue-gui_1.3~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -823,37 +823,37 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Saucy/ddrescue-gui_1.2saucy-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Raring/ddrescue-gui_1.2raring-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Quantal/ddrescue-gui_1.2quantal-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Precise/ddrescue-gui_1.2precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.2 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/Pmagic/ddrescue-gui_1.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.2 For Other Linux Distributions</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2/OtherDistro/ddrescue-gui_1.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -876,25 +876,25 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2~rc1 For Ubuntu 13.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2rc1/Saucy/ddrescue-gui_1.2rc1saucy-0ubuntu1~ppa1~2.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2~rc1 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2rc1/Raring/ddrescue-gui_1.2rc1raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2~rc1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2rc1/Quantal/ddrescue-gui_1.2rc1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.2~rc1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.2rc1/Precise/ddrescue-gui_1.2rc1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -917,25 +917,25 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.1 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.1/Raring/ddrescue-gui_1.1raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.1 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.1/Quantal/ddrescue-gui_1.1quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.1/Precise/ddrescue-gui_1.1precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>DDRescue-GUI v1.1 For Parted Magic</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.1/Pmagic/ddrescue-gui_1.1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -958,19 +958,19 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.0 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.0/Raring/ddrescue-gui_1.0raring-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.0 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.0/Quantal/ddrescue-gui_1.0quantal-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v1.0 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/1.0/Precise/ddrescue-gui_1.0precise-0ubuntu1~ppa2.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
@@ -993,32 +993,31 @@
                             <th>No. Of Downloads</th>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v0.9 For Ubuntu 13.04</td>
                             <td><a href="/files/Downloads/ddrescue-gui/0.9/Raring/ddrescue-gui_0.9raring-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v0.9 For Ubuntu 12.10</td>
                             <td><a href="/files/Downloads/ddrescue-gui/0.9/Quantal/ddrescue-gui_0.9quantal-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v0.9 For Ubuntu 12.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/0.9/Precise/ddrescue-gui_0.9precise-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>DDRescue-GUI v0.9 For Ubuntu 10.04 LTS</td>
                             <td><a href="/files/Downloads/ddrescue-gui/0.9/Lucid/ddrescue-gui_0.9lucid-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
                     <br>
-                    <a href="#navigation">Back To
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>

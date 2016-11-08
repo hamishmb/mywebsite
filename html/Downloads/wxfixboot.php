@@ -37,43 +37,43 @@
                     <th>No. Of Downloads</th>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 16.10 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 16.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Xenial/wxfixboot_2.0xenial~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 14.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Trusty/wxfixboot_2.0trusty~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 12.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Precise/wxfixboot_2.0precise~update1-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>WxFixBoot v2.0 For Fedora 23 Or Higher</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Fedora/i686/wxfixboot-2.0-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/wxfixboot/2.0/Fedora/x86_64/wxfixboot-2.0-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>WxFixBoot v2.0 For Parted Magic</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Pmagic/wxfixboot_2.0pmagic~update1-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>WxFixBoot v2.0 For Other Linux Distributions</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/OtherDistro/wxfixboot_2.0otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>

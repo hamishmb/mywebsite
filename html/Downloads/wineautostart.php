@@ -37,31 +37,31 @@
                     <th>No. Of Downloads</th>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.1 For Ubuntu 16.10</td>
                     <td><a href="/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.1 For Ubuntu 16.04 LTS</td>
                     <td><a href="/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.1 For Ubuntu 14.04 LTS</td>
                     <td><a href="/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40px" height="40px"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.1 For Ubuntu 12.04 LTS</td>
                     <td><a href="/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Linux_logo.jpg" width="34px" height="40px"></td>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>Wine Autostart v2.0.1 For Other Linux Distributions</td>
                     <td><a href="/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
                     <td>***TODO***</td>
