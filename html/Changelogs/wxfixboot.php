@@ -63,62 +63,62 @@
                     <h3 id="2.0pre2">WxFixBoot v2.0~pre2</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0pre2.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="2.0pre1">WxFixBoot v2.0~pre1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/2.0pre1.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <h2 id="1.0Series">WxFixBoot 1.0 Series</h2>
                 <article>
                     <h3 id="1.0.2">WxFixBoot v1.0.2</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.2.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0.1">WxFixBoot v1.0.1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.1.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0">WxFixBoot v1.0</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0rc4">WxFixBoot v1.0~rc4</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc4.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0rc3">WxFixBoot v1.0~rc3</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc3.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0rc2">WxFixBoot v1.0~rc2</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc2.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h3 id="1.0rc1">WxFixBoot v1.0~rc1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/1.0rc1.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h2 id="0.9">WxFixBoot v0.9</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wxfixboot/0.9.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
+                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p><br>
                 </article>
             </section>
         </div>
