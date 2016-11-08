@@ -3,15 +3,7 @@
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/html/index.php">Home</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/html/blog.php">Blog</a></li>
-        <li class="main"><a <?php if (preg_match("/screenshots/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a>
-
-            <ul class="Screenshots">
-                <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Screenshots/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Screenshots/wxfixboot.php"><br>WxFixBoot<br></a></li>
-                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Screenshots/wineautostart.php"><br>Wine Autostart<br><br></a></li>
-            </ul>
-
-        </li>
+        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a></li>
         <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Changelogs</a>
 
             <ul class="Changelogs">
