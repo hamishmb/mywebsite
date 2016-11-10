@@ -94,7 +94,6 @@
                     <h3 id="1.6">DDRescue-GUI v1.6</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.6.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <h2 id="1.5Series">DDRescue-GUI 1.5 Series</h2>
                 <article>
@@ -119,7 +118,6 @@
                     <h3 id="1.5pre1">DDRescue-GUI v1.5~pre1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.5pre1.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <h2 id="1.4Series">DDRescue-GUI 1.4 Series</h2>
                 <article>
@@ -157,7 +155,6 @@
                     <h3 id="1.3rc1">DDRescue-GUI v1.3~rc1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.3rc1.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <h2 id="1.2Series">DDRescue-GUI 1.2 Series</h2>
                 <article>
@@ -170,25 +167,22 @@
                     <h3 id="1.2rc1">DDRescue-GUI v1.2~rc1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.2rc1.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h2 id="1.1">DDRescue-GUI v1.1</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.1.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h2 id="1.0">DDRescue-GUI v1.0</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/1.0.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
                 </article>
                 <article>
                     <h2 id="0.9">DDRescue-GUI v0.9</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/ddrescue-gui/0.9.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p><br>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>
         </div>

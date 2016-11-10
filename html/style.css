@@ -48,9 +48,9 @@ a:active { color: rgb(255, 0, 180); } /* Pink */
 #navlist a:active { color: rgb(255, 0, 180); } /* Pink */
 
 /* -- Current Page Links In Main Navigation */
-#navlist a.CurrentPage:link { color: red; }
-#navlist a.CurrentPage:visited { color: red; }
-#navlist a.CurrentPage:hover { color: red; }
+#navlist a.CurrentPage:link { color: purple; }
+#navlist a.CurrentPage:visited { color: purple; }
+#navlist a.CurrentPage:hover { color: purple; }
 
 a, img {
     border:none;
@@ -66,7 +66,7 @@ a, img {
     list-style: none;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-
+    
 }
 
 #navlist ul li {
@@ -118,7 +118,7 @@ a, img {
     border-bottom-right-radius: 5px;
 }
 
-#navlist li:hover ul { /* Display the dropdown on hover */
+#navlist li:hover ul { /* Display the dropdown on focus (click) */
     left: -38px; /* Bring back on-screen when needed */
 }
 
@@ -138,6 +138,16 @@ a, img {
     margin: 0;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 20px;
+}
+
+#CenteredInPageNav {
+    text-align: left;
+    border: 1px solid black;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
 }
 
@@ -194,6 +204,7 @@ img.Screenshot {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 
 /* Create borders for each table header and data cell */

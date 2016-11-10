@@ -4,7 +4,7 @@
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/html/index.php">Home</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/html/blog.php">Blog</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a></li>
-        <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Changelogs</a>
+        <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Changelogs</a>
 
             <ul class="Changelogs">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
@@ -13,7 +13,7 @@
             </ul>
 
         </li>
-        <li class="main"><a <?php if (preg_match("/downloads/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Downloads</a>
+        <li class="main"><a <?php if (preg_match("/downloads/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Downloads</a>
 
             <ul class="Downloads">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
@@ -22,7 +22,7 @@
             </ul>
 
         </li>
-        <li class="main"><a <?php if (preg_match("/docs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Documentation</a>
+        <li class="main"><a <?php if (preg_match("/docs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Documentation</a>
 
             <ul class="Documentation">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Docs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
@@ -31,7 +31,7 @@
             </ul>
 
         </li>
-        <li class="main"><a <?php if (preg_match("/museum/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="">Museum</a>
+        <li class="main"><a <?php if (preg_match("/museum/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Museum</a>
 
             <ul class="Museum">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Museum/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>

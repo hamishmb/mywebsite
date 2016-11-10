@@ -642,6 +642,8 @@
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
             </section>
+            <h2>Licences</h2>
+            <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
         </div>
         <!-- Footer -->
         <?php include_once $INCLUDESDIR . 'footer.html' ; ?>

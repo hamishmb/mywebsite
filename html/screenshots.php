@@ -19,7 +19,7 @@
         <div id="MainContent">
             <h1>Screenshots</h1>
             <!-- In-Page Navigation -->
-            <nav>
+            <div id="CenteredInPageNav">
                 <p id="InPageNavTitle">Programs</p>
                 <ol id="InPageNavigation">
                     <!-- DDRescue-GUI -->
@@ -31,7 +31,7 @@
                     <!-- Wine Autostart -->
                     <li><a href="#WineAutostartScreenshots">Wine Autostart</a></li>
                 </ol>
-            </nav>
+            </div>
 
             <!-- Page Content -->
             <section>

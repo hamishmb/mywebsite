@@ -20,7 +20,8 @@
             *** Add website licensing info ***<br>
             Creative Commons work was used in the creation of this website. Here follows a list of the works used and creditations:
             <ul>
-                <li>The "Ubuntu" Logo used in the downloads section of the website: <a href="https://commons.wikimedia.org/wiki/File:Ubuntu_logo_copyleft_1.svg">'Ubuntu logo copyleft 1.svg'</a>, by <a href="https://commons.wikimedia.org/wiki/User:Macguy314">Macguy314</a> - Own work, is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported license</a>.
+                <li>The "Ubuntu" Logo used in the downloads section of the website: <a href="https://commons.wikimedia.org/wiki/File:Ubuntu_logo_copyleft_1.svg">'Ubuntu logo copyleft 1.svg'</a>, by <a href="https://commons.wikimedia.org/wiki/User:Macguy314">Macguy314</a> - Own work, is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported license</a>.</li>
+                <li><span>HTML5 Logo by <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a></span>.</li>
             </ul>
             </p>
             <p>

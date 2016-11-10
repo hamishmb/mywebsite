@@ -19,7 +19,7 @@
             <h1>Welcome to my website!</h1>
             <section>
                 <article>
-                    I created this website to host my programs and blog all in one place. It's a place where you can view screenshots of my progrms, download them, read the changelogs, and download older version (see the museum).
+                    I created this website to host my programs and blog all in one place. It's a place where you can view screenshots of my programs, download them, read the changelogs, and download older versions (see the museum).
 
                     <ul>
                         <li>*** Add more text and some images ***</li>

@@ -70,7 +70,7 @@
             <br>
             <h2>Older Versions?</h2>
             <p>Want to download an older version? Head over to the <a href="/html/Museum/ddrescue-gui.php">Museum</a>.</p>
-            <h2>Licenses</h2>
+            <h2>Licences</h2>
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
         </div>
         <!-- Footer -->
