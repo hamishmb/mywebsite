@@ -80,7 +80,6 @@
                     <h2 id="0.9">Wine Autostart v0.9</h2>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.9.txt"))?>
                     </p>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <h2 id="0.8Series">Wine Autostart 0.8 Series</h2>
                 <article>
