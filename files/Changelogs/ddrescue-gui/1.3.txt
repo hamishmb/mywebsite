@@ -1,47 +1,24 @@
 DDRescue-GUI (1.3):
 
   * A lot of bug fixes.
-
   * OS X disk size calculation (ddrescue cannot determine size, but stops at the right time)
-
   * Compiled ddrescue on OS X Mavericks.
-
   * Detect which OS is being used (Mac or Linux), and execute certain parts of script accordingly.
-
   * Modify splash to work on Mac.
-
   * New Device Information dialog (looks the same as the old one, but works on mac, no longer requiring zenity), also including refresh button.
-
   * Fixed indentation errors.
-
   * Include devices in output file choice (with warning).
-
   * Fix close button not triggering exit method.
-
   * Exit method now includes "are you sure?" dlg.
-
   * Option to recover another image when finished.
-
   * Policy Kit now supported, dumped gksudo.
-
   * Busy cursor during recovery.
-
   * 1st mac packaging test.
-
   * Have a "Stopping ddrescue..." label when aborting recovery.
-
   * No longer use shell=True in subprocess module, where possible.
-
   * Option to mount a completed image (Linux only).
-
   * Implement not allowing quiting the program during recovery.
-
   * Implement restart when ddrescue doesn't start.
-
   * Full testing on Mac version.
-
   * Complete Mac version.
-
   * Implement graphical sudo for Mac (requires admin permissions).
-
--- Hamish McIntyre-Bhatty

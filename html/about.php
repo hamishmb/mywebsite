@@ -53,7 +53,7 @@
                 <article>
                     <h2>About me *** SMALL PICTURE ***</h2>
                     <p>
-                    I am a 17-year-old university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently learning to program in C++. My next program will be written in C++, for those who are interested. I also enjoy cycling, acting, climbing, and gardening when I can.
+                    I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently learning to program in C++. My next program will be written in C++, for those who are interested. I also enjoy cycling, acting, climbing, and gardening when I can.
                     </p>
                 </article>
             </section>

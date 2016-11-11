@@ -1,19 +1,10 @@
 Wine Autostart (0.9):
 
   * More comments added to code.
-
   * Use unset, not <var>="".
-
   * Use sed, not tr.
-
   * Use custom gksudo messages.
-
   * Created wineautostarterror to handle errors.
-
   * Stop creating files in /tmp.
-
   * Use "wine start /Unix <path>", not "wine <path>". This fixes various uninteresting problems with wine crashing. (Thanks Daniel Curtis)
-
   * Use "grep .exe" instead of "grep open=", and use more intelligent sed commands to get the correct exe file.
-
- -- Hamish McIntyre-Bhatty

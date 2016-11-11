@@ -3,199 +3,100 @@ WxFixBoot (1.0~rc4):
 Important changes:
 
   * Fixed various small problems,
-
   * Use the icon in /usr/share/pixmaps instead,
-
   * Stop using wx.lib.pubsub, and instead use direct calls using wx.CallAfter, saving disk space and imrpoving memory usage and speed,
-
   * Changed order of startup scripts, and unmount FSes before checking for errors,
-
   * Patched and improved EFI partition detection and EFI partitions are now mounted at /boot/efi, with other FSes in the way being unmounted first,
-
   * Fixed occaisional hang on exit from MainWindow(),
-
   * Fix issues with warnings related to updating and reinstalling bootloaders,
-
   * Change and improve the layout of ProgressWindow,
-
   * Remember lines of terminal output when the outputbox is closed, and add them again when it's opened, avoiding forgetting output,
-
   * Monitor the last 5 lines for duplication instead, preventing duplicated output in the outputbox (obsolete now, using pipes, see below),
-
   * When opening and closing outputbox, preserve the state of the buttons on ProgressWindow(),
-
   * Add support for EFI partition selection once the GUI is started, including an option for none.
-
   * Fix problem restarting wxfixboot, where program exits.
-
   * Remove test operations code, including progressbar test.
-
   * Rewrite progressBar management code.
-
   * Autodetect grub-legacy/grub2 without asking the user which is present.
-
   * In InitThread and MainBackendThread use seperate thread methods for message dialog setup and teardown, saving 100 lines of code!!!
-
   * Patch code in InitThread to improve error-robustness.
-
   * Fix a few problems in OptionsWindow2(), improving behaviour.
-
   * Stop the user running any operations until they've checked the settings.
-
   * Various other fixes to EFI partition management.
-
   * Write code to determine the package managers (YUM/APT) on any OSes (except live disks).
-
   * Finally manage to install elilo and lilo on real systems (virtualbox's EFI implementation is unreliable, and it doesn't like lilo or elilo ** Got it working reliably now, see below)
-
   * Determine packages needed (YUM and APT) for installation/removal of bootloaders.
-
   * Save partition schemes for all HDDs, and use a very clever way of setting them and remembering which ones have been set manaully.
-
   * Finished partition table and boot sector restoration dialogs completely.
-
   * Refactored and simplified various code, saving a lot of lines and disk space, and improving efficency.
-
   * Determine required fsck modules, and create a list of missing ones, helping with file system checking.
-
   * Quick File System check implemented for most filesystems, though it needs refinement,
-
   * Bad sector check implemented for vfat/fat32/fat16 only, but codebase there for other filesystems.
-
   * Partition Table and Boot Seector backup types can now be autodetermined (GPT or MBR).
-
   * Refactor and Refine bad sector check and quick fs check.
-
   * Refactor and speed-up OS detection.
-
   * Program exit sequence fully.
-
   * Quick FS and bad sector check work with most filesystems now (xfs, jfs, reiserfs, ext2/3/4, fat32/fat16, minix).
-
   * Use direct program-to-program pipes to manage updating the output box now, resolving some major issues with missing/incomplete output, and increasing stability.
-
   * Added comments where needed, and written more debug messages.
-
   * Better detection of GRUB versions (grub2-bios or legacy),
-
   * Offer to save existing log files to /var/wxfixboot/wxfxboot.log.old, or delete them, preventing ridiculously long log files with repeated runs.
-
   * Test the pipes (they work just fine!)
-
   * Figure out how to get config for LILO and ELILO (Also all GRUB versions (Legacy, 2 and EFI)).
-
   * Write and test function to obtain LILO, and ELILO config.
-
   * Determine which OSes need the bootloader removed, and ask the user where to install the new one.
-
   * Write methods to set up and tear down chroot for each OS.
-
   * Allow piping with shell=True in MainBackendThread().StartThreadProcess().
-
   * Write and test functions to get grub-legacy config.
-
   * Change detection order inInitThread().GetBootLoader(), so that EFI bootloaders are looked for first, increasing the chance of finding the correct one (before if BIOS bootloader was still in the MBR, it would be misdetected).
-
   * Update Quick FS Check and Bad Sector Check to handle return values, with a new function.
-
   * Enable remount success check in Quick FS Check and Bad Sector Check.
-
   * Revised logging info in the startup scripts, making it much easier to debug wxfixboot.
-
   * Write more than 4000 lines of code in total for WxFixBoot!
-
   * Update current Operation text in the disk checks.
-
   * Align the text perfectly on ProgressWindow().
-
   * Enable determining the architecture of OSes in InitThread().GetLinuxOSes() and save them in the OS name.
-
   * Refactor the startup scripts. Again!
-
   * By refactoring the startup scripts, intoduce new features, remove unnecessary code, add new features, and speed it all up again! And also,
-
   * Fix the language releated bug (no 1353713) in the startup scripts.
-
   * Write function to remove GRUB Legacy
-
   * Write function to remove GRUB2
-
   * Write function to remove LILO
-
   * Write function to remove ELILO
-
   * Write function to remove GRUB2-EFI and GRUB-Legacy-EFI.
-
   * Split MainBackendThread().RemoveOldBootloaders() into one function to serve that purpose, and another to get the config.
-
   * Finish MainBackendThread().GetOldBootloaderConfig()
-
   * Change all instances of ShowThreadInfoDlg, to ShowThreadMsgDlg, allowing different types of thread dialogs to be shown (info, warning, error), and also modify the other thread dialog function to enable the setting of titles from the threads too.
-
   * Test MBR and GPT restore and backup commands work reliably.
-
   * Write function to install GRUB2
-
   * Write function to Install GRUB2-EFI
-
   * Write function to install LILO
-
   * Write function to install ELILO
-
   * Find a way of setting the default OS in GRUB2
-
   * Include better error checking in MainBackendThread() unmount and remount functions.
-
   * Change some terminology to make wxfixboot easier to use.
-
   * Refactor the entire program, because it was getting difficult to manage, by:
-
   * Using default options and keyword arguments in all function with more than one argument passed to them,
-
   * Combining RestBootSetcorWindow and RestPartTableWindow, to make two visually identical, but more space and memory efficent dialogs, residing in one function.
-
   * Cutting code duplication,
-
   * Removing unnecessary code in the startup script, bringing the speed up,
-
   * Reorganizing all of the functions in MainBackendThread(),
-
   * Not importing uneeded modules, reducing memory usage,
-
   * Adding more logging statements and more comments.
-
   * Write function to set GRUB2 config.
-
   * Write function to set LILO config.
-
   * Write function to set ELILO config.
-
   * Never allow installing EFI bootloader without an EFI partition,
-
   * Enable showing diagnostic terminal output.
-
   * Enable backing up and restoring the partition table.
-
   * Enable backing up and restoring the bootsector.
-
   * Make MainBackendThread().UnmountPartition() check if filesystems are unmounted before trying to unmount them.
-
   * As above, but with remounting RO and RW.
-
   * Use keywords and default values with functions, making the code tidier and easier to manage.
-
   * Make sure WxFixBoot can handle seperate EFI partitions,
-
   * Fix a problem that prevented piping output,
-
   * Change some terminology to make WxFixBoot easier to use.
-
   * Combine restbootsector window and restparttablewindow, saving space.
-
   * Write logging info in the new MainBackendThread functons.
-
   * Write current operations text calls in the MainBackendThread's functions.
-
   * Write progressbar calls into Main Backend Thread.
-
- -- Hamish McIntyre-Bhatty

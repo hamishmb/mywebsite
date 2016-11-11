@@ -2,27 +2,14 @@ DDRescue-GUI 1.5:
 Changes since v1.4:
 
   * Use Cocoa Dialog (http://mstratman.github.io/cocoadialog/#) to add notifications on OS X, because it works from 10.4 onwards.
-
   * Add LC_ALL=C when calling lshw (GetDevInfo package), so make it work when the system language isn't English.
-
   * Always call parted with the "-s" flag so it never waits for user input in weird situations, making mounting output files more robust.
-
   * Use a thread to keep track of elapsed time because the wx.Timer seems unreliable on OS X.
-
   * Enable the log file option on OS X (for some reason it's just working now!).
-
   * Rewrite the OS X portion of the GetDevInfo package to use plists (Property Lists) because it's faster, easier and more reliable.
-
   * Get direct disk access working on Parted Magic (get physical block size instead of logical block size in GetDevInfo package).
-
   * Fix relatively unimportant GUI formatting issues when using ddrescue v1.20.
-
   * Enable Reverse option on OS X (give ddrescue disk size cos it can't calculate it).
-
   * Detach images when mounting fails on OS X, allowing the user to try again in some circumstances.
-
   * Fix crash when resizing main window during recovery (wxpython 3.x, Linux only).
-
   * Get \r (carriage return) and \x1b[a (up one line) working in the output box, so ddrescue's output is now displayed exactly the same as when run from a terminal.
-
--- Hamish McIntyre-Bhatty

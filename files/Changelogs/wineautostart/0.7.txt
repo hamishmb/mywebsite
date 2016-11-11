@@ -1,6 +1,3 @@
 Wine Autostart (0.7):
   * Initial release.
-
   * Added readme to source package.
-
- -- Hamish McIntyre-Bhatty

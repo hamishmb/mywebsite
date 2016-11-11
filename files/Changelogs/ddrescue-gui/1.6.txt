@@ -21,5 +21,3 @@ DDRescue-GUI (1.6):
   * Fixes for ddrescue 1.21.
   * OS X: Fix many misc bugs.
   * Linux: Fix a bug with unmounting output files.
-
--- Hamish McIntyre-Bhatty <email address hidden>

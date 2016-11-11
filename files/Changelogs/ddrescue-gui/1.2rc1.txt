@@ -1,13 +1,7 @@
 DDRescue-GUI (1.2~rc1>:
 
   * Fixed many bugs.
-
   * Layout problems fixed.
-
   * Added presets to preferences dialog.
-
   * Lower CPU and RAM usage.
-
   * Support for viewing terminal output.
-
- -- Hamish McIntyre-Bhatty <email address hidden>

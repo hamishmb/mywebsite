@@ -1,7 +1,4 @@
 DDRescue-GUI (1.5.1):
 
   * Changes since v1.5:
-
   * Fix a bug in the authentication dialog where it may fail to start DDRescue-GUI when a non-English locale is being used.
-
- -- Hamish McIntyre-Bhatty <email address hidden>

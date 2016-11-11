@@ -1,261 +1,131 @@
 WxFixBoot (2.0~pre1):
 
   * Changes since v1.0.2:
-
   * Bring coding techniques up to date.
-
   * Use a new authentication dialog.
-
   * Change the splash screen to use a progress bar.
-
   * Get rid of the move old log files script.
-
   * Begin optimising startup scripts.
-
   * Move global function StartProcess into CoreTools.
-
   * Move functions DetermineOSArchitechure, CheckForLILO, CheckForGRUBBIOS into CoreStartupTools.
-
   * Move some thread dialog functions into DialogTools and test them.
-
   * Make a modified version of StartThreadProcess for later use.
-
   * Move the remaining dialog functions into DialogTools.
-
   * Get rid of the global StartProcess function.
-
   * Use tuples instead of lists where possible (read-only, and use less memory).
-
   * Move SetDefaults to MainStartupTools.
-
   * Move GetBootloader to MainStartupTools.
-
   * Move CheckForUEFIPartition to MainStartupTools.
-
   * Move CheckForGRUBEFI, CheckForELILO to CoreStartupTools.
-
   * Move FinalCheck to MainStartupTools.
-
   * Move the rest of the startup tools to their separate packages and modules.
-
   * Use sizers with InitWindow.
-
   * Use sizers with MainWindow.
-
   * Use sizers with SettingsWindow.
-
   * Use sizers with Bootloader Options Window.
-
   * Use sizers with ProgressWindow.
-
   * Move core backend tools to their separate file.
-
   * Move helper backend tools to their separate file.
-
   * Move essential backend tools to their separate file.
-
   * Create a Github repository.
-
   * Move all bootloader stuff into a separate package.
-
   * Rename MainBackendThread() to BackendThread()
-
   * Always name wx.Panels self.Panel.
-
   * Don't call subprocess directly.
-
   * Don't call mount directly in most places.
-
   * Use sizers with RestoreWindow.
-
   * Fix sizer glitch in SettingsWindow.
-
   * Pull in new GetDevInfo package from DDRescue-GUI v1.5.
-
   * Count operations in MainWindow.
-
   * Fix rescanning for bootloaders from BootloaderOptionsWIndow.
-
   * No longer depend on grep.
-
   * No longer depend on find.
-
   * Move some bootloader stuff to MainBackendTools.
-
   * Make sure each modules has the "from __future__ import x,y,z" imports.
-
   * Move HelperBackendTools().CheckInternetConnection() to EssentialBackendTools.
-
   * Always use Piping=True when calling StartThreadProcess() (preparation for switch to CoreTools().StartProcess).
-
   * Write docstrings for all functions/methods and classes.
-
   * Use "//" for integer division where possible.
-
   * Make Bootloader Options Window more user-friendly.
-
   * Fix crash on startup when using a BIOS bootloader (doesn't affect v1.0.2).
-
   * Save MBR to RAM instead of a temporary file in /tmp/wxfixboot/.
-
   * Get rid of the temporary directory (/tmp/wxfixboot).
-
   * Don't allow the user to specify partition schemes any more.
-
   * Rewrite/Add more logging messages.
-
   * Reduce Duplication in MainBackendTools.
-
   * Create CoreTools().IsMounted().
-
   * Modify GetDevInfo package to use dictionaries.
-
   * Keep more info about/disk/partition relationships.
-
   * Get partition schemes in GetDevInfo package.
-
   * Get FileSystem Types in GetDevInfo package.
-
   * Refactor GetDevInfo package.
-
   * Use GetDevInfo package on startup.
-
   * Start phasing out old device info collectors in favour of the GetDevInfo package.
-
   * Remove dependency on lsblk.
-
   * Rewrite CoreStartupTools().CheckForUEFIPartition().
-
   * Write an emergency exit function.
-
   * Fix UnicodeDecodeError while still showing all info in log file.
-
   * Design new Bootloader Options Window.
-
   * Pull in new outputbox code from DDRescue-GUI v1.5.
-
   * Enable support for the output box in CoreTools().StartProcess().
-
   * Don't use CoreBackendTools().StartThreadProcess().
-
   * Remove CoreBackendTools().StartThreadProcess().
-
   * Enable checking where partitions are mounted in CoreTools().IsMounted().
-
   * Performance Improvements and better error checking in MainBackendTools.
-
   * Write more error check and logging messages in.
-
   * Weight each startup operation to make the progressbar on the splash screen more accurate.
-
   * Write a function to return the partition mounted at a given mountpoint.
-
   * Refactor some of the startup scripts.
-
   * Get rid of MainStartupTools().GetRootFSAndRootDev().
-
   * Make MainStartupTools().GetLinuxOSs() use dictionaries.
-
   * Get rid of the 'PartitionListWithFSType' global variable.
-
   * Save LiveDisk in a dictionary instead of an independent global variable.
-
   * Get rid of the 'GPTInAutoPartSchemeList' and 'MBRInAutoPartSchemeList' global variables.
-
   * Get rid of the 'PartSchemeList' global variable.
-
   * Test badsector and quick fs check.
-
   * Change the way module functions are called to allow for conditional tests in MainWindow.CountOperations().
-
   * Test backing up boot sector and partition table.
-
   * Test restoring boot sector and partition table.
-
   * Don't use OSList any more.
-
   * More fixing and refactoring.
-
   * Don't hunt out kernels + initrds for LILO/ELILO any more.
-
   * Don't use DeviceList any more.
-
   * Don't use AutoDefaultOS any more.
-
   * Use new dictionary based OS format for DefaultOS variable.
-
   * Don't use DefaultOS any more.
-
   * Don't use AutoFirmwareType any more.
-
   * Don't use FirmwareType any more.
-
   * Move CoreBackendTools.GetPartitionUUID() to GetDevInfo.GetUUID().
-
   * Remove GetDevInfo.GetPartitions().
-
   * Move CoreBackendTools.GetDeviceID() to GetDevInfo.GetID().
-
   * Optimise GetDevInfo.
-
   * Don't use LinuxPartList any more.
-
   * Don't use OSListWithPackageManagers any more.
-
   * Don't use DisableBootloaderOperations any more.
-
   * Absorb HelperBackendTools.LookForAPTonPartition() into MainBootloaderTools.PrepareForBootloaderInstallation().
-
   * Refactor MainBootloaderTools.PrepareForBootloaderInstallation().
-
   * Absorb part of MainBootloaderTools.PrepareForBootloaderInstallation() into MainStartupTools.GetLinuxOSs().
-
   * Add experimental detection of Ubuntu-based live disks and Parted Magic.
-
   * Write a function to get the mountpoint of a given partition.
-
   * Detect live disks more reliably, including fedora-based ones.
-
   * Don't use OSsForBootloaderRemoval any more.
-
   * Don't use OSsForBootloaderInstallation any more.
-
   * Use custom dialog buttons (only possible on wxpython 3) where wanted, to help clarify messages.
-
   * Don't use RootFS or AutoRootFS any more.
-
   * Don't use BootloaderToInstall any more.
-
   * Test updating GRUB2.
-
   * Test reinstalling GRUB2.
-
   * Test installing LILO.
-
   * Test updating LILO.
-
   * Test reinstalling LILO.
-
   * Test updating GRUB-EFI.
-
   * Test reinstalling GRUB-EFI.
-
   * Rewrite the GetDevInfo package to parse XML output from lshw.
-
   * Speed up CoreTools.StartProcess().
-
   * Refactor and improve error handling in GetDevInfo package.
-
   * Test with installing ELILO.
-
   * Test with reinstalling ELILO.
-
   * Test with updating ELILO.
-
   * Start creating new bootloader options window and system info window.
-
   * Semi-finish implementing the design of the new bootloader options window.
-
   * Test with Parted Magic.
-
--- Hamish McIntyre-Bhatty

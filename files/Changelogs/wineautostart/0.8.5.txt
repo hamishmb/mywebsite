@@ -1,11 +1,6 @@
 Wine Autostart (0.8.5):
 
   * Eject functionality now works properly and as expected.
-
   * Now works with disks with spaced mount points
-
   * Refactored and optimised code.
-
   * Updated information in About_wineautostart.
-
- -- Hamish McIntyre-Bhatty
