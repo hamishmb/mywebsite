@@ -1,0 +1,13 @@
+Wine Autostart (2.0.2):
+
+  * Fix a bug in the autorun.inf parser.
+  * Use wx.TextCtrl.LoadFile() where possible.
+  * Always call panels self.Panel.
+  * Don't use the name "Wine Autoscan" in the GUI because it sounds like a different product.
+  * Make sure dialogue boxes and windows are on top and visible to the user.
+  * Use os.walk() instead of find for searching CDs.
+  * Fix exporting config on first run.
+  * Pull in new GetDevInfo package from WxFixBoot.
+  * Save config for each user (in home dir) for greater customisation.
+  * Save StartOnBoot settings for each user as well.
+  * Put Python version into logfile on startup.

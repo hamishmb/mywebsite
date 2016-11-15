@@ -25,6 +25,7 @@
                     <li>
                         <a href="#2.0Series">2.0 Series</a>
                         <ol>
+                            <li><a href="#2.0.2">2.0.2 (Stable)</a></li>
                             <li><a href="#2.0.1">2.0.1 (Stable)</a></li>
                             <li><a href="#2.0">2.0 (Stable)</a></li>
                             <li><a href="#2.0rc1">2.0~rc1 (Development)</a></li>
@@ -52,6 +53,11 @@
             </nav>
             <section>
                 <h2 id="2.0Series">Wine Autostart 2.0 Series</h2>
+                <article>
+                    <h3 id="2.0.2">Wine Autostart v2.0.2</h3>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0.2.txt"))?>
+                    </p>
+                </article>
                 <article>
                     <h3 id="2.0.1">Wine Autostart v2.0.1</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0.1.txt"))?>
