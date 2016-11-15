@@ -51,10 +51,10 @@
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Main Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Main%20Window.png" alt="Main Window">
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
-                    <h2 id="WxFixBootScreenshots">WxFixBoot</h2>
+                    <h2 id="WxFixBootScreenshots">WxFixBoot</h2><br><br>
                     <h3>About Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/wxfixboot/About%20Window.png" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
@@ -72,10 +72,10 @@
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>System Information Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/wxfixboot/System%20Info%20Window.png" alt="System Information Window">
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
-                    <h2 id="WineAutostartScreenshots">Wine Autostart</h2>
+                    <h2 id="WineAutostartScreenshots">Wine Autostart</h2><br><br>
                     <h3>About Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/wineautostart/About%20Window.png" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
