@@ -193,7 +193,7 @@
 
                     If you're interested, you can see the full changelog since version 1.0~rc4 and release notes below.<br><br>
 
-                    *** Important: this program does not support systems that use LVM (Logical Volume Management). This is commonly used in RAID arrays. Most systems don't use LVM, so if you didn't set it up yourself or don't know what it is, you don't need to worry and can ignore this warning. If you have LVM, sorry for the inconvenience. Support is available in the current development release.<br><br>
+                    *** Important: this version does not support systems that use LVM (Logical Volume Management). This is commonly used in RAID arrays. Most systems don't use LVM, so if you didn't set it up yourself or don't know what it is, you don't need to worry and can ignore this warning. If you have LVM, sorry for the inconvenience. Support is available in the current development release.<br><br>
 
                     UPDATE 18/2/2015: A package for Ubuntu 15.04 is now available as well!<br><br>
 

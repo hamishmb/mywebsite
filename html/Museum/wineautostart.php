@@ -57,9 +57,6 @@
                     <li><a href="#0.7">0.7 (Development)</a></li>
                 </ol>
             </nav>
-
-            <!-- Page Content *** Sort out exact lengths *** -->
-            <!-- Heights are in , but use digits only -->
             <section>
                 <h2 id="2.0Series">Wine Autostart 2.0 Series</h2>
                 <article>

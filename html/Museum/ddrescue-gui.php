@@ -426,7 +426,7 @@
                     </table>
                     <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article> <!-- ************************************************************************************ -->
+                </article>
                 <h2 id="1.4Series">DDRescue-GUI 1.4 Series</h2>
                 <article>
                     <h3 id="1.4">DDRescue-GUI v1.4</h3>

@@ -49,9 +49,6 @@
                     <li><a href="#0.9">0.9 (Preview)</a></li>
                 </ol>
             </nav>
-
-            <!-- Page Content *** Sort out exact lengths *** -->
-            <!-- Heights are in px, but use digits only -->
             <section>
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
                 <article>

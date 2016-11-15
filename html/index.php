@@ -26,10 +26,6 @@
 
                     All three of these programs are written in Python, and they utilise wxPython, a cross-platform GUI toolkit that I chose because it works on all the major platforms (MacOS, Linux and Windows). Another reason wxPython is great because it's easy to use, but very powerful at the same time. Being written in Python, these programs are naturally quite CPU and memory-efficient and will run even on very old systems without a hitch, which allows them to work quickly and efficienty.
                     </p>
-                    <ul>
-                        <li>*** Add more text and some images ***</li>
-                        <li>*** Add download of md5sum and sig to downloads pages ***</li>
-                    </ul>
                 </article>
             </section>
         </div>

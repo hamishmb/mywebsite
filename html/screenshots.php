@@ -36,7 +36,7 @@
             <!-- Page Content -->
             <section>
                 <article>
-                    <h2 id="DDRescue-GUIScreenshots">DDRescue-GUI *** Use only ones from v1.6.1 ***</h2>
+                    <h2 id="DDRescue-GUIScreenshots">DDRescue-GUI</h2>
                     <h3>About Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/About%20Window.png" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>

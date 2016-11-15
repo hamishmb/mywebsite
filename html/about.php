@@ -17,14 +17,14 @@
         <!-- Content of the Page -->
         <div id="MainContent">
             <section>
-                <h1>About *** SCREENSHOTS ***</h1>
+                <h1>About</h1>
                 <article>
                     <h2>About this website</h2>
                     <p>
                     This website is a useful rescource for people who want to use or download my programs, and also those who want to read the changelogs and explore the museum.<br><br>
 
                     I wrote this website in pure HTML5 and CSS3 so it performs well even on older systems, following my policy of trying to be as backwards-compatible as possible, while still making use of new features where possible.
-                    This site is a good example of that, it looks good and works fine in all the major browsers, but it still works just fine in Internet Explorer 8 and old versions of Safari and Firefox *** Check at release time ***.
+                    This site is a good example of that, it looks good and works fine in all the major browsers, but it still works just fine in Internet Explorer 8 and old versions of Safari and Firefox.
                     </p>
                 </article>
                 <article>
@@ -45,7 +45,7 @@
                     </p>
                 </article>
                 <article>
-                    <h2>About me *** SMALL PICTURE ***</h2>
+                    <h2>About me</h2>
                     <p>
                     I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently learning to program in C++. My next program will be written in C++, for those who are interested. I also enjoy cycling, acting, climbing, and gardening when I can.
                     </p>
