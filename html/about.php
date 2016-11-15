@@ -29,12 +29,6 @@
                 </article>
                 <article>
                     <h2>About my programs</h2>
-                    <h3>General Information</h3>
-                    <p>
-                    My programs are designed to help people in a sticky spot. For example, DDRescue-GUI helps users recover important data fast, using GNU ddrescue (*** Website here ***), but without having to use the commandline, which can be a barrier to your average user. WxFixBoot fixes your Linux operating systems if they won't start, and allows you to configure your bootloader. These are advanced topics that are made accessible by the easy-to-use interface.<br><br>
-
-                    All three of these programs are written in Python, and they utilise wxPython, a cross-platform GUI toolkit that I chose because it works on all the major platforms (MacOS, Linux and Windows). Another reason wxPython is great because it's easy to use, but very powerful at the same time. Being written in Python, these programs are naturally quite CPU and memory-efficient and will run even on very old systems without a hitch, which allows them to work quickly and efficienty.
-                    </p>
                     <h3>DDRescue-GUI</h3>
                     <p>
                     DDRescue-GUI is a fast, free, and open-source GUI for GNU ddrescue, and makes this powerful tool accessible to everyone. It runs on both Linux and MacOS, and is included in Parted Magic. It features a simple, intuitive interface that helps you get started, and detects all of your disks (including LVM and RAID disks) so you can select them more easily. It's designed to recover your data and get you back on your feet quickly, and it written to be efficient so that on laptops your battery lasts as long as possible in case you can't plug in to power. When your recovery is finished, DDRescue-GUI also allows you to mount your output file or device (make it accessible in layman's terms) and access your data fast.
