@@ -1,0 +1,1 @@
+9fc570fa86d0d40ad79e74a2ffb04470  ddrescue-gui_1.2quantal-0ubuntu1~ppa1_all.deb

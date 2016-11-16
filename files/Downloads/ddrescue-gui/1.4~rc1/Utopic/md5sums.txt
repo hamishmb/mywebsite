@@ -1,0 +1,1 @@
+30d3f18cb30069c80c5bfc1f629cfa4b  ./ddrescue-gui_1.4~rc1utopic-0ubuntu1~ppa1.tar.gz

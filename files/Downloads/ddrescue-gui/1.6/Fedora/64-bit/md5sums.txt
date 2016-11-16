@@ -1,0 +1,1 @@
+fccda9b59e3947741fe76132d96b68cc  ./ddrescue-gui-1.6-1.fc24.x86_64.rpm

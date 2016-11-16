@@ -1,0 +1,1 @@
+2a60e651af04fa4ffed753dff575c900  ddrescue-gui_0.9lucid-0ubuntu1~ppa1.tar.gz

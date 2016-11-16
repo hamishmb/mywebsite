@@ -1,0 +1,1 @@
+59a82e1aea53208bc043fe889c578091  ./ddrescue-gui_1.5~rc2vivid-0ubuntu1~ppa1_all.deb

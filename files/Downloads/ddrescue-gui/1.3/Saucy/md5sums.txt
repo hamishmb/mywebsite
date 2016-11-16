@@ -1,0 +1,1 @@
+b609bbba1c0e1741ab6f833438ee19d2  ddrescue-gui_1.3saucy-0ubuntu1~ppa1.tar.gz

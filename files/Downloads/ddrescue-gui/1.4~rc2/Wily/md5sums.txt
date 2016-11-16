@@ -1,0 +1,1 @@
+3c77fa8955c21aa7dfaba12a4f8fdc6b  ./ddrescue-gui_1.4~rc4wily-0ubuntu1~ppa1.tar.gz

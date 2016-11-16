@@ -1,0 +1,1 @@
+11b5b72ac5118f494b42b5d940824fa2  ./ddrescue-gui_1.5xenial-0ubuntu1~ppa1_all.deb

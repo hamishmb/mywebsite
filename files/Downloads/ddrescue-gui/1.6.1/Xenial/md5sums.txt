@@ -1,0 +1,1 @@
+1e30c736f41f3797fbd84db02b530b57  ./ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb

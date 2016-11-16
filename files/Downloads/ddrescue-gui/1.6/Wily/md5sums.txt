@@ -1,0 +1,1 @@
+e2c2d3ccc85607ff6a412119a39207b9  ./ddrescue-gui_1.6~wily-0ubuntu1~ppa1_all.deb

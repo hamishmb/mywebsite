@@ -1,0 +1,1 @@
+753ea04accc9a611cdd25e05fc72e19a  ./ddrescue-gui_1.4vivid-0ubuntu1~ppa1.tar.gz

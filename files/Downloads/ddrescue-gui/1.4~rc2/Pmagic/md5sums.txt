@@ -1,0 +1,1 @@
+dd81d637e1da6451a48d552c0d3c8b54  ./ddrescue-gui_1.4~rc2pmagic-0ubuntu1~ppa1.tar.gz
