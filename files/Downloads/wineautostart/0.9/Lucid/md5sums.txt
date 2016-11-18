@@ -1,0 +1,1 @@
+540ddc685b3a782aadca1b37f247fe7f  ./wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz

@@ -1,0 +1,1 @@
+8e478c0fe64035b18ca25422c27b49fc  ./wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb

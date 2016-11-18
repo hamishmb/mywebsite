@@ -1,0 +1,1 @@
+94a5a13bd07e25bf0a91ce9d77070a84  ./wineautostart_2.0.1vivid-0ubuntu1~ppa1_all.deb

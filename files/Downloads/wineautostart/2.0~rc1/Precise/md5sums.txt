@@ -1,0 +1,1 @@
+a8b565765f6289c5e9bdf11ac97bc80b  ./wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb

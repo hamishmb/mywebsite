@@ -1,0 +1,1 @@
+0a92353f710c9841ab3109e7087542ff  ./Wineautostart-0.8-all.tar.gz

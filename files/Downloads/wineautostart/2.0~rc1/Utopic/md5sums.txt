@@ -1,0 +1,1 @@
+972cb10e3114490c2bcc584712432ccd  ./wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb
