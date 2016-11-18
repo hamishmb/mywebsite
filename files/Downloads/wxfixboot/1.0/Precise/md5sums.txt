@@ -1,0 +1,1 @@
+bcbb2ba7b9d63f97230cd90c7508206c  ./wxfixboot_1.0precise-0ubuntu1~ppa1_all.deb

@@ -1,0 +1,1 @@
+6c693f5a78b3ff708c23f60c815d5f2c  ./wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb
