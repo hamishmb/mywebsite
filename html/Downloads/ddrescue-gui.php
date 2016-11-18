@@ -40,49 +40,49 @@
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 14.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 12.04 LTS</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Mac OS X 10.6.8 Or Higher</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/32-bit/md5sums.txt">md5sum</a>) | <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/md5sums.txt">md5sum</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Fedora 23 Or Higher</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/ddrescue-gui-1.6.1-1.fc24.i686.rpm">32-bit</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/ddrescue-gui-1.6.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/ddrescue-gui-1.6.1-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/32-bit/md5sums.txt">md5sum</a>) | <a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/ddrescue-gui-1.6.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Fedora/64-bit/md5sums.txt">md5sum</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Parted Magic</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/ddrescue-gui_1.6.1~pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/Pmagic/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Other Linux Distributions</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a></td>
+                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/ddrescue-gui_1.6.1~otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/ddrescue-gui/1.6.1/OtherDistro/md5sums.txt">md5sum</a></td>
                     <td>***TODO***</td>
                 </tr>
             </table>
