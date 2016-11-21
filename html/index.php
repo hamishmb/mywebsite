@@ -19,6 +19,13 @@
             <h1>Welcome to my website!</h1>
             <section>
                 <article>
+                    <!-- Logos horizontally across top of page -->
+                    <table class="IconList">
+                        <td><img src="/files/Logos/DDRescue-GUI.jpg" alt="DDRescue-GUI"></td>
+                        <td><img src="/files/Logos/WxFixBoot.png" alt="WxFixBoot"></td>
+                        <td><img src="/files/Logos/Wine%20Autostart.png" alt="Wine Autostart"></td>
+                    </table>
+
                     I created this website to host my programs and blog all in one place. It's a place where you can view screenshots of my programs, download them, read the changelogs, and download older versions (see the museum).
 
                     <p>

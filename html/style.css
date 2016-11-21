@@ -66,7 +66,6 @@ a, img {
     list-style: none;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-    
 }
 
 #navlist ul li {
@@ -197,6 +196,12 @@ table {
 
 table caption {
     text-align: center;
+}
+
+/* -- Icon List Tables -- */
+table.IconList, table.IconList td {
+    border: none;
+    border-collapse: collapse;
 }
 
 /* -- Screenshots -- */
