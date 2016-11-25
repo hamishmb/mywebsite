@@ -77,43 +77,46 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Ubuntu 16.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/wxfixboot_2.0~pre2xenial-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/wxfixboot_2.0~pre2xenial-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/wxfixboot_2.0~pre2xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Xenial/wxfixboot_2.0~pre2xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Ubuntu 15.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/wxfixboot_2.0~pre2wily-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/wxfixboot_2.0~pre2wily-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/wxfixboot_2.0~pre2wily-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Wily/wxfixboot_2.0~pre2wily-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/wxfixboot_2.0~pre2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/wxfixboot_2.0~pre2trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/wxfixboot_2.0~pre2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Trusty/wxfixboot_2.0~pre2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/wxfixboot_2.0~pre2precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/wxfixboot_2.0~pre2precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/wxfixboot_2.0~pre2precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Precise/wxfixboot_2.0~pre2precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Fedora 22 Or Higher</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/wxfixboot-2.0~pre2-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/wxfixboot-2.0~pre2-1.fc24.i686.rpm.asc">Signature</a>) | <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/wxfixboot-2.0~pre2-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/wxfixboot-2.0~pre2-1.fc24.x86_64.rpm.asc">Signature</a>)</td>
+                            <td>
+                                <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/wxfixboot-2.0~pre2-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/x86_64/wxfixboot-2.0~pre2-1.fc24.x86_64.rpm.asc">signature</a>)<br>
+                                <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/wxfixboot-2.0~pre2-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Fedora/i686/wxfixboot-2.0~pre2-1.fc24.i686.rpm.asc">signature</a>)
+                            </td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/wxfixboot_2.0~pre2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/wxfixboot_2.0~pre2pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/wxfixboot_2.0~pre2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/Pmagic/wxfixboot_2.0~pre2pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v2.0~pre2 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/wxfixboot_2.0~pre2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/wxfixboot_2.0~pre2otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/wxfixboot_2.0~pre2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre2/OtherDistro/wxfixboot_2.0~pre2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -137,37 +140,37 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Ubuntu 16.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/wxfixboot_2.0~pre1xenial-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/wxfixboot_2.0~pre1xenial-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/wxfixboot_2.0~pre1xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/Xenial/wxfixboot_2.0~pre1xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Ubuntu 15.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/wxfixboot_2.0~pre1wily-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/wxfixboot_2.0~pre1wily-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/wxfixboot_2.0~pre1wily-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/Wily/wxfixboot_2.0~pre1wily-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/wxfixboot_2.0~pre1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/wxfixboot_2.0~pre1trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/wxfixboot_2.0~pre1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/Trusty/wxfixboot_2.0~pre1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/wxfixboot_2.0~pre1precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/wxfixboot_2.0~pre1precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/wxfixboot_2.0~pre1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/Precise/wxfixboot_2.0~pre1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/wxfixboot_2.0~pre1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/wxfixboot_2.0~pre1pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/wxfixboot_2.0~pre1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/Pmagic/wxfixboot_2.0~pre1pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v2.0~pre1 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/wxfixboot_2.0~pre1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/wxfixboot_2.0~pre1otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/wxfixboot_2.0~pre1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0~pre1/OtherDistro/wxfixboot_2.0~pre1otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -216,49 +219,49 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 16.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Xenial/wxfixboot_1.0.2~actualreleasexenial-0ubuntu1-update1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Xenial/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Xenial/wxfixboot_1.0.2~actualreleasexenial-0ubuntu1-update1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Xenial/wxfixboot_1.0.2~actualreleasexenial-0ubuntu1-update1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Xenial/wxfixboot_1.0.2~actualreleasexenial-0ubuntu1-update1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 15.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Wily/wxfixboot_1.0.2wily-0ubuntu1-update1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Wily/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Wily/wxfixboot_1.0.2wily-0ubuntu1-update1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Wily/wxfixboot_1.0.2wily-0ubuntu1-update1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Wily/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Wily/wxfixboot_1.0.2wily-0ubuntu1-update1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 15.04</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Vivid/wxfixboot_1.0.2vivid-0ubuntu1-update1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Vivid/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Vivid/wxfixboot_1.0.2vivid-0ubuntu1-update1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Vivid/wxfixboot_1.0.2vivid-0ubuntu1-update1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Vivid/wxfixboot_1.0.2vivid-0ubuntu1-update1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 14.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Utopic/wxfixboot_1.0.2utopic-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Utopic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Utopic/wxfixboot_1.0.2utopic-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Utopic/wxfixboot_1.0.2utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Utopic/wxfixboot_1.0.2utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Trusty/wxfixboot_1.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Trusty/wxfixboot_1.0.2trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Trusty/wxfixboot_1.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Trusty/wxfixboot_1.0.2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.2 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Precise/wxfixboot_1.0.2precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Precise/wxfixboot_1.0.2precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Precise/wxfixboot_1.0.2precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Precise/wxfixboot_1.0.2precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0.2 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/wxfixboot_1.0.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/wxfixboot_1.0.2pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/wxfixboot_1.0.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Pmagic/wxfixboot_1.0.2pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0.2 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/wxfixboot_1.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/wxfixboot_1.0.2otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/wxfixboot_1.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.2/Otherdistro/wxfixboot_1.0.2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -294,31 +297,31 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.1 For Ubuntu 14.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Utopic/wxfixboot_1.0.1utopic-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Utopic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Utopic/wxfixboot_1.0.1utopic-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Utopic/wxfixboot_1.0.1utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.1/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.1/Utopic/wxfixboot_1.0.1utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.1 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Trusty/wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Trusty/wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Trusty/wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.1/Trusty/wxfixboot_1.0.1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0.1 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Precise/wxfixboot_1.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Precise/wxfixboot_1.0.1precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Precise/wxfixboot_1.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.1/Precise/wxfixboot_1.0.1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0.1 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/wxfixboot_1.0.1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/wxfixboot_1.0.1pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/wxfixboot_1.0.1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.1/Pmagic/wxfixboot_1.0.1pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0.1 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/wxfixboot_1.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/wxfixboot_1.0.1otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/wxfixboot_1.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0.1/OtherDistro/wxfixboot_1.0.1otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -349,25 +352,25 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0 For Ubuntu 14.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0/Utopic/wxfixboot_1.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0/Utopic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0/Utopic/wxfixboot_1.0utopic-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0/Utopic/wxfixboot_1.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0/Utopic/wxfixboot_1.0utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0/Trusty/wxfixboot_1.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0/Trusty/wxfixboot_1.0trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0/Trusty/wxfixboot_1.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0/Trusty/wxfixboot_1.0trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0/Precise/wxfixboot_1.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0/Precise/wxfixboot_1.0precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0/Precise/wxfixboot_1.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0/Precise/wxfixboot_1.0precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0/OtherDistro/wxfixboot_1.0otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0/OtherDistro/wxfixboot_1.0otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0/OtherDistro/wxfixboot_1.0otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0/OtherDistro/wxfixboot_1.0otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -410,31 +413,31 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc4 For Ubuntu 14.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/wxfixboot_1.0~rc4utopic-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/wxfixboot_1.0~rc4utopic-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/wxfixboot_1.0~rc4utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc4/Utopic/wxfixboot_1.0~rc4utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc4 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/wxfixboot_1.0~rc4trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/wxfixboot_1.0~rc4trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/wxfixboot_1.0~rc4trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc4/Trusty/wxfixboot_1.0~rc4trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc4 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Precise/wxfixboot_1.0~rc4precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Precise/wxfixboot_1.0~rc4precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Precise/wxfixboot_1.0~rc4precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc4/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc4/Precise/wxfixboot_1.0~rc4precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc4 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/wxfixboot_1.0~rc4pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/wxfixboot_1.0~rc4pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/wxfixboot_1.0~rc4pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc4/Pmagic/wxfixboot_1.0~rc4pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc4 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/wxfixboot_1.0~rc4otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/wxfixboot_1.0~rc4otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/wxfixboot_1.0~rc4otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc4/OtherDistro/wxfixboot_1.0~rc4otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -457,31 +460,31 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc3 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/wxfixboot_1.0~rc3.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/wxfixboot_1.0~rc3.1trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/wxfixboot_1.0~rc3.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc3/Trusty/wxfixboot_1.0~rc3.1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc3 For Ubuntu 13.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc3/Saucy/wxfixboot_1.0~rc3.1saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc3 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Precise/wxfixboot_1.0~rc3.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Precise/wxfixboot_1.0~rc3.1precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Precise/wxfixboot_1.0~rc3.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc3/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc3/Precise/wxfixboot_1.0~rc3.1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc3 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/wxfixboot_1.0~rc3pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/wxfixboot_1.0~rc3pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/wxfixboot_1.0~rc3pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc3/Pmagic/wxfixboot_1.0~rc3pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc3 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/wxfixboot_1.0~rc3otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/wxfixboot_1.0~rc3otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/wxfixboot_1.0~rc3otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc3/OtherDistro/wxfixboot_1.0~rc3otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -504,37 +507,37 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/wxfixboot_1.0~rc2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/wxfixboot_1.0~rc2trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/wxfixboot_1.0~rc2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Trusty/wxfixboot_1.0~rc2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Ubuntu 13.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Saucy/wxfixboot_1.0~rc2saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Ubuntu 12.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Quantal/wxfixboot_1.0~rc2quantal-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Precise/wxfixboot_1.0~rc2precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Precise/wxfixboot_1.0~rc2precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Precise/wxfixboot_1.0~rc2precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Precise/wxfixboot_1.0~rc2precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/wxfixboot_1.0~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/wxfixboot_1.0~rc2pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/wxfixboot_1.0~rc2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Pmagic/wxfixboot_1.0~rc2pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc2 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/wxfixboot_1.0~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/wxfixboot_1.0~rc2otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/wxfixboot_1.0~rc2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc2/Otherdistro/wxfixboot_1.0~rc2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -557,31 +560,31 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc1 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/wxfixboot_1.0~rc1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/wxfixboot_1.0~rc1trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/wxfixboot_1.0~rc1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc1/Trusty/wxfixboot_1.0~rc1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc1 For Ubuntu 13.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/wxfixboot_1.0~rc1saucy-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/wxfixboot_1.0~rc1saucy-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/wxfixboot_1.0~rc1saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc1/Saucy/wxfixboot_1.0~rc1saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc1 For Ubuntu 12.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/wxfixboot_1.0~rc1quantal-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/wxfixboot_1.0~rc1quantal-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/wxfixboot_1.0~rc1quantal-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc1/Quantal/wxfixboot_1.0~rc1quantal-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v1.0~rc1 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Precise/wxfixboot_1.0~rc1precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Precise/wxfixboot_1.0~rc1precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Precise/wxfixboot_1.0~rc1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc1/Precise/wxfixboot_1.0~rc1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v1.0~rc1 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/wxfixboot_1.0~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/wxfixboot_1.0~rc1pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/wxfixboot_1.0~rc1pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/1.0rc1/Pmagic/wxfixboot_1.0~rc1pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
@@ -604,37 +607,37 @@
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v0.9 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/Trusty/wxfixboot_0.9trusty-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/Trusty/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/Trusty/wxfixboot_0.9trusty-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Trusty/wxfixboot_0.9trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/Trusty/wxfixboot_0.9trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v0.9 For Ubuntu 13.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/Saucy/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/Saucy/wxfixboot_0.9saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v0.9 For Ubuntu 12.10</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/Quantal/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/Quantal/wxfixboot_0.9quantal-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>WxFixBoot v0.9 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/Precise/wxfixboot_0.9precise-0ubuntu1~ppa1_all.deb">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/Precise/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/Precise/wxfixboot_0.9precise-0ubuntu1~ppa1_all.deb.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Precise/wxfixboot_0.9precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/Precise/wxfixboot_0.9precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v0.9 For Parted Magic</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/Pmagic/wxfixboot_0.9pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/Pmagic/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/Pmagic/wxfixboot_0.9pmagic-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/Pmagic/wxfixboot_0.9pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/Pmagic/wxfixboot_0.9pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>WxFixBoot v0.9 For Other Linux Distributions</td>
-                            <td><a href="/files/Downloads/wxfixboot/0.9/OtherDistro/wxfixboot_0.9otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> | <a href="/files/Downloads/wxfixboot/0.9/OtherDistro/md5sums.txt">md5sum</a> | <a href="/files/Downloads/wxfixboot/0.9/OtherDistro/wxfixboot_0.9otherdistro-0ubuntu1~ppa1.tar.gz.asc">Signature</a></td>
+                            <td><a href="/files/Downloads/wxfixboot/0.9/OtherDistro/wxfixboot_0.9otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/0.9/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/0.9/OtherDistro/wxfixboot_0.9otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                             <td>***TODO***</td>
                         </tr>
                     </table>
