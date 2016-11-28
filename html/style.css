@@ -12,13 +12,6 @@ body {
     margin: 0;
 }
 
-/* -- Links */
-
-a { color: rgb(0, 0, 255); } /* Default Colour */
-a:visited { color: rgb(85, 26, 139); } /* Default Colour */
-a:hover { color: rgb(0, 0, 255); } /* No difference when hovering */
-a:active { color: rgb(255, 0, 180); } /* Pink */
-
 /* -- Main Navigation -- */
 
 #navigation {
