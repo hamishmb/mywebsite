@@ -16,21 +16,6 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>About md5 Checksums and Digital Signatures</h1>
-            <p>
-            The md5 sums offered on this page can be used to verify that your file downloaded successfully without corrupting in transit. These can be verified using specific instructions for your operating system that can be found on the internet.<br><br>
-
-            The digital signatures on this page can be used to verify that your file was created by me, and hasn't been tampered with, either on the web server, or in transit to your computer. Checking these is more dificult, but as before instructions can be found for your operating system on the internet.<br><br>
-
-            As a programmer, I am inclined to say that you should always use both the md6 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br></p>
-            <h1>WxFixBoot Museum</h1>
-            <h3>Here you can download older versions of WxFixBoot.</h3>
-            <p>These versions can be downloaded for educational purposes and are useful if
-            you're trying to run one of my programs on an operating system that I no longer
-            support, such as Ubuntu 12.10.<br><br>
-
-            Note: Some of these downloads are .tar.gz packages instead of installable packages. I don't have .deb packages for some of the older versions, so I just uploaded what I have.
-            </p>
             <!-- In-Page Navigation -->
             <nav>
                 <p id="InPageNavTitle">Versions</p>
@@ -64,6 +49,28 @@
             </nav>
 
             <!-- Page Content -->
+            <h1>WxFixBoot Museum</h1>
+            <h3>Here you can download older versions of WxFixBoot.</h3>
+            <p>These versions can be downloaded for educational purposes and are useful if
+            you're trying to run one of my programs on an operating system that I no longer
+            support, such as Ubuntu 12.10.<br><br>
+
+            Note: Some of these downloads are .tar.gz packages instead of installable packages. I don't have .deb packages for some of the older versions, so I just uploaded what I have.
+            </p>
+            <h1>About md5 Checksums and Digital Signatures</h1>
+            <h2>Md5 Checksums</h2>
+            <p>
+            The md5 sums offered on this page can be used to verify that your file downloaded successfully without corrupting in transit. These can be verified (usually on the command-line) using specific instructions for your operating system as detailed below:<br><br>
+
+            <a href="https://help.ubuntu.com/community/HowToMD5SUM" taret="_blank">Instructions for Linux</a><br>
+            <a href="https://www.garron.me/en/bits/how-to-md5sum-mac-os-x.html" target="_blank">Instructions for Mac OS X</a><br>
+            <a href="https://support.microsoft.com/en-us/kb/841290" target="_blank">Instructions for Windows (2000 or higher)</a><br><br>
+
+            In each of these cases, you can compare the output of the command to the md5 sum in the file (in the table, next to each download file).
+            <h2>Digital Signatures</h2>
+            The digital signatures on this page can be used to verify that your file was created by me, and hasn't been tampered with, either on the web server, or in transit to your computer. Checking these is more dificult, so I have decided not to include instructions here because they'd have to be very long to do it justice. Instead, please carry out a search on how to verify GPG signatures if you wish to learn how to do it. I will provide instructions in  documentation for my programs when it is created.<br><br>
+
+            As a programmer, I am inclined to say that you should always use both the md6 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br></p>
             <section>
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
                 <article>
