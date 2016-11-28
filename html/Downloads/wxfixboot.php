@@ -16,6 +16,13 @@
         <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
+            <h1>About md5 Checksums and Digital Signatures</h1>
+            <p>
+            The md5 sums offered on this page can be used to verify that your file downloaded successfully without corrupting in transit. These can be verified using specific instructions for your operating system that can be found on the internet.<br><br>
+
+            The digital signatures on this page can be used to verify that your file was created by me, and hasn't been tampered with, either on the web server, or in transit to your computer. Checking these is more dificult, but as before instructions can be found for your operating system on the internet.<br><br>
+
+            As a programmer, I am inclined to say that you should always use both the md6 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br></p>
             <h1>Downloads For WxFixBoot</h1>
             <p>
             This is the next major version of WxFixBoot. It adds tons of new features, such as support for Fedora, and support for LVM and RAID disks! It also offers better support for LILO and ELILO, and will create recovery boot entries for computers using them. The whole program has been written to handle errors better and operate more robustly.<br><br>
