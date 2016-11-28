@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>About This Website - errormania.altervista.org</title>
         <?php $BASEDIR = '/var/www/'; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'About'; ?>
-        <!--[if lte IE 9]>
-            <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
-        <![endif]-->
     </head>
     <body>
         <!-- Navigation Between Pages -->
