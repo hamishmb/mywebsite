@@ -49,31 +49,31 @@
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.2 For Ubuntu 16.10</td>
-                    <td><a href="/files/Downloads/wineautostart/2.0.2/Yakkety/wineautostart_2.0.2yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Yakkety/wineautostart_2.0.2yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.2/Yakkety/wineautostart_2.0.2yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Yakkety/wineautostart_2.0.2yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.2 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/files/Downloads/wineautostart/2.0.2/Xenial/wineautostart_2.0.2xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Xenial/wineautostart_2.0.2xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.2/Xenial/wineautostart_2.0.2xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Xenial/wineautostart_2.0.2xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.2 For Ubuntu 14.04 LTS</td>
-                    <td><a href="/files/Downloads/wineautostart/2.0.2/Trusty/wineautostart_2.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Trusty/wineautostart_2.0.2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.2/Trusty/wineautostart_2.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Trusty/wineautostart_2.0.2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Wine Autostart v2.0.2 For Ubuntu 12.04 LTS</td>
-                    <td><a href="/files/Downloads/wineautostart/2.0.2/Precise/wineautostart_2.0.2precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Precise/wineautostart_2.0.2precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.2/Precise/wineautostart_2.0.2precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Precise/wineautostart_2.0.2precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>Wine Autostart v2.0.2 For Other Linux Distributions</td>
-                    <td><a href="/files/Downloads/wineautostart/2.0.2/Otherdistro/wineautostart_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Otherdistro/wineautostart_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.2/Otherdistro/wineautostart_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.2/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.2/Otherdistro/wineautostart_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
             </table>
