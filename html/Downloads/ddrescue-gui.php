@@ -54,7 +54,7 @@
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10</td>
-                    <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><a href="/html/thankyou.php?program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
