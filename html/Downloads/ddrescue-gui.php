@@ -52,31 +52,31 @@
                     <th>No. Of Downloads</th>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.10</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Yakkety/ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 16.04 LTS</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Xenial/ddrescue-gui_1.6.1~xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 14.04 LTS</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Trusty/ddrescue-gui_1.6.1~trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Ubuntu 12.04 LTS</td>
                     <td><a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/Precise/ddrescue-gui_1.6.1~precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Light_Apple_Logo_Free.png" width="34" height="40" alt="Light Apple Logo"></td>
+                    <td><img src="/files/Icons/Light_Apple_Logo_Free.jpg" width="34" height="40" alt="Light Apple Logo"></td>
                     <td>DDRescue-GUI v1.6.1 For Mac OS X 10.6.8 Or Higher</td>
                     <td>
                         <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a> (<a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.6.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg.asc">signature</a>)<br>

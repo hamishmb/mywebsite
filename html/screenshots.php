@@ -38,52 +38,52 @@
                 <article>
                     <h2 id="DDRescue-GUIScreenshots">DDRescue-GUI</h2>
                     <h3>About Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/About%20Window.png" alt="About Window">
+                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/About%20Window.jpg" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Authentication Dialog</h3>
-                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Authentication%20Dialog.png" alt="Authentication Dialog">
+                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Authentication%20Dialog.jpg" alt="Authentication Dialog">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Settings Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Settings%20Window.png" alt="Settings Window">
+                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Settings%20Window.jpg" alt="Settings Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Disk Information Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Disk%20Info%20Window.png" alt="Disk Info Window">
+                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Disk%20Info%20Window.jpg" alt="Disk Info Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Main Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Main%20Window.png" alt="Main Window">
+                    <img class="Screenshot" src="/files/Screenshots/ddrescue-gui/Main%20Window.jpg" alt="Main Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
                     <h2 id="WxFixBootScreenshots">WxFixBoot</h2><br><br>
                     <h3>About Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/About%20Window.png" alt="About Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/About%20Window.jpg" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Authentication Dialog</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Authentication%20Dialog.png" alt="About Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Authentication%20Dialog.jpg" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Bootloader Options Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Bootloader%20Options%20Window.png" alt="Bootloader Options Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Bootloader%20Options%20Window.jpg" alt="Bootloader Options Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Main Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Main%20Window.png" alt="Main Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Main%20Window.jpg" alt="Main Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Startup Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Startup%20Window.png" alt="Startup Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/Startup%20Window.jpg" alt="Startup Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>System Information Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/System%20Info%20Window.png" alt="System Information Window">
+                    <img class="Screenshot" src="/files/Screenshots/wxfixboot/System%20Info%20Window.jpg" alt="System Information Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
                     <h2 id="WineAutostartScreenshots">Wine Autostart</h2><br><br>
                     <h3>About Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wineautostart/About%20Window.png" alt="About Window">
+                    <img class="Screenshot" src="/files/Screenshots/wineautostart/About%20Window.jpg" alt="About Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Indicator</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wineautostart/Indicator.png" alt="Indicator">
+                    <img class="Screenshot" src="/files/Screenshots/wineautostart/Indicator.jpg" alt="Indicator">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>Settings Window</h3>
-                    <img class="Screenshot" src="/files/Screenshots/wineautostart/Settings%20Window.png" alt="Settings Window">
+                    <img class="Screenshot" src="/files/Screenshots/wineautostart/Settings%20Window.jpg" alt="Settings Window">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
             </section>

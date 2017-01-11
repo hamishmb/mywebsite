@@ -51,25 +51,25 @@
                     <th>No. Of Downloads</th>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 16.10 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 16.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Xenial/wxfixboot_2.0xenial~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Xenial/wxfixboot_2.0xenial~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 14.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Trusty/wxfixboot_2.0trusty~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Trusty/wxfixboot_2.0trusty~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.svg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0 For Ubuntu 12.04 LTS</td>
                     <td><a href="/files/Downloads/wxfixboot/2.0/Precise/wxfixboot_2.0precise~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Precise/wxfixboot_2.0precise~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td>***TODO***</td>
