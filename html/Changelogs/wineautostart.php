@@ -7,7 +7,7 @@
         <![endif]-->
         <link href="/html/style.css" type="text/css" rel="stylesheet">
         <title>Wine Autostart Changelogs - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/'; ?>
+        <?php include_once '../../config.php' ; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Changelogs/wineautostart'; ?>
     </head>
@@ -55,49 +55,49 @@
                 <h2 id="2.0Series">Wine Autostart 2.0 Series</h2>
                 <article>
                     <h3 id="2.0.2">Wine Autostart v2.0.2</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0.2.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/2.0.2.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h3 id="2.0.1">Wine Autostart v2.0.1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0.1.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/2.0.1.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h3 id="2.0">Wine Autostart v2.0</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/2.0.txt"))?>
                     </p>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="2.0rc1">Wine Autostart v2.0~rc1</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/2.0rc1.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/2.0rc1.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h2 id="1.0">Wine Autostart v1.0</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/1.0.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/1.0.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h2 id="0.9">Wine Autostart v0.9</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.9.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/0.9.txt"))?>
                     </p>
                 </article>
                 <h2 id="0.8Series">Wine Autostart 0.8 Series</h2>
                 <article>
                     <h3 id="0.8.5">Wine Autostart v0.8.5</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.8.5.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/0.8.5.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h3 id="0.8">Wine Autostart v0.8</h3>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.8.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/0.8.txt"))?>
                     </p>
                 </article>
                 <article>
                     <h2 id="0.7">Wine Autostart v0.7</h2>
-                    <p class="TextFile"><?php echo nl2br(file_get_contents($BASEDIR . "files/Changelogs/wineautostart/0.7.txt"))?>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wineautostart/0.7.txt"))?>
                     </p>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>

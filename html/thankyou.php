@@ -7,15 +7,15 @@
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Thank You - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/'; ?>
+        <?php include_once '../config.php' ; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
     </head>
     <body>
         <!-- Safety Check - Do the download file and counter exist? -->
         <?php
-            $junk = file_exists($BASEDIR . $_GET['file']) or die("Invalid request.");
-            $junk = file_exists($BASEDIR . $_GET['file'] . ".counter") or die("Invalid request.");
+            $junk = file_exists($GLOBALS["BASEDIR"] . $_GET['file']) or die("Invalid request.");
+            $junk = file_exists($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter") or die("Invalid request.");
         ?>
 
         <!-- Navigation Between Pages -->
@@ -40,15 +40,15 @@
         <!-- Update the counter -->
         <!-- Read counter value -->
         <?php
-            $counter = fopen($BASEDIR . $_GET['file'] . ".counter", "r") or die("Unable to update counter!");
-            $NumberOfDownloads = (int)fread($counter,filesize($BASEDIR . $_GET['file'] . ".counter"));
+            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "r") or die("Unable to update counter!");
+            $NumberOfDownloads = (int)fread($counter,filesize($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter"));
             fclose($counter);
         ?>
 
         <!-- Write new value to counter -->
         <?php
             $NumberOfDownloads = $NumberOfDownloads + 1;
-            $counter = fopen($BASEDIR . $_GET['file'] . ".counter", "w") or die("Unable to update counter!");
+            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "w") or die("Unable to update counter!");
             fwrite($counter, (string)$NumberOfDownloads);
             fclose($counter);
         ?>

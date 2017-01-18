@@ -7,7 +7,7 @@
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Documentation For Wine Autostart - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/'; ?>
+        <?php include_once '../../config.php' ; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Docs/wineautostart'; ?>
     </head>

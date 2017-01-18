@@ -7,7 +7,7 @@
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>About This Website - errormania.altervista.org</title>
-        <?php $BASEDIR = '/var/www/'; ?>
+        <?php include_once '../config.php' ; ?>
         <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'About'; ?>
     </head>
