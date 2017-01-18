@@ -98,31 +98,31 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0.1 For Ubuntu 16.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0.1 For Ubuntu 16.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0.1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0.1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>Wine Autostart v2.0.1 For Other Linux Distributions</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -155,37 +155,37 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0 For Ubuntu 15.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Wily/wineautostart_2.0wily-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Wily/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Wily/wineautostart_2.0wily-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0 For Ubuntu 15.04</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Vivid/wineautostart_2.0vivid-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Vivid/wineautostart_2.0vivid-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0 For Ubuntu 14.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Utopic/wineautostart_2.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Utopic/wineautostart_2.0utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0 For Ubuntu 14.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Trusty/wineautostart_2.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Trusty/wineautostart_2.0trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0 For Ubuntu 12.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Precise/wineautostart_2.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Precise/wineautostart_2.0precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>Wine Autostart v2.0 For Other Linux Distributions</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Otherdistro/wineautostart_2.0otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Otherdistro/wineautostart_2.0otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -212,31 +212,31 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0~rc1 For Ubuntu 15.04</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0~rc1 For Ubuntu 14.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0~rc1 For Ubuntu 14.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v2.0~rc1 For Ubuntu 12.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                             <td>Wine Autostart v2.0~rc1 For Other Linux Distributions</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -265,43 +265,43 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 15.04</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 14.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 14.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 13.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 13.04</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Raring/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 12.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb.asc">signature</a></td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v1.0 For Ubuntu 12.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -326,25 +326,25 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.9 For Ubuntu 13.04</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Raring/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.9 For Ubuntu 12.10</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.9 For Ubuntu 12.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                         <tr>
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.9 For Ubuntu 10.04 LTS</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Lucid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -368,7 +368,7 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.8.5 For Ubuntu</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/0.8.5/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -391,7 +391,7 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.8 For Ubuntu</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.8/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
@@ -414,7 +414,7 @@
                             <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                             <td>Wine Autostart v0.7 For Ubuntu</td>
                             <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/0.7/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb.asc">signature</a>)</td>
-                            <td>***TODO***</td>
+                            <td><?php $junk = readfile($BASEDIR . "</td>
                         </tr>
                     </table>
                     <br>
