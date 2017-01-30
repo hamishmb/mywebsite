@@ -8,12 +8,11 @@
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Screenshots - errormania.altervista.org</title>
         <?php include_once '../config.php' ; ?>
-        <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Screenshots'; ?>
     </head>
     <body>
         <!-- Navigation Between Pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
 
         <!-- Content of the Page -->
         <div id="MainContent">
@@ -89,6 +88,6 @@
             </section>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>

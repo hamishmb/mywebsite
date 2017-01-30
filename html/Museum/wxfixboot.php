@@ -8,12 +8,11 @@
         <link href="/html/style.css" type="text/css" rel="stylesheet">
         <title>WxFixBoot Museum - errormania.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
-        <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Museum/wxfixboot'; ?>
     </head>
     <body>
         <!-- Navigation between pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
             <!-- In-Page Navigation -->
@@ -663,6 +662,6 @@
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>

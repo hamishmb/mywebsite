@@ -8,12 +8,11 @@
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Sample Page - errormania.altervista.org</title>
         <?php include_once '../config.php' ; ?>
-        <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
     </head>
     <body>
         <!-- Navigation Between Pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
             <h1>Welcome to the home of DDRescue-GUI, WxFixBoot and Wine Autostart!</h1>
@@ -23,6 +22,6 @@
             </p>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>

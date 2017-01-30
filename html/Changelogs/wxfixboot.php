@@ -8,12 +8,11 @@
         <link href="/html/style.css" type="text/css" rel="stylesheet">
         <title>WxFixBoot Changelogs - errormania.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
-        <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Changelogs/wxfixboot'; ?>
     </head>
     <body>
         <!-- Navigation between pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
             <h1>Changelogs For WxFixBoot</h1>
@@ -118,6 +117,6 @@
             </section>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>

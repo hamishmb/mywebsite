@@ -8,12 +8,11 @@
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Downloads For Wine Autostart - errormania.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
-        <?php $INCLUDESDIR = '/var/www/includes/'; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/wineautostart'; ?>
     </head>
     <body>
         <!-- Navigation Between Pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
             <h1>About md5 Checksums and Digital Signatures</h1>
@@ -84,6 +83,6 @@
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>
