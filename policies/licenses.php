@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- Navigation Between Pages -->
-        <?php include_once $INCLUDESDIR . 'mainnavigation.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
             <p>
@@ -30,6 +30,6 @@
             </ul>
         </div>
         <!-- Footer -->
-        <?php include_once $INCLUDESDIR . 'footer.html' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
     </body>
 </html>
