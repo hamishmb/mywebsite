@@ -5,7 +5,7 @@
         <!--[if lt IE 9]>
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
-        <link href="/html/style.css" type="text/css" rel="stylesheet">
+        <link href="../style.css" type="text/css" rel="stylesheet">
         <title>WxFixBoot Museum - errormania.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Museum/wxfixboot'; ?>
