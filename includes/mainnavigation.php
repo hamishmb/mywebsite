@@ -1,7 +1,7 @@
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
 <div id="navigation">
     <ul id="navlist">
-        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/html/index.php">Home</a></li>
+        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/html/blog.php">Blog</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a></li>
         <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Changelogs</a>
