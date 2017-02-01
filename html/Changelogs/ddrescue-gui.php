@@ -101,7 +101,7 @@
                     <h3 id="1.5">DDRescue-GUI v1.5</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.5.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.5rc1">DDRescue-GUI v1.5~rc1</h3>
@@ -118,13 +118,13 @@
                     <h3 id="1.4">DDRescue-GUI v1.4</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.4.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.4rc2">DDRescue-GUI v1.4~rc2</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.4rc2.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.4rc1">DDRescue-GUI v1.4~rc1</h3>
@@ -136,7 +136,7 @@
                     <h3 id="1.3">DDRescue-GUI v1.3</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.3.txt"))?>
                     </p>
-                    <p class="BackToTop"><p class="BackToTop"><a href="#navigation">Back To Top</a></p></p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                 </article>
                 <article>
                     <h3 id="1.3rc2">DDRescue-GUI v1.3~rc2</h3>
