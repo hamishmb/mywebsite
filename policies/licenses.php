@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Licenses - errormania.altervista.org</title>
-        <?php include_once './config.php' ; ?>
+        <?php include_once '../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
         <!--[if lte IE 9]>
             <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
