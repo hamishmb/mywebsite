@@ -1,8 +1,25 @@
+<!-- Navigation Toolbar file
+This file is part of my website.
+Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+My website is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 or,
+at your option, any later version.
+
+My website is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with My website.  If not, see <http://www.gnu.org/licenses/>.
+
+The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
 <div id="navigation">
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
-        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="http://www.hamishmb.altervista.org">Blog</a></li>
+        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="http://www.errormania.altervista.org">Blog</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a></li>
         <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Changelogs</a>
 
