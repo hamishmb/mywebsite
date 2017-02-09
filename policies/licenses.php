@@ -24,7 +24,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once '../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
         <!--[if lte IE 9]>
-            <script src="/html5shiv/html5shiv.js" type="text/javascript"></script>
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
     </head>
     <body>
@@ -48,7 +48,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             </ul>
             </p>
             <p class="AlignCenter">
-            All other content on this website, including the logos for the programs, was created by me,<br>
+            All other content on this website, besides the GPL v3.0 included on the site, including the logos for the programs, was created by me,<br>
             and is released under the terms of the GNU General Public License Version 3.0, or, at your option, any later version.<br><br>
             More details on this license:<br><br>
 
