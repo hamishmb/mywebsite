@@ -8,7 +8,7 @@
         <?php include_once './config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
         <link href="./html/style.css" rel="stylesheet" type="text/css">
-        <title>Welcome to my website - errormania.altervista.org</title>
+        <title>Welcome to my website - hamishmb.altervista.org</title>
     </head>
     <body>
         <!-- Navigation Between Pages -->

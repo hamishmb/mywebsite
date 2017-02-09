@@ -6,7 +6,7 @@
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Thank You - errormania.altervista.org</title>
+        <title>Thank You - hamishmb.altervista.org</title>
         <?php include_once '../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
     </head>

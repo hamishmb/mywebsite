@@ -6,7 +6,7 @@
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
         <link href="/html/style.css" type="text/css" rel="stylesheet">
-        <title>DDRescue-GUI Museum - errormania.altervista.org</title>
+        <title>DDRescue-GUI Museum - hamishmb.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Museum/ddrescue-gui'; ?>
     </head>
