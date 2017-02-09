@@ -48,7 +48,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             </ul>
             </p>
             <p class="AlignCenter">
-            All other content on this website, except the GNU General Public License Version 3.0, or, at your option, any later version.<br><br>
+            All other content on this website, except the GPL v3.0 included on the site, including the logos for the programs, was created by me,<br>
+            and is released under the terms of the GNU General Public License Version 3.0, or, at your option, any later version.<br><br>
             More details on this license:<br><br>
 
             Copyright (C) 2016-2017 Hamish McIntyre-Bhatty<br>
