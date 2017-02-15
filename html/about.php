@@ -40,7 +40,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     This website is a useful rescource for people who want to use or download my programs, and also those who want to read the changelogs and explore the museum.<br><br>
 
                     I wrote this website in pure HTML5 and CSS3 so it performs well even on older systems, following my policy of trying to be as backwards-compatible as possible, while still making use of new features where possible.
-                    This site is a good example of that, it looks good and works fine in all the major browsers, but it still works just fine in Internet Explorer 8 and old versions of Safari and Firefox.
+                    This site is a good example of that, it looks good and works fine in all the major browsers, but it still works just fine in Internet Explorer 10 and old versions of Safari and Firefox.
                     </p>
                 </article>
                 <article>

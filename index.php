@@ -19,10 +19,10 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <?php include_once './config.php' ; ?>
         <!--[if lt IE 9]>
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
+        <?php include_once './config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
         <link href="./html/style.css" rel="stylesheet" type="text/css">
         <title>Welcome to my website - hamishmb.altervista.org</title>
