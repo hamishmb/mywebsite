@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <!-- Wine Autostart Downloads Page
 This file is part of my website.
 Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
@@ -15,7 +17,6 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
