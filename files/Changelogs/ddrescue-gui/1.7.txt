@@ -1,0 +1,97 @@
+DDRescue-GUI (v1.7):
+  * Changes since v1.6.1:
+
+  * Pull in new GetDevInfo from WxFixBoot.
+  * Prevent user from starting 2+ instances at once (AuthWindow fix).
+  * Prevent user from accidentally overwriting the recovery log file.
+  * Show how much data was recovered on FinishedWindow.
+  * Improve unexpected error handling.
+  * Create emergency exit function (allows easy saving of log file in situations when the GUI would otherwise hae crashed).
+  * Make a algorithm for creating unique dictionary keys.
+  * Use this feature for all 3 file choices.
+  * Attempt to veto system shutdowns.
+  * Shutdown the logging system when the system is shutting down.
+  * Attempt to handle UTF-8 input from programs.
+  * Start to refactor choice box handlers.
+  * Fix bugs in FileChoiceHandler().
+  * Auto-add file extension to logs if needed.
+  * Fix Unicode char handling.
+  * Move Output Box functions into custom class.
+  * Update the copyright info for 2017.
+  * General maintenance.
+  * Report errors better in FinishedWindow().UnmountOutputFile().
+  * Refactoring + Performance improvements + better error handling in FinishedWindow.MountDiskOSX/Linux().
+  * Fix errors in MountDiskOSX().
+  * Handle hdiutil "Resource temporarily unavailable" errors.
+  * Fix some silly errors in MacRunHdiutil().
+  * Fix some more bugs in MountDiskOSX().
+  * Create BackendTools().SendNotification().
+  * Make MainWindow wider by default.
+  * Create unit test package and files.
+  * Create some tests for etDevInfo.IsPartition().
+  * Test unittest framework on both platforms.
+  * Make unit test for GetDevInfo.GetVendor().
+  * Finish basic Linux DevInfoTools tests.
+  * Make unit test for GetVendor on Mac.
+  * Write some OS X tests.
+  * Fix OS X bug in GetDescription.
+  * Make Linux LVM test (finished DevInfoTools test).
+  * Put test data in separate files.
+  * Make Tests.py accept options to pick test suite.
+  * Start work on BackendTools tests.
+  * Create 1st BackendTools test.
+  * Create test for CreateUniqueKey().
+  * Make notification test.
+  * Make hdiutil test.
+  * Make IsMounted test.
+  * Make GetMountPointOf test.
+  * Make basic tests for MountPartition.
+  * Make tests more automated.
+  * Refactor some stuff.
+  * Make separate file with some functions for BackendToolsTests.
+  * Don't run tests when not root.
+  * Adapt GetDevInfo.GetBlockSize() so we can make a test for it.
+  * Write a test for it.
+  * Finish BackendTools tests.
+  * Fix multiple errors in the tests.
+  * Fix OS X bug in IsMounted.
+  * Fix various bugs in BackendTools and fix more OS X tests.
+  * Add "-d, --debug" options to enable full debug log messages in tests.
+  * Re-enable StartProcess() tests. (Disabled because they're slow and were impacting dev speed).
+  * Make OS X disk mounting more reliable.
+  * Bump version to 1.7.
+  * Merge MountDiskOSX and MountDiskLinux.
+  * Fix MountDisk on Linux.
+  * Fix minor bug in FileChoiceHandler.
+  * Create DetermineOutputFileType().
+  * Create MacGetDevAndMountPoint().
+  * Update FinishedWindow panel before showing mount success dialog to fix layout glitch.
+  * Refactoring in MountDisk().
+  * Fix silly errors in MountDisk().
+  * Test MountDisk().
+  * Fix some bugs in UnmountOutputFile().
+  * Improve reliability with unsupported versions of ddrescue.
+  * Organise ddrescue output-grabbing functions in separate files (see commit history for more details).
+  * Check ddrescue version on startup and warn user if unsupported.
+  * Test this stuff on MacOS.
+  * Get ddrescue functions organiser working.
+  * Fix the race condition causing the "can't get initial status" error.
+  * Refactoring in ProcessLine.
+  * Add support for ddrescue v1.22.
+  * Set time remaining to 0 when recovery is finished.
+  * Fix a bug cancelling quitting from FinishedWindow.
+  * Test on all ddrescue versions.
+  * Check options are compatible with ddrescue 1.22.
+  * Select best ddrescue tools if on an unsupported version.
+  * Compile ddrescue 1.22 on OS X 10.6 and add to repo to make maintaining easier.
+  * Handle Hdiutuil errors in MacRunHdiutil.
+  * Link to my website instead of launchpad.
+  * Add new dependencies to the OS X build scripts.
+  * OS X packaging test.
+  * OS X: Fix the ddrescue binary's permissions.
+  * Change the "RescourcePath" variable to "ResourcePath" so it's spelt right.
+  * Fix hdiutil resource temporarily unavailable error (OS X El Cap or higher, fix for older versions coming in next release).
+  * Create option on DDRescue-GUI.py to run the tests, so you can do it in the OS X image too.
+  * Basic tests on all OS X versions.
+  * Make windows 20px wider to look better on old OS X versions.
+  * Amend the privacy policy to note that the version of ddrescue is now gathered as well.
