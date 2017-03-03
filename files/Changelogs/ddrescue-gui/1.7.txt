@@ -95,3 +95,6 @@ DDRescue-GUI (v1.7):
   * Basic tests on all OS X versions.
   * Make windows 20px wider to look better on old OS X versions.
   * Amend the privacy policy to note that the version of ddrescue is now gathered as well.
+  * Fix a bug when closing from FinishedWindow.
+  * Fix typo in abort code.
+  * Fix a few small typos.

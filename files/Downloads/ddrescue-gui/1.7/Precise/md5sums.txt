@@ -1,0 +1,1 @@
+15985850e1656c773f7269b11fb6928f  ./ddrescue-gui_1.7-0ubuntu1~ppa1_all.deb

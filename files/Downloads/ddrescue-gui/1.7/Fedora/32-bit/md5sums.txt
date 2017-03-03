@@ -1,0 +1,1 @@
+a0f8abc8a6436a9813500a61f19fbad3  ./ddrescue-gui-1.7-1.fc24.i686.rpm
