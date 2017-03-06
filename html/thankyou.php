@@ -57,7 +57,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <!-- Update the counter -->
         <!-- Read counter value -->
         <?php
-            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "r") or die("Unable to update counter!");
+            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "r") or die("Unable to read counter value!");
             $NumberOfDownloads = (int)fread($counter,filesize($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter"));
             fclose($counter);
         ?>
@@ -65,7 +65,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <!-- Write new value to counter -->
         <?php
             $NumberOfDownloads = $NumberOfDownloads + 1;
-            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "w") or die("Unable to update counter!");
+            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "w") or die("Unable to update the  counter!");
             fwrite($counter, (string)$NumberOfDownloads);
             fclose($counter);
         ?>
