@@ -68,7 +68,13 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>WxFixBoot v2.0 For Ubuntu 16.10 LTS</td>
+                    <td>WxFixBoot v2.0 For Ubuntu 17.04</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0/Zesty/wxfixboot_2.0zesty~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Zesty/wxfixboot_2.0zesty~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0/Zesty/wxfixboot_2.0zesty~update1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td>WxFixBoot v2.0 For Ubuntu 16.10</td>
                     <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0/Yakkety/wxfixboot_2.0yakkety~update1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
                 </tr>
