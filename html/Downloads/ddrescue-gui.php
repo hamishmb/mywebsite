@@ -48,7 +48,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             As a programmer, I am inclined to say that you should always use both the md6 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <h1>Downloads For DDRescue-GUI</h1>
             <p>
-            This is a new release of DDRescue-GUI which includes a lot of improvements such as ddrescue v1.21 support, as well as bug fixes and stability improvements.<br><br>
+            This is a new release of DDRescue-GUI which includes a lot of improvements such as ddrescue v1.22 support, as well as bug fixes and stability improvements.<br><br>
 
             For all the details, see my blog post at http://errormania.altervista.org/ddrescue-gui-v1-7-now-stable-released/.<br><br>
 
