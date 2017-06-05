@@ -41,7 +41,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <!-- 1.7 Series -->
                     <li>
                         <a href="#1.7Series">1.7 Series</a>
-                        <ol>
+                        <ol>    
+                            <li><a href="#1.7.1">1.7.1 (Stable)</a></li>
                             <li><a href="#1.7">1.7 (Stable)</a></li>
                         </ol>
                     </li>
@@ -107,6 +108,11 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             </nav>
             <section>
                 <h2 id="1.7Series">DDRescue-GUI 1.7 Series</h2>
+                <article>
+                    <h3 id="1.7.1">DDRescue-GUI v1.7.1</h3>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.7.1.txt"))?>
+                    </p>
+                </article>
                 <article>
                     <h3 id="1.7">DDRescue-GUI v1.7</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/ddrescue-gui/1.7.txt"))?>

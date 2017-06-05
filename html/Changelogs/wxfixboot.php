@@ -42,6 +42,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <li>
                         <a href="#2.0Series">2.0 Series</a>
                         <ol>
+                            <li><a href="#2.0.1">2.0.1 (Stable)</a></li>
                             <li><a href="#2.0">2.0 (Stable)</a></li>
                             <li><a href="#2.0pre2">2.0~pre2 (Development)</a></li>
                             <li><a href="#2.0pre1">2.0~pre1 (Development)</a></li>
@@ -68,6 +69,12 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             </nav>
             <section>
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
+                <article>
+                    <h3 id="2.0.1">WxFixBoot v2.0.1</h3>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wxfixboot/2.0.1.txt"))?>
+                    </p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                </article>
                 <article>
                     <h3 id="2.0">WxFixBoot v2.0</h3>
                     <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/wxfixboot/2.0.txt"))?>
