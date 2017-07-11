@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- Changelogs For Stroodlr
+This file is part of my website.
+Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+My website is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 or,
+at your option, any later version.
+
+My website is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with My website.  If not, see <http://www.gnu.org/licenses/>.
+
+The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+        <link href="/html/style.css" type="text/css" rel="stylesheet">
+        <title>WxFixBoot Changelogs - hamishmb.altervista.org</title>
+        <?php include_once '../../config.php' ; ?>
+        <?php $GLOBALS["CURRENTPAGE"] = 'Changelogs/stroodlr'; ?>
+    </head>
+    <body>
+        <!-- Navigation between pages -->
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
+        <!-- Content of the Page -->
+        <div id="MainContent">
+            <h1>Changelogs For Stroodlr</h1>
+            <!-- In-Page Navigation -->
+            <nav>
+                <p id="InPageNavTitle">Versions</p>
+                <ol id="InPageNavigation">
+                    <!-- Version 0.9 -->
+                    <li><a href="#0.9">0.9 (Preview)</a></li>
+                </ol>
+            </nav>
+            <section>
+                <article>
+                    <h2 id="0.9">Stroodlr v0.9</h2>
+                    <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/stroodlr/0.9.txt"))?>
+                    </p>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
+                </article>
+            </section>
+        </div>
+        <!-- Footer -->
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
+    </body>
+</html>
