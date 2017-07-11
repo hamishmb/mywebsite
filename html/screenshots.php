@@ -45,6 +45,9 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <!-- WxFixBoot -->
                     <li><a href="#WxFixBootScreenshots">WxFixBoot</a></li>
 
+                    <!-- Stroodlr -->
+                    <li><a href="#StroodlrScreenshots">Stroodlr</a></li>
+
                     <!-- Wine Autostart -->
                     <li><a href="#WineAutostartScreenshots">Wine Autostart</a></li>
                 </ol>
@@ -89,6 +92,11 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
                     <h3>System Information Window</h3>
                     <img class="Screenshot" src="/files/Screenshots/wxfixboot/System%20Info%20Window.jpg" alt="System Information Window">
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
+                </article>
+                <article>
+                    <h2 id="StroodlrScreenshots">Stroodlr</h2><br><br>
+                    <img class="Screenshot" src="/files/Screenshots/stroodlr/main.jpg" alt="Stroodlr Client">
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
