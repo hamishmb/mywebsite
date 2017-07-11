@@ -26,6 +26,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <ul class="Changelogs">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/wxfixboot.php"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/stroodlr.php"><br>Stroodlr<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 
@@ -35,6 +36,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <ul class="Downloads">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wxfixboot.php"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/stroodlr.php"><br>Stroodlr<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 
@@ -44,6 +46,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <ul class="Documentation">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Docs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Docs/wxfixboot.php"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Docs/stroodlr.php"><br>Stroodlr<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Docs/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 
