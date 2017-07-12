@@ -1,0 +1,2 @@
+5e18b9e884e2e7732dd0c5975d0e4c7c  stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb
+9928d0a2c0ee807b2b3509eee7138ec8  stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb

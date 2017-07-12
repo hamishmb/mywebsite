@@ -67,7 +67,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
                     </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr-0.9zesty-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr-0.9zesty-0ubuntu1_i386.deb.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
@@ -76,7 +76,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
                     </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr-0.9yakkety-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr-0.9yakkety-0ubuntu1_i386.deb.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
@@ -85,7 +85,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
                     </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr-0.9xenial-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr-0.9xenial-0ubuntu1_i386.deb.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
@@ -94,7 +94,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
                     </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr-0.9trusty-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr-0.9trusty-0ubuntu1_i386.deb.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
@@ -117,8 +117,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>Stroodlr v0.9 For Other Linux Distributions</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/stroodlr/0.9/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/stroodlr/0.9/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
                 </tr>
             </table>
             <br>
