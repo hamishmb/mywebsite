@@ -1,0 +1,1 @@
+b0232120fa778dad5c3275f057db4397  ./ddrescue-gui_1.7.1~otherdistro-0ubuntu1~ppa1.tar.gz
