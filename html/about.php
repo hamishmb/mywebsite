@@ -58,6 +58,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
                     WxFixBoot is entirely open-source and supports working on multiple Linux distros at once, as well as supporting all the common bootloaders (grub2, grub2-efi, lilo, elilo, grub-legacy for transitioning old systems to grub2). It uses a more advanced version of the disk information obtainer used in DDRescue-GUI, so it detects LVM and RAID disks as well, so fixing your bootloader can be made simple and easy. Finally, WxFixBoot can also check your hard disks for errors and bad sectors, as well as backing up and restoring your bootloaders' configuration and making a diagnostic system report to aid you if you require assistance with your system.
                     </p>
+                    
                     <h3>Wine Autostart</h3>
                     <img class="Screenshot" src="/files/Logos/Wine%20Autostart.jpg" alt="Wine Autostart">
                     <p>

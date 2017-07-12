@@ -24,7 +24,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Downloads For stroodlr - hamishmb.altervista.org</title>
+        <title>Downloads For Stroodlr - hamishmb.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Downloads/stroodlr'; ?>
     </head>
@@ -62,13 +62,61 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>Stroodlr v0.9 For Ubuntu 14.04 LTS Or Higher</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
+                    <td>Stroodlr v0.9 For Ubuntu 17.04</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Zesty/stroodlr_0.9zesty-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr-0.9zesty-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Zesty/stroodlr-0.9zesty-0ubuntu1_i386.deb.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td>Stroodlr v0.9 For Ubuntu 16.10</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Yakkety/stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr-0.9yakkety-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Yakkety/stroodlr-0.9yakkety-0ubuntu1_i386.deb.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td>Stroodlr v0.9 For Ubuntu 16.04 LTS</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Xenial/stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr-0.9xenial-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Xenial/stroodlr-0.9xenial-0ubuntu1_i386.deb.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                    <td>Stroodlr v0.9 For Ubuntu 14.04 LTS</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr-0.9trusty-0ubuntu1_amd64.deb.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr-0.9trusty-0ubuntu1_i386.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                    <td>Stroodlr v0.9 For Fedora 24 Or Higher</td>
+                    <td>Stroodlr v0.9 For Fedora 26</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc26.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc26.x86_64.rpm.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc26.i686.rpm">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc26.i686.rpm.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc26.x86_64.rpm.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc26.i686.rpm.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
+                    <td>Stroodlr v0.9 For Fedora 25</td>
+                    <td>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc25.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc25.x86_64.rpm.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc25.i686.rpm">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc25.i686.rpm.asc">signature</a>)
+                    </td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc25.x86_64.rpm.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc25.i686.rpm.counter"); ?></td>
+                </tr>
+                <tr>
+                    <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
+                    <td>Stroodlr v0.9 For Fedora 24</td>
                     <td>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc24.x86_64.rpm.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc24.i686.rpm.asc">signature</a>)
