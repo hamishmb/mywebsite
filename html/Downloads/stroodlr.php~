@@ -64,27 +64,27 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>Stroodlr v0.9 For Ubuntu 14.04 LTS Or Higher</td>
                     <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/stroodlr/0.9/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty~update1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Trusty/stroodlr_0.9trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>Stroodlr v0.9 For Fedora 24 Or Higher</td>
                     <td>
-                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/2.0.1/Fedora/64-bit/stroodlr-2.0.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/2.0.1/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/2.0.1/Fedora/64-bit/stroodlr-2.0.1-1.fc24.x86_64.rpm.asc">signature</a>)<br>
-                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/2.0.1/Fedora/32-bit/stroodlr-2.0.1-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/stroodlr/2.0.1/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/2.0.1/Fedora/32-bit/stroodlr-2.0.1-1.fc24.i686.rpm.asc">signature</a>)
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc24.x86_64.rpm.asc">signature</a>)<br>
+                        <a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc24.i686.rpm.asc">signature</a>)
                     </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/2.0.1/Fedora/64-bit/stroodlr-2.0.1-1.fc24.x86_64.rpm.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/2.0.1/Fedora/32-bit/stroodlr-2.0.1-1.fc24.i686.rpm.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/64-bit/stroodlr-0.9-1.fc24.x86_64.rpm.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/Fedora/32-bit/stroodlr-0.9-1.fc24.i686.rpm.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                    <td>Stroodlr v2.0.1 For Other Linux Distributions</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/2.0.1/OtherDistro/stroodlr_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/stroodlr/2.0.1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/2.0.1/OtherDistro/stroodlr_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/2.0.1/OtherDistro/stroodlr_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                    <td>Stroodlr v0.9 For Other Linux Distributions</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/stroodlr.php&program=stroodlr&file=/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/stroodlr/0.9/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/stroodlr/0.9/OtherDistro/stroodlr_0.9otherdistro~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
                 </tr>
             </table>
             <br>
             <h2>Older Versions?</h2>
-            <p>Want to download an older version? Head over to the <a href="/html/Museum/ddrescue-gui.php">Museum</a>.</p>
+            <p>This is the first version of Stroodlr.</p>
             <h2>Licences</h2>
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
         </div>

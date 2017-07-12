@@ -45,7 +45,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <h2>Digital Signatures</h2>
             The digital signatures on this page can be used to verify that your file was created by me, and hasn't been tampered with, either on the web server, or in transit to your computer. Checking these is more dificult, so I have decided not to include instructions here because they'd have to be very long to do it justice. Instead, please carry out a search on how to verify GPG signatures if you wish to learn how to do it. I will provide instructions in  documentation for my programs when it is created.<br><br>
 
-            As a programmer, I am inclined to say that you should always use both the md6 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
+            As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <h1>Downloads For WxFixBoot</h1>
             <p>
             It's time again for a new WxFixBoot. Though it has a minor version number, there are plenty of major changes in this release still.<br><br>
