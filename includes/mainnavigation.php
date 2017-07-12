@@ -16,6 +16,10 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
+
+<!-- Enable to display maintenance page instead of whatever page was requested. -->
+<!-- <?php header("Location: /maintenance.php"); ?> -->
+
 <div id="navigation">
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>

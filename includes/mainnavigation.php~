@@ -16,6 +16,10 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
+
+<!-- E
+<!-- <?php header("Location: /maintenance.php"); ?> -->
+
 <div id="navigation">
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
@@ -56,7 +60,6 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <ul class="Museum">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Museum/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Museum/wxfixboot.php"><br>WxFixBoot<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Museum/stroodlr.php"><br>Stroodlr<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Museum/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 

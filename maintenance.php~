@@ -25,11 +25,11 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <![endif]-->
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Down for maintenance - hamishmb.altervista.org</title>
-        <?php include_once './config.php' ; ?>
+        <?php include_once '../config.php' ; ?>
     </head>
     <body>
         <!-- Content of the Page -->
-        <div id="MainContent">
+        <div>
             <h1>This website is currently being updated and is temporarily down for maintenance. Check back soon!</h1>
         </div>
 
