@@ -68,25 +68,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Ubuntu 17.04</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Zesty/ddrescue-gui_1.7.1~zesty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Zesty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Zesty/ddrescue-gui_1.7.1~zesty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Zesty/ddrescue-gui_1.7.1~zesty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Ubuntu 16.10</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Yakkety/ddrescue-gui_1.7.1~yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Yakkety/ddrescue-gui_1.7.1~yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Yakkety/ddrescue-gui_1.7.1~yakkety-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Ubuntu 16.04 LTS</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Xenial/ddrescue-gui_1.7.1~xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Xenial/ddrescue-gui_1.7.1~xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Xenial/ddrescue-gui_1.7.1~xenial-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                </tr>
-                <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Ubuntu 14.04 LTS</td>
+                    <td>DDRescue-GUI v1.7.1 For Ubuntu 14.04 LTS Or Higher</td>
                     <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Trusty/ddrescue-gui_1.7.1~trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Trusty/ddrescue-gui_1.7.1~trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
                     <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Trusty/ddrescue-gui_1.7.1~trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
                 </tr>
@@ -94,7 +76,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <td><img src="/files/Icons/Light_Apple_Logo_Free.jpg" width="34" height="40" alt="Light Apple Logo"></td>
                     <td>DDRescue-GUI v1.7.1 For Mac OS X 10.9 Or Higher</td>
                     <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/OS%20X/DDRescue-GUI.dmg">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/DDRescue-GUI.dmg.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/DDRescue-GUI.dmg.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/32-bit/DDRescue-GUI32-bit.dmg.counter"); ?></td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/DDRescue-GUI.dmg.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
