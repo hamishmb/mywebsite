@@ -58,7 +58,10 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
                     WxFixBoot is entirely open-source and supports working on multiple Linux distros at once, as well as supporting all the common bootloaders (grub2, grub2-efi, lilo, elilo, grub-legacy for transitioning old systems to grub2). It uses a more advanced version of the disk information obtainer used in DDRescue-GUI, so it detects LVM and RAID disks as well, so fixing your bootloader can be made simple and easy. Finally, WxFixBoot can also check your hard disks for errors and bad sectors, as well as backing up and restoring your bootloaders' configuration and making a diagnostic system report to aid you if you require assistance with your system.
                     </p>
-                    
+                    <h3>Stroodlr</h3>
+                    <p>
+                    Stroodlr is a Super reTRo Object OrienteD Linux message Relay, a simple commandline chat client. It allows users on different machines on the local network to send messages to each other. Stroodlr makes used of the C++ Boost library to provide socket support, and is written to be efficient, so it runs just fine even on a Raspberry Pi. Currently Stroodlr is in development and isn't fully functional, but if you want to download it, head to the downloads page from the navigation bar at the top.<br><br>
+                    </p>
                     <h3>Wine Autostart</h3>
                     <img class="Screenshot" src="/files/Logos/Wine%20Autostart.jpg" alt="Wine Autostart">
                     <p>
@@ -69,7 +72,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <h2>About me</h2>
                     <img class="Screenshot" src="/files/Profile/96x96.jpg" alt="Profile Picture">
                     <p>
-                    I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently learning to program in C++. My next program will be written in C++, for those who are interested. I also enjoy cycling, acting, climbing, and gardening when I can.
+                    I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently writing my next program in C++. I also enjoy cycling, acting, climbing, and gardening when I can.
                     </p>
                 </article>
             </section>
