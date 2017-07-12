@@ -17,8 +17,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
 
-<!-- Enable to display maintenance page instead of whatever page was requested. -->
-<!-- <?php header("Location: /maintenance.php"); ?> -->
+<!-- Uncomment to display maintenance page instead of whatever page was requested. -->
+<?php //header("Location: /maintenance.php"); ?>
 
 <div id="navigation">
     <ul id="navlist">
