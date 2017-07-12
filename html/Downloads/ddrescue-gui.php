@@ -91,23 +91,14 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Trusty/ddrescue-gui_1.7.1~trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
                 </tr>
                 <tr>
-                    <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Ubuntu 12.04 LTS</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Precise/ddrescue-gui_1.7.1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Precise/ddrescue-gui_1.7.1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/Precise/ddrescue-gui_1.7.1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                </tr>
-                <tr>
                     <td><img src="/files/Icons/Light_Apple_Logo_Free.jpg" width="34" height="40" alt="Light Apple Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Mac OS X 10.6.8 Or Higher</td>
-                    <td>
-                        <a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg">64-bit (Recommended)</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/64-bit/DDRescue-GUI64-bit.dmg.asc">signature</a>)<br>
-                        <a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg">32-bit</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/32-bit/DDRescue-GUI32-bit.dmg.asc">signature</a>)
-                    </td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/64-bit/DDRescue-GUI64-bit.dmg.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/32-bit/DDRescue-GUI32-bit.dmg.counter"); ?></td>
+                    <td>DDRescue-GUI v1.7.1 For Mac OS X 10.9 Or Higher</td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/OS%20X/DDRescue-GUI.dmg">All Systems</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/OS%20X/DDRescue-GUI.dmg.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/DDRescue-GUI.dmg.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/ddrescue-gui/1.7.1/OS X/32-bit/DDRescue-GUI32-bit.dmg.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                    <td>DDRescue-GUI v1.7.1 For Fedora 23 Or Higher</td>
+                    <td>DDRescue-GUI v1.7.1 For Fedora 24 Or Higher</td>
                     <td>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Fedora/64-bit/ddrescue-gui-1.7.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Fedora/64-bit/ddrescue-gui-1.7.1-1.fc24.x86_64.rpm.asc">signature</a>)<br>
                         <a href="/html/thankyou.php?prevpage=/html/Downloads/ddrescue-gui.php&program=DDRescue-GUI&file=/files/Downloads/ddrescue-gui/1.7.1/Fedora/32-bit/ddrescue-gui-1.7.1-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/ddrescue-gui/1.7.1/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/ddrescue-gui/1.7.1/Fedora/32-bit/ddrescue-gui-1.7.1-1.fc24.i686.rpm.asc">signature</a>)
