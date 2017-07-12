@@ -1,0 +1,70 @@
+WxFixBoot (2.0.1):
+  * Changes since v2.0:
+
+  * Interpret all cmdline input as UTF-8.
+  * Try harder to get the correct LV filesystem paths.
+  * Fix a bug related to the above.
+  * Get all of the aliases for LVM disks in GetDevInfo.
+  * Use Aliases to avoid confusion over which OS is the default one.
+  * Tell user how to hide the boot menu if there's just 1 OS detected.
+  * Enable support for hiding the boot menu.
+  * Fix RootFS detection on Ubuntu installations that use LVM.
+  * Display the above boot menu message more nicely.
+  * If we can't get the OS name with the python script, use lsb_release -sd if possible (fixes detection on eg Devuan).
+  * Attempt to veto shutdowns during operations.
+  * Wait until the package manager isn't busy, rather than failing if it is.
+  * Add the unit tests from DDRescue-GUI.
+  * Write unit tests for GetDevInfo.
+  * Sort of port BackendToolsTests from DDRescue-GUI to CoreTools.
+  * Fix GetCapacityTest.
+  * Fix Misc GetDevInfo stuff.
+  * Fix CoreTools tests.
+  * Write test for CoreTools.GetPartitionMountedAt().
+  * Write DlgTools tests.
+  * Write EssentialBackendTools tests.
+  * Write test for WaitUntilPackageManagerNotInUse().
+  * Write test for FindMissingFSCKModules().
+  * Write test for FindCheckableFileSystems().
+  * Write test for HandleFileSystemCheckReturnValues().
+  * Separate the tests into subpackages.
+  * Make a file to hold special dialog tools used during the tests.
+  * Use the above in CoreToolsTests and DialogToolsTests.
+  * Use it in HelperBackendToolsTests, and EssentialBackendToolsTests.
+  * Stop dialogs from getting in the way during tests (use wx.Yield() to process events to close them).
+  * Make test for DeterminePackageManager.
+  * Make test for GetFSTabInfo.
+  * Make test for DetermineOSArch.
+  * Make test for GetOSNameWithLSB.
+  * Write tests for AskForOSName.
+  * Write test for CheckDepends.
+  * Write test for CheckForLiveDisk.
+  * Write test for GetOSs.
+  * Write test for GetFirmwareType.
+  * Write test for FinalCheck.
+  * Test the tests (on Mint 18.1).
+  * Handle bootloaders that don't have any menu entries (broken configuration).
+  * Detect Windows.
+  * Fix ME and XP detection.
+  * Detect Mac OS X.
+  * Prevent name duplication for Windows and OS X (causes WxFixBoot to "forget" other Windows/OSX OSs).
+  * Fix issue detecting OS X 10.10 and later.
+  * Test detection of OS X.
+  * Fix low-importance bug detecting vfat filesystems on Ubuntu 14.04.
+  * Improve reliability of default OS setter/getter.
+  * All privacy policy to github.
+  * Fix FindCheckableFileSystem test.
+  * Fix GetOSs test.
+  * Always specify a parent when displaying dialogs during unit tests to avoid weird/random errors.
+  * Remove .py~, .pyc files from repo (unnecessary).
+  * Test the unit tests on Ubuntu (all supported versions).
+  * Fix waiting until YUM isn't busy.
+  * Fix GetDevInfo tests on Fedora.
+  * Test the unit tests on Fedora (all supported versions).
+  * Test the unit tests on Parted Magic.
+  * Fix checking if there is 1 or more Linux OS (OS X and Windows were being counted too, causing problems later).
+  * Retest the unit tests on Ubuntu.
+  * Add LICENSE file to github.
+  * Fix a bug where the default OS choice is sometimes forgotten.
+  * Fix incorrect LV/VG names.
+  * Fix the default OS getter and setter.
+  * Update the message prompting to hide the bootloader, because we now detect Mac OS X and Windows.
