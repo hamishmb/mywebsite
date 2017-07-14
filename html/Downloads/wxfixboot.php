@@ -67,8 +67,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 <tr>
                     <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                     <td>WxFixBoot v2.0.2 For Ubuntu 14.04 LTS Or Higher</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty~update1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/Trusty/wxfixboot_2.0.2trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
@@ -82,14 +82,14 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>WxFixBoot v2.0.2 For Parted Magic</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/Pmagic/wxfixboot_2.0.2pmagic-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
                 </tr>
                 <tr>
                     <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
                     <td>WxFixBoot v2.0.2 For Other Linux Distributions</td>
-                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                    <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.2/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                    <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.2/OtherDistro/wxfixboot_2.0.2otherdistro-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
                 </tr>
             </table>
             <br>
