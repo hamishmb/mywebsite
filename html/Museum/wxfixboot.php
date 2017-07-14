@@ -41,6 +41,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <li>
                         <a href="#2.0Series">2.0 Series</a>
                         <ol>
+                            <li><a href="#2.0.1">2.0.1 (Stable)</a></li>
                             <li><a href="#2.0">2.0 (Stable)</a></li>
                             <li><a href="#2.0pre2">2.0~pre2 (Development)</a></li>
                             <li><a href="#2.0pre1">2.0~pre1 (Development)</a></li>
@@ -90,6 +91,54 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify your downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <section>
                 <h2 id="2.0Series">WxFixBoot 2.0 Series</h2>
+                <article>
+                    <h3 id="2.0.1">WxFixBoot v2.0.1</h3>
+                    <p>
+                    It's time again for a new WxFixBoot. Though it has a minor version number, there are plenty of major changes in this release still.<br><br>
+
+                    This release contains multiple bug and crash fixes, as well as important new features like WIndows and macOS detection. See my blog post at www.errormania.altervista.org/wxfixboot-2-0-1-released for all the details.<br><br>
+
+                    I would recommend upgrading all existing installations to this one, and as always if you have my PPA, you will automatically get the update.<br><br>
+                    </p>
+                    <table>
+                        <caption><h2>Download Files</h2></caption>
+                        <tr>
+                            <th>Icon</th>
+                            <th>Description</th>
+                            <th>Download</th>
+                            <th>No. Of Downloads</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                            <td>WxFixBoot v2.0.1 For Ubuntu 14.04 LTS Or Higher</td>
+                            <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.1/Trusty/wxfixboot_2.0.1trusty~update1-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.1/Trusty/wxfixboot_2.0.1trusty~update1-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
+                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.1/Trusty/wxfixboot_2.0.1trusty~update1-0ubuntu1~ppa1_all.deb.counter"); ?></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
+                            <td>WxFixBoot v2.0.1 For Fedora 24 Or Higher</td>
+                            <td>
+                                <a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.1/Fedora/64-bit/wxfixboot-2.0.1-1.fc24.x86_64.rpm">64-bit (Recommended)</a> (<a href="/files/Downloads/wxfixboot/2.0.1/Fedora/64-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.1/Fedora/64-bit/wxfixboot-2.0.1-1.fc24.x86_64.rpm.asc">signature</a>)<br>
+                                <a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.1/Fedora/32-bit/wxfixboot-2.0.1-1.fc24.i686.rpm">32-bit</a> (<a href="/files/Downloads/wxfixboot/2.0.1/Fedora/32-bit/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.1/Fedora/32-bit/wxfixboot-2.0.1-1.fc24.i686.rpm.asc">signature</a>)
+                            </td>
+                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.1/Fedora/64-bit/wxfixboot-2.0.1-1.fc24.x86_64.rpm.counter"); echo " and "; $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.1/Fedora/32-bit/wxfixboot-2.0.1-1.fc24.i686.rpm.counter"); ?></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
+                            <td>WxFixBoot v2.0.1 For Parted Magic</td>
+                            <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.1/Pmagic/wxfixboot_2.0.1pmagic~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.1/Pmagic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.1/Pmagic/wxfixboot_2.0.1pmagic~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.1/Pmagic/wxfixboot_2.0.1pmagic~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
+                            <td>WxFixBoot v2.0.1 For Other Linux Distributions</td>
+                            <td><a href="/html/thankyou.php?prevpage=/html/Downloads/wxfixboot.php&program=WxFixBoot&file=/files/Downloads/wxfixboot/2.0.1/OtherDistro/wxfixboot_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wxfixboot/2.0.1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wxfixboot/2.0.1/OtherDistro/wxfixboot_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
+                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wxfixboot/2.0.1/OtherDistro/wxfixboot_2.0.1otherdistro~update1-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
+                </article>
                 <article>
                     <h3 id="2.0">WxFixBoot v2.0</h3>
                     <p>
