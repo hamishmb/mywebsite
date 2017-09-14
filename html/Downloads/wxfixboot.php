@@ -48,6 +48,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify your downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <h1>Downloads For WxFixBoot</h1>
             <p>
+            UPDATE 14/9/2017: The packages are confirmed working with Ubuntu 17.10. I can't test with Fedora 27 yet, but I'll keep you posted.<br><br>
+
             This release fixes some bugs in v2.0.1 and add support for Fedora 26. See the summary from v2.0.1 below:<br><br>
 
             It's time again for a new WxFixBoot. Though it has a minor version number, there are plenty of major changes in this release still.<br><br>

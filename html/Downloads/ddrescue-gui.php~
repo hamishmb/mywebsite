@@ -50,7 +50,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <p>
             UPDATE 12/7/2017: The Fedora packages have been confirmed to work with Fedora 26 :)<br><br>
 
-            This release fixes a bug when running with ddrescue v1.22. Other than that, it is identical to v1.7.1.<br><br>
+            This release fixes a bug when running with ddrescue v1.22. Other than that, it is identical to v1.7.<br><br>
 
             For all the details about v1.7.1, see my blog post at http://errormania.altervista.org/ddrescue-gui-v1-7-now-stable-released/.<br><br>
 
