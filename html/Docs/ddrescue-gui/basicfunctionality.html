@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Chapter 3. Getting Started With DDRescue-GUI</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1" /><meta name="description" content="This chapter covers the basic functionality you'll need to use in DDRescue-GUI. It's supposed to be just enough for you to get started using DDRescue-GUI." /><link rel="home" href="index.html" title="DDRescue-GUI v1.7.1+ Documentation" /><link rel="up" href="index.html" title="DDRescue-GUI v1.7.1+ Documentation" /><link rel="prev" href="ch02s10.html" title="The Disk Info Window" /><link rel="next" href="settingupforrecovery.html" title="Setting up for your recovery." /></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 3. Getting Started With DDRescue-GUI</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02s10.html"><img src="static/images/prev.gif" alt="Prev" /></a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="settingupforrecovery.html"><img src="static/images/next.gif" alt="Next" /></a></td></tr></table><hr /></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="basicfunctionality"></a>Chapter 3. Getting Started With DDRescue-GUI</h1></div><div><div class="abstract"><p class="title"><strong>Abstract</strong></p><p>
+	                This chapter covers the basic functionality you'll need to use in DDRescue-GUI. It's supposed to be just enough for you to get started using DDRescue-GUI.
+                </p></div></div></div></div><div class="toc"><p><strong>Table of Contents</strong></p><dl class="toc"><dt><span class="section"><a href="basicfunctionality.html#idm45654855300256">The Main Window</a></span></dt><dt><span class="section"><a href="settingupforrecovery.html">Setting up for your recovery.</a></span></dt><dt><span class="section"><a href="ch03s03.html">Start your recovery</a></span></dt><dt><span class="section"><a href="ch03s04.html">Finishing your recovery</a></span></dt></dl></div><div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="idm45654855300256"></a>The Main Window</h2></div></div></div><p>
+                That was quite a lot of introduction material there. Now we'll get started with using the GUI. Firstly, here's the main window:
+
+                </p><div class="figure"><a id="idm45654855299184"></a><p class="title"><strong>Figure 3.1. DDRescue-GUI's Main Window (Linux)</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-mainwindow-linux.png" height="360" alt="DDRescue-GUI's Main Window (Linux)" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+                </p><div class="figure"><a id="idm45654855296432"></a><p class="title"><strong>Figure 3.2. DDRescue-GUI's Main Window (Mac)</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-mainwindow-mac.png" height="360" alt="DDRescue-GUI's Main Window (Mac)" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+                </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Caution"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Caution]" src="static/images/caution.png" /></td><th align="left">Caution</th></tr><tr><td align="left" valign="top"><p>
+                        If you're using a version of ddrescue I don't support, you'll get a warning at this point. If you see the warning, check you're running the latest version of DDRescue-GUI.
+                    </p></td></tr></table></div><p>
+
+                This window is displayed after DDRescue-GUI has finished starting up. There are 3 main things you need to set here. The "Image Source" is the damaged drive. The log file is optional, and used to resume where you left off if you don't want to recover all the data at once. If you set the log file, make sure you put it on a third drive (perhaps a USB stick) for safety.
+
+                </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Tip"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Tip]" src="static/images/tip.png" /></td><th align="left">Tip</th></tr><tr><td align="left" valign="top"><p>
+                        It's highly recommended that you use a log file. It only takes a few seconds to set up, and it means that you can stop and start the recovery as you please. It also allows you to resume your recovery if, say, there's a power outage, or your computer crashes. If that happened and you didn't use a log file you would probably have to start from the start!
+                    </p></td></tr></table></div><p>
+
+                Finally, you have the "Image Destination", which is where you want to recover your data to. This can be another device, or an image file. It's a good idea to go with an image file like "recovery.img". Put it in a convenient place so you don't lose it, and make sure you have enough disk space first.
+             </p><p>
+                You might have noticed the "Detailed Info" pull-down. That's use to show you more information about what's happening during your recovery. If you click on it, you'll see this:
+
+                </p><div class="figure"><a id="idm45654855290112"></a><p class="title"><strong>Figure 3.3. Detailed info in DDRescue-GUI</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-detailed-info-closeup.png" height="360" alt="Detailed info in DDRescue-GUI" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+                When you're doing a recovery this section will have lots of information, like this:
+
+                </p><div class="figure"><a id="idm45654855287232"></a><p class="title"><strong>Figure 3.4. Detailed info in action in DDRescue-GUI</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-detailed-info-inaction-closeup.png" height="360" alt="Detailed info in action in DDRescue-GUI" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+            </p><p>
+                The next helpful thing on this window is the button called "Disk Information". This contains all the the disk information I mentioned earlier, and it's very helpful when you're trying to match device names to disks. Here are two examples of how to use it, one with Linux and one with macOS:
+
+                </p><div class="figure"><a id="idm45654855283760"></a><p class="title"><strong>Figure 3.5. Disk info in DDRescue-GUI (Linux)</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-diskinfo-linux.png" height="360" alt="Disk info in DDRescue-GUI (Linux)" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+                In this example, you can see in the screen-shot that I have a device whose model is "Samsung SSD 850", and because I have that in a table with device names, I now know that my SSD's name is "/dev/sda".
+
+            </p><p>
+                And now for the Mac example:
+
+                </p><div class="figure"><a id="idm45654855280192"></a><p class="title"><strong>Figure 3.6. Disk info in DDRescue-GUI (Mac)</strong></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="100%"><tr><td><img src="images/ddrescuegui-diskinfo-mac.png" height="360" alt="Disk info in DDRescue-GUI (Mac)" /></td></tr></table></div></div></div><p><br class="figure-break" />
+
+                In this example, you can see that there's a virtualbox hard disk with name /dev/disk0, and it has three partitions: /dev/disk0s1, /dev/disk0s2, and /dev/disk0s3. Note that the description field shows that it's an internal hard disk drive as well.
+
+            </p><p>
+                So if you were starting a recovery, you'd select the image source, log file, and image destination. You also need to pick some more settings before you can start your recovery though, and these are on the settings window.
+
+                </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Tip"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Tip]" src="static/images/tip.png" /></td><th align="left">Tip</th></tr><tr><td align="left" valign="top"><p>
+                        If you accidentally click "Start" now, don't worry, because the GUI will prompt you to take a look at the settings first. This is designed to stop you from making mistakes and losing data.
+                    </p></td></tr></table></div><p>
+
+            </p></div></div><div class="navfooter"><hr /><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s10.html"><img src="static/images/prev.gif" alt="Prev" /></a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="settingupforrecovery.html"><img src="static/images/next.gif" alt="Next" /></a></td></tr><tr><td width="40%" align="left" valign="top">The Disk Info Window </td><td width="20%" align="center"><a accesskey="h" href="index.html"><img src="static/images/home.gif" alt="Home" /></a></td><td width="40%" align="right" valign="top"> Setting up for your recovery.</td></tr></table></div></body></html>
