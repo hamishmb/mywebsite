@@ -33,6 +33,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
+            <h1>Licenses</h1>
             <p>
             Creative Commons work was used in the creation of this website. Here follows a list of the works used and creditations:
             <ul>
