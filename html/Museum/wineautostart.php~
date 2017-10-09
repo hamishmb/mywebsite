@@ -26,6 +26,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <link href="/html/style.css" type="text/css" rel="stylesheet">
         <title>Wine Autostart Museum - hamishmb.altervista.org</title>
         <?php include_once '../../config.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'db.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'tables.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Museum/wineautostart'; ?>
     </head>
     <body>
@@ -37,33 +39,120 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <nav>
                 <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
-                    <!-- 2.0 Series -->
+
+<?php
+
+$query = "SELECT * FROM " . $wa_relinfo_table . " ORDER BY Release_ID DESC";
+
+$release_info_query = mysqli_query($connection, $query);
+$count = 0;
+$done = [];
+
+while ($tlrow = mysqli_fetch_assoc($release_info_query)) {
+    $count = $count + 1;
+
+    //Ignore the first line; the latest release shouldn't be in the museum.
+    if ($count == 1) {
+        continue;
+    }
+
+    $Rel_ID = $tlrow['Release_ID'];
+
+    //Check if we've already done this one. Skip if so.
+    if (in_array($Rel_ID, $done)) {
+        continue;
+    }
+
+    //Check if this is in a series.
+    $in_series = false;
+
+    $query = "SELECT * FROM " . $wa_relid_to_seriesid_table . " WHERE Release_ID = '${Rel_ID}'";
+
+    $get_related_series_query = mysqli_query($connection, $query);
+
+    while ($row = mysqli_fetch_assoc($get_related_series_query)) {
+        //If this executes, we're in a series.
+        $in_series = true;
+
+        //Get the name for the series.
+        $series_ID = $row['Series_ID'];
+        $query = "SELECT * FROM " . $wa_seriesinfo_table . " WHERE Series_ID = '${series_ID}'";
+        $get_series_name_query = mysqli_query($connection, $query);
+        $series_name = mysqli_fetch_assoc($get_series_name_query)['Series_Name'];
+
+        //Output a list item for the series with an ordered list inside.
+?>
+
                     <li>
-                        <a href="#2.0Series">2.0 Series</a>
+                        <a href="#<?php echo $series_name; ?>Series"><?php echo $series_name; ?> Series</a>
                         <ol>
-                            <li><a href="#2.0.1">2.0.1 (Stable)</a></li>
-                            <li><a href="#2.0">2.0 (Stable)</a></li>
-                            <li><a href="#2.0rc1">2.0~rc1 (Development)</a></li>
+
+<?php
+
+        //Now we need to get all the releases for this series.
+        $query = "SELECT * FROM " . $wa_relid_to_seriesid_table . " LIMIT 1,18446744073709551615 ORDER BY Release_ID DESC";
+        $get_related_releases_query = mysqli_query($connection, $query);
+
+        while ($row = mysqli_fetch_assoc($get_related_releases_query)) {
+            if ($row['Series_ID'] != $series_ID) {
+                continue;
+            }
+
+            $release_ID = $row['Release_ID'];
+
+            //Log these releases as done.
+            array_push($done, $release_ID);
+
+            //Get the release name for each release.
+            $query = "SELECT * FROM " . $wa_relinfo_table . " WHERE Release_ID = '${release_ID}'";
+            $get_release_name_query = mysqli_query($connection, $query);
+            $row = mysqli_fetch_assoc($get_release_name_query);
+            $release_name = $row['Release_Name'];
+            $release_type = $row['Type'];
+
+            //Make a list item for each release in this series.
+
+?>
+
+                            <li><a href="#<?php echo $release_name; ?>"><?php echo $release_name; ?> (<?php echo $release_type; ?>)</a></li>
+
+<?php
+        } //End making list items for the releases in this series.
+?>
+
                         </ol>
                     </li>
 
-                    <!-- Version 1.0 -->
-                    <li><a href="#1.0">1.0 (Stable)</a></li>
+<?php
 
-                    <!-- Version 0.9 -->
-                    <li><a href="#0.9">0.9 (Development)</a></li>
+    //End of series-related code.
+    }
 
-                    <!-- 0.8 Series -->
-                    <li>
-                        <a href="#0.8Series">0.8 Series</a>
-                        <ol>
-                            <li><a href="#0.8.5">0.8.5 (Development)</a></li>
-                            <li><a href="#0.8">0.8 (Development)</a></li>
-                        </ol>
-                    </li>
+    if ($in_series) {
+        continue;
+    }
 
-                    <!-- Version 0.7 -->
-                    <li><a href="#0.7">0.7 (Development)</a></li>
+    //If we're not in a series, just output a list item for the release and be done with it.
+    $release_name = $tlrow['Release_Name'];
+    $release_type = $tlrow['Type'];
+
+    echo "<li><a href=\"#$release_name\">$release_name ($release_type)</a></li>";
+
+    //Log this release as done.
+    array_push($done, $Rel_ID);
+
+    }
+
+?>
+
+
+
+<?php
+
+    //}
+
+?>
+                    
                 </ol>
             </nav>
             <h1>Wine Autostart Museum</h1>
@@ -86,22 +175,35 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <h2>Digital Signatures</h2>
             The digital signatures on this page can be used to verify that your file was created by me, and hasn't been tampered with, either on the web server, or in transit to your computer. Checking these is more dificult, so I have decided not to include instructions here because they'd have to be very long to do it justice. Instead, please carry out a search on how to verify GPG signatures if you wish to learn how to do it. I will provide instructions in  documentation for my programs when it is created.<br><br>
 
-            As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify our downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
+            As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify your downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <section>
-                <h2 id="2.0Series">Wine Autostart 2.0 Series</h2>
+
+<?php
+
+$query = "SELECT * FROM " . $wa_relinfo_table . " ORDER BY Release_ID DESC";
+
+$release_info_query = mysqli_query($connection, $query);
+$count = 0;
+
+while ($row = mysqli_fetch_assoc($release_info_query)) {
+    $count = $count + 1;
+
+    //Ignore the first line; the latest release shouldn't be in the museum.
+    if ($count == 1) {
+        continue;
+    }
+
+    $ID = $row['Release_ID'];
+    $version = $row['Release_Name'];
+    $type = $row['Type'];
+    $blurb = $row['Blurb'];
+
+?>
+
+
                 <article>
-                    <h3 id="2.0.1">Wine Autostart v2.0.1</h3>
-                    <p>
-                    This is a maintenance release that fixes just one very occasional but annoying bug in v2.0, where Wine Autostart may prompt you to check a disk for software twice, or three times. The issue was actually a weird race condition when stopping the backend thread.<br><br>
-
-                    Other than that fix, this release is identical to the last one.<br><br>
-
-                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects<br><br>
-
-                    UPDATE 17/4/2016: There's now a package for Ubuntu 16.04 (Xenial Xerus).<br><br>
-
-                    UPDATE 18/10/2016: There's now a package for Ubuntu 16.10 (Yakkety Yak).<br><br>
-                    </p>
+                    <h2 id="<?php echo $version; ?>">Wine Autostart v<?php echo $version; ?></h2>
+                    <p><?php echo $blurb; ?></p>
                     <table>
                         <caption><h2>Download Files</h2></caption>
                         <tr>
@@ -110,333 +212,37 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                             <th>Download</th>
                             <th>No. Of Downloads</th>
                         </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0.1 For Ubuntu 16.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Yakkety/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0.1/Yakkety/wineautostart_2.0.1yakkety-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0.1 For Ubuntu 16.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Xenial/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0.1/Xenial/wineautostart_2.0.1xenial-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0.1 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0.1/Trusty/wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0.1 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0.1/Precise/wineautostart_2.0.1precise-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                            <td>Wine Autostart v2.0.1 For Other Linux Distributions</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0.1/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0.1/Otherdistro/wineautostart_2.0.1otherdistro-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h3 id="2.0">Wine Autostart v2.0</h3>
-                    <p>
-                    This is the new stable version, finally ready after around 3-4 months of development!<br>
-                    It is now ready for download here and in my PPA.<br><br>
 
-                    It features the ability to monitor more than one CD/DVD drive at once, start on boot, check for updates, and it is easier to use than ever before, by far!<br><br>
 
-                    It runs much more quickly and efficently than previous releases, and way more reliably, and it can recover from errors more easily as well.<br><br>
+<?php 
+$query = "SELECT * FROM " . $wa_downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
 
-                    This should be a rock-solid release, but if you run into any errors or glitches, stopping and restarting Wine Autostart through controls>start/stop in the indicator may help you work around the issue.<br><br>
+$files = mysqli_query($connection, $query);
 
-                    UPDATE 15/8/2015: A package has now been added for Ubuntu 15.10 (Wily Werewolf).<br><br>
+while ($row = mysqli_fetch_assoc($files)) {
+    $icon = $row['Icon'];
+    $desc = $row['Description'];
+    $file = $row['File'];
+    $md5 = $row['MD5sum'];
+    $sig = $row['Signature'];
+    $counter = $row['Counter'];
+    
+?>
 
-                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0 For Ubuntu 15.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Wily/wineautostart_2.0wily-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Wily/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Wily/wineautostart_2.0wily-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Wily/wineautostart_2.0wily-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0 For Ubuntu 15.04</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Vivid/wineautostart_2.0vivid-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Vivid/wineautostart_2.0vivid-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Vivid/wineautostart_2.0vivid-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0 For Ubuntu 14.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Utopic/wineautostart_2.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Utopic/wineautostart_2.0utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Utopic/wineautostart_2.0utopic-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Trusty/wineautostart_2.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Trusty/wineautostart_2.0trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Trusty/wineautostart_2.0trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Precise/wineautostart_2.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Precise/wineautostart_2.0precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Precise/wineautostart_2.0precise-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                            <td>Wine Autostart v2.0 For Other Linux Distributions</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0/Otherdistro/wineautostart_2.0otherdistro-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0/Otherdistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0/Otherdistro/wineautostart_2.0otherdistro-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0/Otherdistro/wineautostart_2.0otherdistro-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h3 id="2.0rc1">Wine Autostart v2.0~rc1</h3>
-                    <p>
-                    This is the first, and the only release candidate for version 2.0.<br><br>
 
-                    This has now been released. 2.0 stable was released on the 5th of May. As I expected, this was almost exactly the same as 2.0, bar the version name and the release date, and all went to plan.<br><br>#
-
-                    UPDATE 5/5/2015: There have been several updates to these packages to fix various last-minute bugs.
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
                         <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
+                            <td><img src="<?php echo $icon; ?>" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                            <td><?php echo $desc; ?></td>
+                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=<?php echo $file; ?>">All Systems</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
+                            <td><?php echo $counter; ?></td>
                         </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0~rc1 For Ubuntu 15.04</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0~rc1/Vivid/wineautostart_2.0~rc1vivid-0ubuntu1-update2~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0~rc1 For Ubuntu 14.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0~rc1/Utopic/wineautostart_2.0~rc1utopic-0ubuntu1-update2~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0~rc1 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0~rc1/Trusty/wineautostart_2.0~rc1trusty-0ubuntu1-update2~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v2.0~rc1 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0~rc1/Precise/wineautostart_2.0~rc1precise-0ubuntu1-update5~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Linux_logo.jpg" width="34" height="40" alt="Linux Logo"></td>
-                            <td>Wine Autostart v2.0~rc1 For Other Linux Distributions</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/2.0~rc1/OtherDistro/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/2.0~rc1/OtherDistro/wineautostart_2.0~rc1otherdistro-0ubuntu1-update2~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h2 id="1.0">Wine Autostart v1.0</h2>
-                    <p>
-                    The latest-and-greatest version of Wine Autostart so far! It has many new features, noted in the release notes, including a new indicator and a complete rewrite in python with pygtk and wxpython. The deb (installer) packages are now available, also in the PPA at www.launchpad.net/~hamishmb/+archive/myppa<br><br>
-
-                    * This has now been updated to include a package for Ubuntu 14.04 LTS, and Ubuntu 14.10.<br><br>
-
-                    UPDATE 18/2/2015: A package for Ubuntu 15.04 has now been added. It is also available in my ppa.<br><br>
-
-                    I hope you enjoy using this program, and you can check out my other packages at www.launchpad.net/~hamishmb/+related-projects
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 15.04</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Vivid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Vivid/wineautostart_1.0vivid-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 14.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Utopic/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Utopic/wineautostart_1.0utopic-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 14.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Trusty/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Trusty/wineautostart_1.0trusty-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 13.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Saucy/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Saucy/wineautostart_1.0saucy-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 13.04</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Raring/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Raring/wineautostart_1.0raring-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 12.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb.asc">signature</a></td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Quantal/wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v1.0 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/1.0/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/1.0/Precise/wineautostart_1.0precise-0ubuntu1~ppa1_all.deb.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h2 id="0.9">Wine Autostart v0.9</h2>
-                    <p>
-                    A newer, more stable version of Wine Autostart focusing on stability and, using a new technique to start wine, reliability as well. It's still a development version, but it's a big step closer to being stable, and will be the last development version. It is a known bug that this version has incorrect permissions inside the package, but that isn't an issue (ubuntu software centre just gives an ugly warning, it's safe to continue). It also has a slight problem with the ejecting area of the program (always comes up even if no software was run), but not a huge problem and will be fixed with the stable release.<br><br>
-
-                    This version and all previous versions used a python script which powered the indicator (cappind.py), which is written by WebUpd8 reader Reda El Khattabi, and may well be helpful for others.
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.9 For Ubuntu 13.04</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Raring/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.9/Raring/wineautostart_0.9raring-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.9 For Ubuntu 12.10</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Quantal/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.9/Quantal/wineautostart_0.9quantal-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.9 For Ubuntu 12.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Precise/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.9/Precise/wineautostart_0.9precise-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.9 For Ubuntu 10.04 LTS</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.9/Lucid/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.9/Lucid/wineautostart_0.9lucid-0ubuntu1~ppa1.tar.gz.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <h2 id="0.8Series">Wine Autostart 0.8 Series</h2>
-                <article>
-                    <h3 id="0.8.5">Wine Autostart v0.8.5</h3>
-                    <p>
-                    Beta preview for version 0.9 to include the general idea for the new layout of the code.
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.8.5 For Ubuntu</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/0.8.5/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.8.5/wineautostart_0.8.5-ubuntu1_all.deb.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h3 id="0.8">Wine Autostart v0.8</h3>
-                    <p>
-                    An updated version of Wine Autostart, featuring many bugfixes, simplifications to the code and a modified indicator.
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.8 For Ubuntu</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz">All Systems</a> (<a href="/files/Downloads/wineautostart/0.8/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.8/Wineautostart-0.8-all.tar.gz.counter"); ?></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p>
-                </article>
-                <article>
-                    <h2 id="0.7">Wine Autostart v0.7</h2>
-                    <p>
-                    Broken. Very few features, and most of those features don't work without modification
-                    </p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-                        <tr>
-                            <td><img src="/files/Icons/Ubuntu_logo_copyleft_1.jpg" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td>Wine Autostart v0.7 For Ubuntu</td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/wineautostart.php&program=Wine%20Autostart&file=/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb">All Systems</a> (<a href="/files/Downloads/wineautostart/0.7/md5sums.txt">md5sum</a> & <a href="/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb.asc">signature</a>)</td>
-                            <td><?php $junk = readfile($GLOBALS["BASEDIR"] . "/files/Downloads/wineautostart/0.7/wineautostart_0.7-ubuntu_all.deb.counter"); ?></td>
-                        </tr>
+                    <?php } ?>
                     </table>
                     <br>
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
                 </article>
+            <?php } ?>
+
             </section>
             <h2>Licences</h2>
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
