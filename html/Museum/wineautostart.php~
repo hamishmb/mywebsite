@@ -28,131 +28,24 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once '../../config.php' ; ?>
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'db.php' ; ?>
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'tables.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'functions.php' ; ?>
+        <?php
+            list($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table) = select_tables_by_program_name("wineautostart");
+        ?>
+
         <?php $GLOBALS["CURRENTPAGE"] = 'Museum/wineautostart'; ?>
     </head>
     <body>
         <!-- Navigation between pages -->
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
+
         <!-- Content of the Page -->
         <div id="MainContent">
             <!-- In-Page Navigation -->
             <nav>
                 <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
-
-<?php
-
-$query = "SELECT * FROM " . $wa_relinfo_table . " ORDER BY Release_ID DESC";
-
-$release_info_query = mysqli_query($connection, $query);
-$count = 0;
-$done = [];
-
-while ($tlrow = mysqli_fetch_assoc($release_info_query)) {
-    $count = $count + 1;
-
-    //Ignore the first line; the latest release shouldn't be in the museum.
-    if ($count == 1) {
-        continue;
-    }
-
-    $Rel_ID = $tlrow['Release_ID'];
-
-    //Check if we've already done this one. Skip if so.
-    if (in_array($Rel_ID, $done)) {
-        continue;
-    }
-
-    //Check if this is in a series.
-    $in_series = false;
-
-    $query = "SELECT * FROM " . $wa_relid_to_seriesid_table . " WHERE Release_ID = '${Rel_ID}'";
-
-    $get_related_series_query = mysqli_query($connection, $query);
-
-    while ($row = mysqli_fetch_assoc($get_related_series_query)) {
-        //If this executes, we're in a series.
-        $in_series = true;
-
-        //Get the name for the series.
-        $series_ID = $row['Series_ID'];
-        $query = "SELECT * FROM " . $wa_seriesinfo_table . " WHERE Series_ID = '${series_ID}'";
-        $get_series_name_query = mysqli_query($connection, $query);
-        $series_name = mysqli_fetch_assoc($get_series_name_query)['Series_Name'];
-
-        //Output a list item for the series with an ordered list inside.
-?>
-
-                    <li>
-                        <a href="#<?php echo $series_name; ?>Series"><?php echo $series_name; ?> Series</a>
-                        <ol>
-
-<?php
-
-        //Now we need to get all the releases for this series.
-        $query = "SELECT * FROM " . $wa_relid_to_seriesid_table . " LIMIT 1,18446744073709551615 ORDER BY Release_ID DESC";
-        $get_related_releases_query = mysqli_query($connection, $query);
-
-        while ($row = mysqli_fetch_assoc($get_related_releases_query)) {
-            if ($row['Series_ID'] != $series_ID) {
-                continue;
-            }
-
-            $release_ID = $row['Release_ID'];
-
-            //Log these releases as done.
-            array_push($done, $release_ID);
-
-            //Get the release name for each release.
-            $query = "SELECT * FROM " . $wa_relinfo_table . " WHERE Release_ID = '${release_ID}'";
-            $get_release_name_query = mysqli_query($connection, $query);
-            $row = mysqli_fetch_assoc($get_release_name_query);
-            $release_name = $row['Release_Name'];
-            $release_type = $row['Type'];
-
-            //Make a list item for each release in this series.
-
-?>
-
-                            <li><a href="#<?php echo $release_name; ?>"><?php echo $release_name; ?> (<?php echo $release_type; ?>)</a></li>
-
-<?php
-        } //End making list items for the releases in this series.
-?>
-
-                        </ol>
-                    </li>
-
-<?php
-
-    //End of series-related code.
-    }
-
-    if ($in_series) {
-        continue;
-    }
-
-    //If we're not in a series, just output a list item for the release and be done with it.
-    $release_name = $tlrow['Release_Name'];
-    $release_type = $tlrow['Type'];
-
-    echo "<li><a href=\"#$release_name\">$release_name ($release_type)</a></li>";
-
-    //Log this release as done.
-    array_push($done, $Rel_ID);
-
-    }
-
-?>
-
-
-
-<?php
-
-    //}
-
-?>
-                    
+                    <?php generate_in_page_navigation(); ?>                    
                 </ol>
             </nav>
             <h1>Wine Autostart Museum</h1>
@@ -199,7 +92,6 @@ while ($row = mysqli_fetch_assoc($release_info_query)) {
     $blurb = $row['Blurb'];
 
 ?>
-
 
                 <article>
                     <h2 id="<?php echo $version; ?>">Wine Autostart v<?php echo $version; ?></h2>
