@@ -72,7 +72,8 @@ if (isset($_GET['program_name'])) {
             <nav>
                 <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
-                    <?php generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table); ?>                    
+                    <!-- Set 'museum' to true so that the in page nav doesn't include a link to the newest release :) -->
+                    <?php generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum = true); ?>                    
                 </ol>
             </nav>
             <h1><?php echo $program_user_friendly_name; ?> Museum</h1>
@@ -100,7 +101,7 @@ if (isset($_GET['program_name'])) {
 
 <?php
 
-$query = "SELECT * FROM " . $wa_relinfo_table . " ORDER BY Release_ID DESC";
+$query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
 
 $release_info_query = mysqli_query($connection, $query);
 $count = 0;
@@ -134,7 +135,7 @@ while ($row = mysqli_fetch_assoc($release_info_query)) {
 
 
 <?php 
-$query = "SELECT * FROM " . $wa_downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
+$query = "SELECT * FROM " . $downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
 
 $files = mysqli_query($connection, $query);
 

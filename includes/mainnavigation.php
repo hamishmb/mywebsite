@@ -16,6 +16,7 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
+<!-- TODO Use a for loop for this? -->
 
 <!-- Uncomment to display maintenance page instead of whatever page was requested. -->
 <?php //header("Location: /maintenance.php"); ?>

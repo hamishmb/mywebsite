@@ -53,7 +53,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Docs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Docs/wxfixboot.php"><br>WxFixBoot<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Docs/stroodlr.php"><br>Stroodlr<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/Docs/getdevinfo.php"><br>Stroodlr<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/Docs/getdevinfo.php"><br>GetDevInfo<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Docs/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Docs/wineautostart.php"><br>Wine Autostart<br><br></a></li>
             </ul>
 

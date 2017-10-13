@@ -21,7 +21,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
 <?php
 
-function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table) {
+function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum = false) {
     global $connection;
 
     $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
@@ -33,9 +33,11 @@ function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to
     while ($tlrow = mysqli_fetch_assoc($release_info_query)) {
         $count = $count + 1;
 
-        //Ignore the first line; the latest release shouldn't be in the museum.
-        if ($count == 1) {
-            continue;
+        if ($museum) {
+            //Ignore the first line; the latest release shouldn't be in the museum.
+            if ($count == 1) {
+                continue;
+            }
         }
 
         $Rel_ID = $tlrow['Release_ID'];
@@ -49,7 +51,7 @@ function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to
         $in_series = false;
 
         //Handle series stuff.
-        handle_series_formatting_and_creation($Rel_ID, $in_series, $done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table);
+        handle_series_formatting_and_creation($Rel_ID, $in_series, $done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum);
 
         if ($in_series) {
             continue;
@@ -71,7 +73,7 @@ function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to
 
 <?php
 
-function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table) {
+function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum) {
     global $connection;
 
     $query = "SELECT * FROM " . $relid_to_seriesid_table . " WHERE Release_ID = '${Rel_ID}'";
@@ -98,7 +100,7 @@ function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $re
 <?php
 
         //Make list items for the releases in this series.
-        make_release_listitems($series_ID, $done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table);
+        make_release_listitems($series_ID, $done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum);
 ?>
 
                         </ol>
@@ -109,11 +111,18 @@ function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $re
     //End of series-related code.
 } }
 
-function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table) {
+function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum) {
     global $connection;
 
     //Now we need to get all the releases for this series.
-    $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC LIMIT 1,18446744073709551615";
+    //If this is for a museum page, ignore the newest release in the SQL query.
+    if ($museum) {
+        $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC LIMIT 1,18446744073709551615";
+    } else {
+        //Get info for all releases.
+        $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC";
+    }
+
     $get_related_releases_query = mysqli_query($connection, $query);
 
     //Make list items.
