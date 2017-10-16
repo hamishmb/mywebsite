@@ -70,22 +70,18 @@ function select_tables_by_program_name($program_name) {
 function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum = false) {
     global $connection;
 
-    $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
+    //If this is for a museum page, ignore the newest release in the SQL query.
+    if ($museum) {
+        $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC LIMIT 1, 18446744073709551615";
+    } else {
+        //Get info for all releases.
+        $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
+    }
 
     $release_info_query = mysqli_query($connection, $query);
-    $count = 0;
     $done = [];
 
     while ($tlrow = mysqli_fetch_assoc($release_info_query)) {
-        $count = $count + 1;
-
-        if ($museum) {
-            //Ignore the first line; the latest release shouldn't be in the museum.
-            if ($count == 1) {
-                continue;
-            }
-        }
-
         $Rel_ID = $tlrow['Release_ID'];
 
         //Check if we've already done this one. Skip if so.
@@ -163,7 +159,7 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
     //Now we need to get all the releases for this series.
     //If this is for a museum page, ignore the newest release in the SQL query.
     if ($museum) {
-        $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC LIMIT 1,18446744073709551615";
+        $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC LIMIT 1, 18446744073709551615";
     } else {
         //Get info for all releases.
         $query = "SELECT * FROM " . $relid_to_seriesid_table . " ORDER BY Release_ID DESC";
@@ -197,21 +193,18 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
 function generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_user_friendly_name, $museum = false) {
     global $connection;
 
-    $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
+    if ($museum) {
+        //Get everything except the first row.
+        $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC LIMIT 1, 18446744073709551615";
+
+    } else {
+        //Get only the first row.
+        $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC LIMIT 0, 1";
+    }
 
     $release_info_query = mysqli_query($connection, $query);
-    $count = 0;
 
     while ($row = mysqli_fetch_assoc($release_info_query)) {
-        $count = $count + 1;
-
-        if ($museum) {
-            //Ignore the first line; the latest release shouldn't be in the museum.
-            if ($count == 1) {
-                continue;
-            }
-        }
-
         $ID = $row['Release_ID'];
         $version = $row['Release_Name'];
         $type = $row['Type'];
