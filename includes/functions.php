@@ -21,6 +21,52 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
 <?php
 
+function select_tables_by_program_name($program_name) {
+    global $wa_relinfo_table;
+    global $wa_downloads_table;
+    global $wa_seriesinfo_table;
+    global $wa_relid_to_seriesid_table;
+
+    global $getdevinfo_relinfo_table;
+    global $getdevinfo_downloads_table;
+    global $getdevinfo_seriesinfo_table;
+    global $getdevinfo_relid_to_seriesid_table;
+
+    global $stroodlr_relinfo_table;
+    global $stroodlr_downloads_table;
+    global $stroodlr_seriesinfo_table;
+    global $stroodlr_relid_to_seriesid_table;
+
+    global $wx_relinfo_table;
+    global $wx_downloads_tablee;
+    global $wx_seriesinfo_table;
+    global $wx_relid_to_seriesid_table;
+
+    global $ddrescuegui_relinfo_table;
+    global $ddrescuegui_downloads_table;
+    global $ddrescuegui_seriesinfo_table;
+    global $ddrescuegui_relid_to_seriesid_table;
+
+    if ($program_name === "wineautostart") {
+        return array($wa_relinfo_table, $wa_downloads_table, $wa_relid_to_seriesid_table, $wa_seriesinfo_table);
+
+    } else if ($program_name === "getdevinfo") {
+        return array($getdevinfo_relinfo_table, $getdevinfo_downloads_table, $getdevinfo_relid_to_seriesid_table, $getdevinfo_seriesinfo_table);
+
+    } if ($program_name === "stroodlr") {
+        return array($stroodlr_relinfo_table, $stroodlr_downloads_table, $stroodlr_relid_to_seriesid_table, $stroodlr_seriesinfo_table);
+
+    } if ($program_name === "wxfixboot") {
+        return array($wx_relinfo_table, $wx_downloads_table, $wx_relid_to_seriesid_table, $wx_seriesinfo_table);
+
+    } if ($program_name === "ddrescue-gui") {
+        return array($ddrescuegui_relinfo_table, $ddrescuegui_downloads_table, $ddrescuegui_relid_to_seriesid_table, $ddrescuegui_seriesinfo_table);
+
+    }
+
+}
+
+
 function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum = false) {
     global $connection;
 
@@ -148,48 +194,71 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
     }
 }
 
-function select_tables_by_program_name($program_name) {
-    global $wa_relinfo_table;
-    global $wa_downloads_table;
-    global $wa_seriesinfo_table;
-    global $wa_relid_to_seriesid_table;
+function generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_user_friendly_name, $museum = false) {
+    global $connection;
 
-    global $getdevinfo_relinfo_table;
-    global $getdevinfo_downloads_table;
-    global $getdevinfo_seriesinfo_table;
-    global $getdevinfo_relid_to_seriesid_table;
+    $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
 
-    global $stroodlr_relinfo_table;
-    global $stroodlr_downloads_table;
-    global $stroodlr_seriesinfo_table;
-    global $stroodlr_relid_to_seriesid_table;
+    $release_info_query = mysqli_query($connection, $query);
+    $count = 0;
 
-    global $wx_relinfo_table;
-    global $wx_downloads_tablee;
-    global $wx_seriesinfo_table;
-    global $wx_relid_to_seriesid_table;
+    while ($row = mysqli_fetch_assoc($release_info_query)) {
+        $count = $count + 1;
 
-    global $ddrescuegui_relinfo_table;
-    global $ddrescuegui_downloads_table;
-    global $ddrescuegui_seriesinfo_table;
-    global $ddrescuegui_relid_to_seriesid_table;
+        if ($museum) {
+            //Ignore the first line; the latest release shouldn't be in the museum.
+            if ($count == 1) {
+                continue;
+            }
+        }
 
-    if ($program_name === "wineautostart") {
-        return array($wa_relinfo_table, $wa_downloads_table, $wa_relid_to_seriesid_table, $wa_seriesinfo_table);
+        $ID = $row['Release_ID'];
+        $version = $row['Release_Name'];
+        $type = $row['Type'];
+        $blurb = $row['Blurb'];
 
-    } else if ($program_name === "getdevinfo") {
-        return array($getdevinfo_relinfo_table, $getdevinfo_downloads_table, $getdevinfo_relid_to_seriesid_table, $getdevinfo_seriesinfo_table);
+    ?>
 
-    } if ($program_name === "stroodlr") {
-        return array($stroodlr_relinfo_table, $stroodlr_downloads_table, $stroodlr_relid_to_seriesid_table, $stroodlr_seriesinfo_table);
+    <article>
+        <h2 id="<?php echo $version; ?>"><?php echo $program_user_friendly_name; ?> v<?php echo $version; ?></h2>
+        <p><?php echo $blurb; ?></p>
+        <table>
+            <caption><h2>Download Files</h2></caption>
+            <tr>
+                <th>Icon</th>
+                <th>Description</th>
+                <th>Download</th>
+                <th>No. Of Downloads</th>
+            </tr>
 
-    } if ($program_name === "wxfixboot") {
-        return array($wx_relinfo_table, $wx_downloads_table, $wx_relid_to_seriesid_table, $wx_seriesinfo_table);
+    <?php 
+        $query = "SELECT * FROM " . $downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
 
-    } if ($program_name === "ddrescue-gui") {
-        return array($ddrescuegui_relinfo_table, $ddrescuegui_downloads_table, $ddrescuegui_relid_to_seriesid_table, $ddrescuegui_seriesinfo_table);
+        $files = mysqli_query($connection, $query);
 
-    }
+        while ($row = mysqli_fetch_assoc($files)) {
+            $icon = $row['Icon'];
+            $desc = $row['Description'];
+            $file = $row['File'];
+            $md5 = $row['MD5sum'];
+            $sig = $row['Signature'];
+            $counter = $row['Counter'];
+        
+    ?>
+
+
+            <tr>
+                <td><img src="<?php echo $icon; ?>" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
+                <td><?php echo $desc; ?></td>
+                <td><a href="/html/thankyou.php?prevpage=/html/Museum/museum.php&program=Wine%20Autostart&file=<?php echo $file; ?>">All Systems</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
+                <td><?php echo $counter; ?></td>
+            </tr>
+        <?php } ?>
+        </table>
+        <br>
+        <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
+    </article>
+    <?php }
 
 }
 

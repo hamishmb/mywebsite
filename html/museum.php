@@ -72,7 +72,7 @@ if (isset($_GET['program_name'])) {
             <nav>
                 <p id="InPageNavTitle">Versions</p>
                 <ol id="InPageNavigation">
-                    <!-- Set 'museum' to true so that the in page nav doesn't include a link to the newest release :) -->
+                    <!-- Set 'museum' to true so that the in page nav doesn't link to the newest release :) -->
                     <?php generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table, $museum = true); ?>                    
                 </ol>
             </nav>
@@ -98,71 +98,7 @@ if (isset($_GET['program_name'])) {
 
             As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify your downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <section>
-
-<?php
-
-$query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
-
-$release_info_query = mysqli_query($connection, $query);
-$count = 0;
-
-while ($row = mysqli_fetch_assoc($release_info_query)) {
-    $count = $count + 1;
-
-    //Ignore the first line; the latest release shouldn't be in the museum.
-    if ($count == 1) {
-        continue;
-    }
-
-    $ID = $row['Release_ID'];
-    $version = $row['Release_Name'];
-    $type = $row['Type'];
-    $blurb = $row['Blurb'];
-
-?>
-
-                <article>
-                    <h2 id="<?php echo $version; ?>"><?php echo $program_user_friendly_name; ?> v<?php echo $version; ?></h2>
-                    <p><?php echo $blurb; ?></p>
-                    <table>
-                        <caption><h2>Download Files</h2></caption>
-                        <tr>
-                            <th>Icon</th>
-                            <th>Description</th>
-                            <th>Download</th>
-                            <th>No. Of Downloads</th>
-                        </tr>
-
-
-<?php 
-$query = "SELECT * FROM " . $downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
-
-$files = mysqli_query($connection, $query);
-
-while ($row = mysqli_fetch_assoc($files)) {
-    $icon = $row['Icon'];
-    $desc = $row['Description'];
-    $file = $row['File'];
-    $md5 = $row['MD5sum'];
-    $sig = $row['Signature'];
-    $counter = $row['Counter'];
-    
-?>
-
-
-                        <tr>
-                            <td><img src="<?php echo $icon; ?>" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
-                            <td><?php echo $desc; ?></td>
-                            <td><a href="/html/thankyou.php?prevpage=/html/Museum/museum.php&program=Wine%20Autostart&file=<?php echo $file; ?>">All Systems</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
-                            <td><?php echo $counter; ?></td>
-                        </tr>
-                    <?php } ?>
-                    </table>
-                    <br>
-                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
-                </article>
-            <?php } ?>
-
+                <?php generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_user_friendly_name, $museum = true); ?>
             </section>
             <h2>Licences</h2>
             <p>Some of the images and icons used on this page are available under the terms of different licences. For more details and the attributions, see the licenses page <a href="/policies/licenses.php">here</a></p>
