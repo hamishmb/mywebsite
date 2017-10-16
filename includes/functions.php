@@ -38,7 +38,7 @@ function select_tables_by_program_name($program_name) {
     global $stroodlr_relid_to_seriesid_table;
 
     global $wx_relinfo_table;
-    global $wx_downloads_tablee;
+    global $wx_downloads_table;
     global $wx_seriesinfo_table;
     global $wx_relid_to_seriesid_table;
 
@@ -214,7 +214,7 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
 
     <article>
         <h2 id="<?php echo $version; ?>"><?php echo $program_user_friendly_name; ?> v<?php echo $version; ?></h2>
-        <p><?php echo $blurb; ?></p>
+        <p><?php echo nl2br($blurb); ?></p>
         <table>
             <caption><h2>Download Files</h2></caption>
             <tr>
