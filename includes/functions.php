@@ -255,4 +255,29 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
 
 }
 
+function display_changelogs($relinfo_table, $program_name, $program_user_friendly_name) {
+    global $connection;
+
+    //Get info about all releases.
+    $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
+
+    $get_all_releases_query = mysqli_query($connection, $query);
+
+    while ($row = mysqli_fetch_assoc($get_all_releases_query)) {
+        $release_name = $row['Release_Name'];
+
+        //Remove any ~s from the release names (not permitted in file names).
+        $release_name_file_friendly = str_replace('~', '', $release_name);
+
+        ?>
+
+        <article>
+            <h2 id="<?php echo $release_name; ?>"><?php echo $program_user_friendly_name; ?> v<?php echo $release_name; ?></h2>
+            <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/$program_name/$release_name_file_friendly.txt"))?>
+            </p>
+         </article>
+
+        <?php
+    }
+}
 ?>
