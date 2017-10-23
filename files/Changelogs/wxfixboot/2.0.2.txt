@@ -1,0 +1,5 @@
+WxFixBoot (2.0.2):
+  * Changes since v2.0.1:
+
+  * Ignore error code 8 when doing startup filesystem check.
+  * Fix freezes when doing an emergency exit.
