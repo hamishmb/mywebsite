@@ -243,7 +243,7 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
             <tr>
                 <td><img src="<?php echo $icon; ?>" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                 <td><?php echo $desc; ?></td>
-                <td><a href="/html/thankyou.php?prevpage=/html/Museum/museum.php&program=Wine%20Autostart&file=<?php echo $file; ?>">Download</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
+                <td><a href="/html/thankyou.php?prevpage=/html/Museum/museum.php&program=<?php echo $program_user_friendly_name; ?>&file=<?php echo $file; ?>">Download</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
                 <td><?php echo $counter; ?></td>
             </tr>
         <?php } ?>
