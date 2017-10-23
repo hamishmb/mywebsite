@@ -24,8 +24,8 @@ if (isset($_GET['program_name'])) {
     $program_name = $_GET['program_name'];
     
     //Check that this is a valid program name.
-    $programs = ['wineautostart', 'wxfixboot', 'ddrescue-gui'];
-    $programs_user_friendly = ['Wine Autostart', 'WxFixBoot', 'DDRescue-GUI'];
+    $programs = ['wineautostart', 'getdevinfo', 'stroodlr', 'wxfixboot', 'ddrescue-gui'];
+    $programs_user_friendly = ['Wine Autostart', 'GetDevInfo', 'Stroodlr', 'WxFixBoot', 'DDRescue-GUI'];
 
     //If not, we will die with an error.
     if (!in_array($program_name, $programs)) {
