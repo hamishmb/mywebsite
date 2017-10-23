@@ -16,6 +16,7 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
 <!-- Use PHP to set 'class="CurrentPage"' where required. Use regexps too. -->
+<!-- TODO Use a for loop for this? -->
 
 <!-- Uncomment to display maintenance page instead of whatever page was requested. -->
 <?php //header("Location: /maintenance.php"); ?>
@@ -39,11 +40,11 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <li class="main"><a <?php if (preg_match("/downloads/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Downloads</a>
 
             <ul class="Downloads">
-                <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/ddrescue-gui.php"><br>DDRescue-<br>GUI<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wxfixboot.php"><br>WxFixBoot<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/stroodlr.php"><br>Stroodlr<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/getdevinfo.php"><br>GetDevInfo<br></a></li>
-                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Downloads/wineautostart.php"><br>Wine Autostart<br><br></a></li>
+                <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/downloads.php?program_name=ddrescue-gui"><br>DDRescue-<br>GUI<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/downloads.php?program_name=wxfixboot"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/downloads.php?program_name=stroodlr"><br>Stroodlr<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/downloads.php?program_name=getdevinfo"><br>GetDevInfo<br></a></li>
+                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Downloads/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/downloads.php?program_name=wineautostart"><br>Wine Autostart<br><br></a></li>
             </ul>
 
         </li>
