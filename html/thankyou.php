@@ -17,6 +17,33 @@ along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
 The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
 
+<!-- Figure out what program we're offering downloads for -->
+<?php
+
+if (isset($_GET['program_name'])) {
+    $program_name = $_GET['program_name'];
+    
+    //Check that this is a valid program name.
+    $programs = ['wineautostart', 'getdevinfo', 'stroodlr', 'wxfixboot', 'ddrescue-gui'];
+    $programs_user_friendly = ['Wine Autostart', 'GetDevInfo', 'Stroodlr', 'WxFixBoot', 'DDRescue-GUI'];
+
+    //If not, we will die with an error.
+    if (!in_array($program_name, $programs)) {
+        die('Invalid Program Name');
+
+    }
+
+    //If so, get the index of the shortname, and find the user friendly name for it.
+    $index = array_search($program_name, $programs);
+
+    $program_user_friendly_name = $programs_user_friendly[$index];
+
+} else {
+    die('Invalid Program Name');
+}
+
+?>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -26,6 +53,13 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <link href="/html/style.css" rel="stylesheet" type="text/css">
         <title>Thank You - hamishmb.altervista.org</title>
         <?php include_once '../config.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'db.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'tables.php' ; ?>
+        <?php include_once $GLOBALS["INCLUDESDIR"] . 'functions.php' ; ?>
+        <?php
+            list($relinfo_table, $downloads_table, $relid_to_seriesid_table, $seriesinfo_table) = select_tables_by_program_name($program_name);
+        ?>
+
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
     </head>
     <body>
@@ -39,10 +73,12 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Thank You For Downloading <?php echo($_GET['program']) ?></h1>
+            <h1>Thank You For Downloading <?php echo($program_user_friendly_name) ?></h1>
             <p style="text-align: center;">
-            Your file should begin downloading automatically. If it doesn't, start the download manually by clicking <a href=<?php echo("'" . $_GET['file'] . "'")?>>here.</a><br>
-            To go back to the page you were on before, click <a href=<?php echo("'" . $_GET['prevpage'] . "'")?>>here.</a> To go to the home page, click <a href="/html/index.php">here.</a>
+            Your file should begin downloading automatically.<br>
+            If it doesn't, start the download manually by clicking <a href=<?php echo("'" . $_GET['file'] . "'")?>>here.</a><br><br>
+
+            To go to the home page, click <a href="/html/index.php">here.</a>
             </p>
 
             <!-- Provide the file after a delay of 1 second -->
@@ -55,19 +91,22 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <!-- Footer -->
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'footer.html' ; ?>
         <!-- Update the counter -->
-        <!-- Read counter value -->
         <?php
-            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "r") or die("Unable to read counter value!");
-            $NumberOfDownloads = (int)fread($counter,filesize($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter"));
-            fclose($counter);
-        ?>
 
-        <!-- Write new value to counter -->
-        <?php
-            $NumberOfDownloads = $NumberOfDownloads + 1;
-            $counter = fopen($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter", "w") or die("Unable to update the  counter!");
-            fwrite($counter, (string)$NumberOfDownloads);
-            fclose($counter);
+        $query = "SELECT * FROM " . $downloads_table . " WHERE File = '{$_GET['file']}'";
+        $result = mysqli_query($connection, $query);
+
+        die_if_not_successful_query($result);
+
+        $counter_value = mysqli_fetch_assoc($result)['Counter'];
+        $counter_value += 1;
+
+        $query = "UPDATE " . $downloads_table . " SET ";
+        $query .= "Counter = '{$counter_value}' "; 
+        $query .= "WHERE File = '{$_GET['file']}'";
+        $result = mysqli_query($connection, $query);
+        die_if_not_successful_query($result);
+        
         ?>
 
     </body>

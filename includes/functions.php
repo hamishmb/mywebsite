@@ -21,6 +21,14 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
 <?php
 
+function die_if_not_successful_query($result) {
+    global $connection;
+
+    if (!$result) {
+        die("Query Failed: " . mysqli_error($connection));
+    }
+}
+
 function select_tables_by_program_name($program_name) {
     global $wa_relinfo_table;
     global $wa_downloads_table;
@@ -79,6 +87,7 @@ function generate_in_page_navigation($relinfo_table, $downloads_table, $relid_to
     }
 
     $release_info_query = mysqli_query($connection, $query);
+    die_if_not_successful_query($release_info_query);
     $done = [];
 
     while ($tlrow = mysqli_fetch_assoc($release_info_query)) {
@@ -121,6 +130,7 @@ function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $re
     $query = "SELECT * FROM " . $relid_to_seriesid_table . " WHERE Release_ID = '${Rel_ID}'";
 
     $get_related_series_query = mysqli_query($connection, $query);
+    die_if_not_successful_query($get_related_series_query);
 
     while ($row = mysqli_fetch_assoc($get_related_series_query)) {
         //If this executes, we're in a series.
@@ -130,6 +140,7 @@ function handle_series_formatting_and_creation($Rel_ID, &$in_series, &$done, $re
         $series_ID = $row['Series_ID'];
         $query = "SELECT * FROM " . $seriesinfo_table . " WHERE Series_ID = '${series_ID}'";
         $get_series_name_query = mysqli_query($connection, $query);
+        die_if_not_successful_query($get_series_name_query);
         $series_name = mysqli_fetch_assoc($get_series_name_query)['Series_Name'];
 
         //Output a list item for the series with an ordered list inside.
@@ -166,6 +177,7 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
     }
 
     $get_related_releases_query = mysqli_query($connection, $query);
+    die_if_not_successful_query($get_related_series_query);
 
     //Make list items.
     while ($row = mysqli_fetch_assoc($get_related_releases_query)) {
@@ -181,6 +193,7 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
         //Get the release name for each release.
         $query = "SELECT * FROM " . $relinfo_table . " WHERE Release_ID = '${release_ID}'";
         $get_release_name_query = mysqli_query($connection, $query);
+        die_if_not_successful_query($get_release_name_query);
         $row = mysqli_fetch_assoc($get_release_name_query);
         $release_name = $row['Release_Name'];
         $release_type = $row['Type'];
@@ -190,7 +203,7 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
     }
 }
 
-function generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_user_friendly_name, $museum = false) {
+function generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_name, $program_user_friendly_name, $museum = false) {
     global $connection;
 
     if ($museum) {
@@ -203,6 +216,7 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
     }
 
     $release_info_query = mysqli_query($connection, $query);
+    die_if_not_successful_query($release_info_query);
 
     while ($row = mysqli_fetch_assoc($release_info_query)) {
         $ID = $row['Release_ID'];
@@ -228,6 +242,7 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
         $query = "SELECT * FROM " . $downloads_table .  " WHERE Release_ID = '${ID}' ORDER BY File_ID DESC";
 
         $files = mysqli_query($connection, $query);
+        die_if_not_successful_query($files);
 
         while ($row = mysqli_fetch_assoc($files)) {
             $icon = $row['Icon'];
@@ -243,7 +258,7 @@ function generate_download_tables_and_articles($relinfo_table, $downloads_table,
             <tr>
                 <td><img src="<?php echo $icon; ?>" width="40" height="40" alt="Copyleft Ubuntu Logo"></td>
                 <td><?php echo $desc; ?></td>
-                <td><a href="/html/thankyou.php?prevpage=/html/Museum/museum.php&program=<?php echo $program_user_friendly_name; ?>&file=<?php echo $file; ?>">Download</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
+                <td><a href="/html/thankyou.php?program_name=<?php echo $program_name; ?>&file=<?php echo $file; ?>">Download</a> (<a href="<?php echo $md5; ?>">md5sum</a> & <a href="<?php echo $sig; ?>">signature</a>)</td>
                 <td><?php echo $counter; ?></td>
             </tr>
         <?php } ?>
@@ -262,6 +277,7 @@ function display_changelogs($relinfo_table, $program_name, $program_user_friendl
     $query = "SELECT * FROM " . $relinfo_table . " ORDER BY Release_ID DESC";
 
     $get_all_releases_query = mysqli_query($connection, $query);
+    die_if_not_successful_query($get_all_releases_query);
 
     while ($row = mysqli_fetch_assoc($get_all_releases_query)) {
         $release_name = $row['Release_Name'];
