@@ -1,0 +1,2 @@
+8db3e81faca4bdba7d28ed5128ff5b99  ./stroodlr_0.9artful-0ubuntu1~ppa1_i386.deb
+29af4265e0fa190319fdb82c9ce04db4  ./stroodlr_0.9artful-0ubuntu1~ppa1_amd64.deb
