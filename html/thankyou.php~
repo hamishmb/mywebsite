@@ -75,7 +75,8 @@ if (isset($_GET['program_name'])) {
         <div id="MainContent">
             <h1>Thank You For Downloading <?php echo($program_user_friendly_name) ?></h1>
             <p style="text-align: center;">
-            Your file should begin downloading automatically. If it doesn't, start the download manually by clicking <a href=<?php echo("'" . $_GET['file'] . "'")?>>here.</a><br>
+            Your file should begin downloading automatically.<br>
+            If it doesn't, start the download manually by clicking <a href=<?php echo("'" . $_GET['file'] . "'")?>>here.</a><br><br>
 
             To go to the home page, click <a href="/html/index.php">here.</a>
             </p>

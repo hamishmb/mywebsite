@@ -63,10 +63,9 @@ if (isset($_GET['program_name'])) {
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
     </head>
     <body>
-        <!-- Safety Check - Do the download file and counter exist? -->
+        <!-- Safety Check - Does the download file exist? -->
         <?php
             $junk = file_exists($GLOBALS["BASEDIR"] . $_GET['file']) or die("Invalid request.");
-            $junk = file_exists($GLOBALS["BASEDIR"] . $_GET['file'] . ".counter") or die("Invalid request.");
         ?>
 
         <!-- Navigation Between Pages -->
