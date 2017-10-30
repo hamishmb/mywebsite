@@ -29,11 +29,11 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Changelogs</a>
 
             <ul class="Changelogs">
-                <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/ddrescue-gui.php"><br>DDRescue-GUI<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/wxfixboot.php"><br>WxFixBoot<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/stroodlr.php"><br>Stroodlr<br></a></li>
-                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/getdevinfo.php"><br>GetDevInfo<br></a></li>
-                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/Changelogs/wineautostart.php"><br>Wine Autostart<br><br></a></li>
+                <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/changelogs.php?program_name=ddrescue-gui"><br>DDRescue-GUI<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/changelogs.php?program_name=wxfixboot"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/stroodlr") { echo "class='CurrentPage'"; } ?> href="/html/changelogs.php?program_name=stroodlr"><br>Stroodlr<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/changelogs.php?program_name=getdevinfo"><br>GetDevInfo<br></a></li>
+                <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Changelogs/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/changelogs.php?program_name=wineautostart"><br>Wine Autostart<br><br></a></li>
             </ul>
 
         </li>
