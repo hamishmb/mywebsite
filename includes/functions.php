@@ -177,7 +177,7 @@ function make_release_listitems($series_ID, &$done, $relinfo_table, $downloads_t
     }
 
     $get_related_releases_query = mysqli_query($connection, $query);
-    die_if_not_successful_query($get_related_series_query);
+    die_if_not_successful_query($get_related_releases_query);
 
     //Make list items.
     while ($row = mysqli_fetch_assoc($get_related_releases_query)) {
