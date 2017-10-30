@@ -87,7 +87,7 @@ if (isset($_GET['program_name'])) {
             As a programmer, I am inclined to say that you should always use both the md5 sum and the signature to verify your downloads, but the average user probably doesn't know how to; if you aren't concerned about it, don't worry too much about it.<br><br>
             <h1>Downloads For <?php echo $program_user_friendly_name; ?></h1>
             <section>
-                <?php generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_user_friendly_name, $museum = false); ?>
+                <?php generate_download_tables_and_articles($relinfo_table, $downloads_table, $program_name, $program_user_friendly_name, $museum = false); ?>
             </section>
             <h2>Older Versions?</h2>
 
