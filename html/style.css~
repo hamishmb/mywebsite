@@ -1,0 +1,273 @@
+/* Stylesheet
+This file is part of my website.
+Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+My website is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 or,
+at your option, any later version.
+
+My website is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with My website.  If not, see <http://www.gnu.org/licenses/>.
+
+The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.*/
+
+/* Note to self: If something refuses to work, double-check you've put a ; at the end of each line. */
+
+html {
+    background: rgb(255,255,255); /* Set background below footer to white in case the page doesn't need to scroll */
+    font-family: sans-serif; /* Use a sans-serif font because it's easier to read, esp. for those who have dyslexia or similar */
+}
+
+body {
+    background: rgb(0,112,195); /* Set background colour to the deepest blue used at the top and bottom so it blends in nicely */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* -- Main Navigation -- */
+
+#navigation {
+    background: #2780c2; /* Older browsers */
+    background: -moz-linear-gradient(top,  #c2c2c2, #2780c2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#c2c2c2), color-stop(50%,#2780c2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #c2c2c2, #2780c2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #c2c2c2, #2780c2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #c2c2c2, #2780c2); /* IE10+ */
+    background: linear-gradient(#c2c2c2, #2780c2); /* W3C */
+    padding: 1px;
+    font-weight: normal;
+}
+
+#navlist li.main {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+/* -- Links In Main Navigation -- */
+#navlist a:link { color: rgb(0, 0, 255); } /* Default Colour */
+#navlist a:visited { color: rgb(0, 0, 255); } /* Same as unvisited in navbar */
+#navlist a:hover { color: rgb(0, 0, 255); } /* No difference when hovering */
+#navlist a:active { color: rgb(255, 0, 180); } /* Pink */
+
+/* -- Current Page Links In Main Navigation */
+#navlist a.CurrentPage:link { color: purple; }
+#navlist a.CurrentPage:visited { color: purple; }
+#navlist a.CurrentPage:hover { color: purple; }
+
+a, img {
+    border:none;
+    outline:none;
+}
+
+/* -- End Main Navigation -- */
+/* -- Submenu Navigation -- */
+
+#navlist ul {
+    background: rgb(255,255,255); /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style: none;
+    position: absolute;
+    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    box-shadow: 5px 5px 10px;
+    padding-left: 0px;
+}
+
+#navlist ul li {
+    background: white;
+    opacity: 0;
+    text-align: left;
+    /* box-shadow: 5px 5px 10px; */
+    font-weight: normal;
+}
+
+/* Set correct widths */
+#navlist ul.Screenshots {
+    width: 130px;
+}
+
+#navlist ul.Changelogs {
+    width: 122px;
+}
+
+#navlist ul.Downloads {
+    width: 115px;
+}
+
+#navlist ul.Documentation {
+    width: 155px;
+}
+
+#navlist ul.Museum {
+    width: 93px;
+}
+
+#navlist ul li.first {
+    /* Support old Firefox and Webkit browsers */
+    -moz-border-radius-topleft: 5px; 
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#navlist ul li.last {
+    /* Support old Firefox and Webkit browsers */
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#navlist li:hover ul { /* Display the dropdown on focus (click) */
+    left: -38px; /* Bring back on-screen when needed */
+}
+
+#navlist li:hover ul li {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+/* -- End Submenu Navigation -- */
+/* -- Begin In-Page Navigation -- */
+
+#MainContent nav {
+    text-align: left;
+    float: left;
+    border: 1px solid black;
+    width: 320px;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#CenteredInPageNav {
+    text-align: left;
+    border: 1px solid black;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#InPageNavTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+#InPageNavigation, #InPageNavigation ol {
+    counter-reset: item;
+}
+
+#InPageNavigation li {
+    display: block;
+}
+
+#InPageNavigation li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+/* -- End In-Page Navigation -- */
+/* -- Main Content -- */
+#MainContent {
+    background: rgb(255,255,255);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: left;
+}
+
+/* -- Headers -- */
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    text-align: center;
+}
+
+/* -- Tables -- */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table caption {
+    text-align: center;
+}
+
+/* -- Icon List Tables -- */
+table.IconList, table.IconList td {
+    border: none;
+    border-collapse: collapse;
+}
+
+/* -- Screenshots -- */
+img.Screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    text-align: center; /* For alt text */
+}
+
+/* Create borders for each table header and data cell */
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* -- Back to top links */
+p.BackToTop, p.AlignCenter {
+    text-align: center;
+}
+
+/* -- Footer -- */
+footer {
+    background: #2780c2; /* Older browsers */
+    background: -moz-linear-gradient(top,  #2780c2, #84a7c2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#2780c2), color-stop(50%,#84a7c2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2780c2, #84a7c2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2780c2, #84a7c2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2780c2, #84a7c2); /* IE10+ */
+    background: linear-gradient(#2780c2, #84a7c2); /* W3C */
+    padding: 0.001em;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: normal;
+    overflow: auto;
+}
+
+#FooterLinks {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#FooterLinks::after {
+    clear: both;
+}
+
+#HTML5Link {
+    float: left;
+}
+
+#CSS3Link {
+    float: right;
+}
