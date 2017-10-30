@@ -291,7 +291,8 @@ function display_changelogs($relinfo_table, $program_name, $program_user_friendl
             <h2 id="<?php echo $release_name; ?>"><?php echo $program_user_friendly_name; ?> v<?php echo $release_name; ?></h2>
             <p class="TextFile"><?php echo nl2br(file_get_contents($GLOBALS["BASEDIR"] . "/files/Changelogs/$program_name/$release_name_file_friendly.txt"))?>
             </p>
-         </article>
+            <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br>
+        </article>
 
         <?php
     }
