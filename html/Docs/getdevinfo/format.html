@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentation for the output format &mdash; GetDevInfo 1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="GetDevInfo 1.0.1 documentation" href="index.html" />
+    <link rel="next" title="Documentation for the getdevinfo module" href="getdevinfo.html" />
+    <link rel="prev" title="Welcome to GetDevInfo’s API documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getdevinfo.html" title="Documentation for the getdevinfo module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to GetDevInfo’s API documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GetDevInfo 1.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="documentation-for-the-output-format">
+<h1>Documentation for the output format<a class="headerlink" href="#documentation-for-the-output-format" title="Permalink to this headline">¶</a></h1>
+<p>This module outputs data in a precisely-formatted dictionary object.
+In order for it to be useful, this format, and the information that
+is provided in it, needs to be explained precisely.</p>
+<p>This format is the same on both Linux and macOS, but the macOS version
+of this librry currently has less functionality, so some of the
+information isn&#8217;t present on that version. Instead, placeholders
+like &#8220;N/A&#8221; or &#8220;Unknown&#8221; are used. Those instances will be pointed out
+here.</p>
+<div class="section" id="for-each-device-and-partition">
+<h2>For each device and partition:<a class="headerlink" href="#for-each-device-and-partition" title="Permalink to this headline">¶</a></h2>
+<p>A sub-dictionary is created with the name of that disk as its key.</p>
+<dl class="docutils">
+<dt>For example:</dt>
+<dd><p class="first">To access the info for /dev/disk1s1, use:</p>
+<div class="last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/disk1s1&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="inside-this-sub-dictionary">
+<h2>Inside this sub-dictionary:<a class="headerlink" href="#inside-this-sub-dictionary" title="Permalink to this headline">¶</a></h2>
+<p>Various information is collected and organised here.</p>
+<dl class="docutils">
+<dt>&#8216;Name&#8217;:</dt>
+<dd>The disk&#8217;s name, stored as a string.</dd>
+<dt>&#8216;Type&#8217;:</dt>
+<dd><p class="first">Whether the disk is a &#8220;Device&#8221; or &#8220;Partition&#8221;, stored as a strin.</p>
+<dl class="last docutils">
+<dt>For example:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Type&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Device&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;HostDevice&#8217;:</dt>
+<dd><p class="first">The &#8220;parent&#8221; or &#8220;host&#8221; device of a partition, stored as a string.
+For a device, this is always set to &#8220;N/A&#8221;. For an LVM disk, this is
+the host device of the containing partition. eg: /dev/sdb.</p>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;HostDevice&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;N/A&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sde5&#39;</span><span class="p">][</span><span class="s1">&#39;HostDevice&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;/dev/sde&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 3:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/disk1s3&#39;</span><span class="p">][</span><span class="s1">&#39;HostDevice&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;/dev/disk1&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Partitions&#8217;:</dt>
+<dd><p class="first">All the partitions a device contains, stored as a list. For partitions,
+this is always set to [].</p>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda1&#39;</span><span class="p">][</span><span class="s1">&#39;Partitions&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[]</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Partitions&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s2">&quot;/dev/sda1&quot;</span><span class="p">,</span> <span class="s2">&quot;/dev/sda2&quot;</span><span class="p">,</span> <span class="s2">&quot;/dev/sda3&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 3:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/disk0&#39;</span><span class="p">][</span><span class="s1">&#39;Partitions&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s2">&quot;/dev/disk0s1&quot;</span><span class="p">,</span> <span class="s2">&quot;/dev/disk0s2&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Vendor&#8217;:</dt>
+<dd><p class="first">The device&#8217;s/partition&#8217;s vendor. For a device, this is often the brand. For
+partitions this is more random, but often has something to do with the
+file system type, or the OS that created the partition.</p>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Vendor&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;VBOX&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda1&#39;</span><span class="p">][</span><span class="s1">&#39;Vendor&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Linux&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 3:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/disk0s1&#39;</span><span class="p">][</span><span class="s1">&#39;Vendor&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;VBOX&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Product&#8217;:</dt>
+<dd><p class="first">The device&#8217;s product information. Often model information such as a model
+name/number. For a partition, this is always the same as it&#8217;s host device&#8217;s
+product information, prefixed by &#8220;Host Device: &#8221;.</p>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Product&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;ST1000DM003-1CH1&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda1&#39;</span><span class="p">][</span><span class="s1">&#39;Product&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Host Device: ST1000DM003-1CH1&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 3:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/disk0&#39;</span><span class="p">][</span><span class="s1">&#39;Product&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;HARDDISK&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Capacity&#8217;, and &#8216;RawCapacity&#8217;:</dt>
+<dd><p class="first">The disk&#8217;s capacity, in both human-readable form, and program-friendly form.
+Ignored for some types of disks, like optical drives. The human-readable
+capacity is rounded to make it a 3 digit number. The machine-readable size is
+measured in bytes, and it is not rounded.</p>
+<dl class="last docutils">
+<dt>Example:</dt>
+<dd><div class="first highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Capacity&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;500 GB&quot;</span>
+</pre></div>
+</div>
+<div class="last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;RawCapacity&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;500107862016&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Description&#8217;:</dt>
+<dd><p class="first">A human-readable description of the disk. Simply here to make it easier
+for a human to identify a disk. On Linux, these are the descriptions provided by
+lshw (except for logical volumes), and they are fairly basic. On macOS, these are
+generated using information from diskutil.</p>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;ATA Disk&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Description&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Internal Hard Disk Drive (Connected through SATA)&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Flags&#8217;:</dt>
+<dd><p class="first">The disk&#8217;s capabilities, stored as a list.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS, or for logical volumes.</p>
+</div>
+<dl class="last docutils">
+<dt>For example:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/cdrom&#39;</span><span class="p">][</span><span class="s1">&#39;Flags&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s1">&#39;removable&#39;</span><span class="p">,</span> <span class="s1">&#39;audio&#39;</span><span class="p">,</span> <span class="s1">&#39;cd-r&#39;</span><span class="p">,</span> <span class="s1">&#39;cd-rw&#39;</span><span class="p">,</span> <span class="s1">&#39;dvd&#39;</span><span class="p">,</span> <span class="s1">&#39;dvd-r&#39;</span><span class="p">,</span> <span class="s1">&#39;dvd-ram&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;Partitioning&#8217;:</dt>
+<dd><p class="first">The disk&#8217;s partition scheme. N/A for partitions and logical volumes.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS.</p>
+</div>
+<dl class="last docutils">
+<dt>Example 1:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;Partitioning&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;gpt&quot;</span>
+</pre></div>
+</div>
+</dd>
+<dt>Example 2:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sdb&#39;</span><span class="p">][</span><span class="s1">&#39;Partitioning&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;mbr&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;FileSystem&#8217;:</dt>
+<dd><p class="first">The disk&#8217;s file system. N/A for devices.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS.</p>
+</div>
+<dl class="last docutils">
+<dt>Example:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;FileSystem&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;ext4&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;UUID&#8217;:</dt>
+<dd><p class="first">This disk&#8217;s UUID. N/A for devices. Length changes based on filesystem
+type. For example, vfat UUIDs are shorter.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS.</p>
+</div>
+<dl class="last docutils">
+<dt>Example:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda1&#39;</span><span class="p">][</span><span class="s1">&#39;UUID&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">XXXX</span><span class="o">-</span><span class="n">XXXX</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;ID&#8217;:</dt>
+<dd><p class="first">The disk&#8217;s ID.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS.</p>
+</div>
+<dl class="last docutils">
+<dt>Example:</dt>
+<dd><div class="first last highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">DISKINFO</span><span class="p">[</span><span class="s1">&#39;/dev/sda&#39;</span><span class="p">][</span><span class="s1">&#39;ID&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;usb-Generic_STORAGE_DEVICE_000000001206-0:1&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</dd>
+<dt>&#8216;BootRecord&#8217;, &#8216;BootRecordStrings&#8217;:</dt>
+<dd><p class="first">The MBR/PBR of the disk. Can be useful in identifying the bootloader that
+resides there, if any.</p>
+<div class="last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Not available on macOS.</p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentation for the output format</a><ul>
+<li><a class="reference internal" href="#for-each-device-and-partition">For each device and partition:</a></li>
+<li><a class="reference internal" href="#inside-this-sub-dictionary">Inside this sub-dictionary:</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to GetDevInfo&#8217;s API documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="getdevinfo.html"
+                        title="next chapter">Documentation for the getdevinfo module</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/format.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getdevinfo.html" title="Documentation for the getdevinfo module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to GetDevInfo’s API documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GetDevInfo 1.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2013-2018, Hamish McIntyre-Bhatty.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>

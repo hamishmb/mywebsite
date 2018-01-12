@@ -1,0 +1,45 @@
+GetDevInfo (1.0.1):
+  * Changes since v1.0.0:
+  *
+  * Add unittests from WxFixBoot.
+  * Rewrite tests data to obey style guide.
+  * Rewrite test functions to obey style guide.
+  * Get the unit tests working.
+  * Add unittests from DDRescue-GUI.
+  * Rewrite the tests to adhere to the style guide.
+  * Get the tests working on Linux.
+  * Enable platform detection in the unit tests.
+  * Get tests working on macOS.
+  * Include bytestring workaround for Python 3.
+  * Don't use deprecated function plistlib.readPlistFromBytes.
+  * Start work on the documentation.
+  * Document getdevinfo.py.
+  * Document linux.py.
+  * Document macos.py.
+  * Parse lshw's XML output with LXML, rather than with html.parser (breaks Ubuntu 12.04 support).
+  * Remove another workaround for Ubuntu 12.04.
+  * Use dd status=none to remove all of dd's output in the boot record strings. (breaks Ubuntu 12.04 support).
+  * Don't crash if not run as root on Linux.
+  * macOS: get_capacity(): Actually compute human-readable sizes.
+  * Fix a RuntimeWarning when running standalone on OS X.
+  * macOS: More clearly display whether a drive is removable or not.
+  * macOS: is_partition(), remove deprecation warning, but note for internal use only.
+  * Start documenting dictionary format.
+  * Fix getting IDs under Python 3 on Linux.
+  * Finish documenting dictionary format.
+  * LVM disks: Set RawCapacity to "Unknown", rather than a human-readable size.
+  * Fix more LVM disk stuff under Python 3.
+  * Fix several errors with the LVM-related tests,
+  * macOS: Fix formatting issues with descriptions.
+  * Delayed - can't test on laptop.
+  * Update macOS get_capacity() tests to check human-readable capacities too.
+  * macOS: Fix issue if Removable key isn't in the plist from diskutil info.
+  * Fix for older versions of macOS where the SolidState attribute is missing from the diskutil info plist.
+  * Don't require bs4 for testing on macOS.
+  * Fix macOS description tests.
+  * Fix crashes with unpartitioned disks (Linux).
+  * macOS: Fix for disks with more than 9 partitions.
+  * macOS: Fix for removable drive detection.
+  * Fix unit tests again.
+  * Update Readme.md to include build instructions.
+  * Update getdevinfo/__init__.py so the wheels work.

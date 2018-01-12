@@ -38,7 +38,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 <article>
                     <h2>About this website</h2>
                     <p>
-                    This website is a useful rescource for people who want to use or download my programs, and also those who want to read the changelogs and explore the museum.<br><br>
+                    This website is a useful resource for people who want to use or download my programs, and also those who want to read the changelogs and explore the museum.<br><br>
 
                     I wrote this website in pure HTML5 and CSS3 so it performs well even on older systems, following my policy of trying to be as backwards-compatible as possible, while still making use of new features.
                     This site is a good example of that, it looks good and works fine in all the major browsers, but it still works just fine in Internet Explorer 8 and old versions of Safari and Firefox, while still having things like CSS-only dropdown menus.
@@ -70,7 +70,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 </article>
                 <article>
                     <h2>About me</h2>
-                    <img class="Screenshot" src="/files/Profile/96x96.jpg" alt="Profile Picture">
+                    <img class="Screenshot" src="/files/Profile/m.jpg" alt="Profile Picture">
                     <p>
                     I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently writing my next program in C++. I also enjoy cycling, acting, climbing, and gardening when I can.
                     </p>

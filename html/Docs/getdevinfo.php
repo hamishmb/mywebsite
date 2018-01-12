@@ -33,9 +33,21 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Not available yet!</h1>
+            <h1>Documentation For GetDevInfo</h1>
             <p>
-            Sorry, I haven't created any documentation for this project yet! I'm working on it, though, so check back later.
+            The current version of the documentation is for GetDevInfo 1.0.1 and Higher, for both Mac and Linux. This documentation covers both API and dictionary format.
+            </p>
+
+            <p>
+            You can view the documentation online, or download in a few formats. Source code for the documentation can be found at <a href="https://github.com/hamishmb/getdevinfo" target="_blank">https://github.com/hamishmb/getdevinfo</a>.
+            </p>
+
+            <p>
+            <ul>
+                <li><a href="getdevinfo/index.html" target="_blank">View Documentation Online</a></li>
+                <li><a href="getdevinfo.pdf">PDF</a></li>
+                <li><a href="getdevinfo.epub">EPUB (for mobile devices)</li></a>
+            </ul>
             </p>
         </div>
         <!-- Footer -->
