@@ -1,2 +1,2 @@
-a269e30ddf13b18a307f5a0d2ba19b0c  ./getdevinfo-1.0.1.tar.gz
-b5d812844e77bbd5e3f274c99678db72  ./getdevinfo-1.0.1-py2.py3-none-any.whl
+18c99b89bbeb5154f9dcaa4585fed082  ./getdevinfo-1.0.1.post1.tar.gz
+8f66b4ed61b3ad5f9ec001a9a186df5b  ./getdevinfo-1.0.1.post1-py2.py3-none-any.whl
