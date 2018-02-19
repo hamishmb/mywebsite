@@ -1,0 +1,6 @@
+GetDevInfo (1.0.2):
+  * Changes since 1.0.1:
+
+  * Fix an exception when getting block sizes on Linux with Python 3.
+  * Define getdevinfo.getdevinfo.VERSION - useful for users.
+  * Bump version to 1.0.2.
