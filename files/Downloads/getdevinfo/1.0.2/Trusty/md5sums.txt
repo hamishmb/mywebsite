@@ -1,0 +1,2 @@
+a1ded056c16f5f497614c8482a42944b  ./python-getdevinfo_1.0.2~trusty~update1-0ubuntu1~ppa1_all.deb
+04660b6ba629ded11818da335aeaa7d3  ./python3-getdevinfo_1.0.2~trusty~update1-0ubuntu1~ppa1_all.deb

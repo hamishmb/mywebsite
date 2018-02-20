@@ -1,0 +1,1 @@
+301ba62aa225906de3ab5720479e5ff5  ./ddrescue-gui-1.7.2-2.1.noarch.rpm

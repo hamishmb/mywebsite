@@ -1,0 +1,2 @@
+794679f42ec8f91161eb937a52c9aa5f  ./python3-getdevinfo-1.0.2-10.1.noarch.rpm
+eaf41e4e560382af6b236060434b35a1  ./python-getdevinfo-1.0.2-9.1.noarch.rpm
