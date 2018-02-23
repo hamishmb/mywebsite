@@ -1,0 +1,1 @@
+d5af090db20f8d778f1f1b6d52c633f2  ./ddrescue-gui_1.7.2~artful~update2-0ubuntu1~ppa1_all.deb
