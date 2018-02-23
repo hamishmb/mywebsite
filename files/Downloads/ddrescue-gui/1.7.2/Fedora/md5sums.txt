@@ -1,1 +1,1 @@
-cf4dc4e688667f595d18e653d7e0df61  ./ddrescue-gui-1.7.2~update1-3.1.noarch.rpm
+cdb1f1e7535109f28e9a288f6f75b6ec  ./ddrescue-gui-1.7.2~update1-3.1.noarch.rpm
