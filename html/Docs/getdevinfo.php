@@ -2,7 +2,7 @@
 
 <!-- Documentation For GetDevInfo
 This file is part of my website.
-Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+Copyright (C) 2016-2018 Hamish McIntyre-Bhatty
 My website is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or,
 at your option, any later version.
@@ -35,7 +35,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <div id="MainContent">
             <h1>Documentation For GetDevInfo</h1>
             <p>
-            The current version of the documentation is for GetDevInfo 1.0.1 and Higher, for both Mac and Linux. This documentation covers both API and dictionary format.
+            The current version of the API documentation is for GetDevInfo 1.0.1 and Higher, for both Mac and Linux. This documentation covers both API and dictionary format.
             </p>
 
             <p>

@@ -29,7 +29,7 @@ if (isset($_GET['program_name'])) {
 
     //Holds the programs that have older versions.
     //This enables us to hide programs that don't have previous downloads yet.
-    $museum_programs = ['wineautostart', 'wxfixboot', 'ddrescue-gui', ];
+    $museum_programs = ['wineautostart', 'wxfixboot', 'ddrescue-gui', 'getdevinfo'];
 
     //If not, we will die with an error.
     if (!in_array($program_name, $programs)) {

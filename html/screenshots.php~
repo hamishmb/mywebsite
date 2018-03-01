@@ -95,7 +95,9 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                     <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
-                    <h2 id="StroodlrScreenshots">Stroodlr</h2><br
+                    <h2 id="StroodlrScreenshots">Stroodlr</h2><br><br>
+                    <img class="Screenshot" src="/files/Screenshots/stroodlr/main.jpg" alt="Stroodlr Client">
+                    <p class="BackToTop"><a href="#navigation">Back To Top</a></p><br><br>
                 </article>
                 <article>
                     <h2 id="WineAutostartScreenshots">Wine Autostart</h2><br><br>

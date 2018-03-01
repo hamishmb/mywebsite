@@ -2,7 +2,7 @@
 
 <!-- Museum Page
 This file is part of my website.
-Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+Copyright (C) 2016-2018 Hamish McIntyre-Bhatty
 My website is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or,
 at your option, any later version.

@@ -48,7 +48,6 @@ body {
     list-style-type: none;
     padding: 10px;
     position: relative;
-    font-weight: bold;
 }
 
 /* -- Links In Main Navigation -- */
@@ -76,15 +75,13 @@ a, img {
     list-style: none;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-    box-shadow: 5px 5px 10px;
-    padding-left: 0px;
 }
 
 #navlist ul li {
     background: white;
     opacity: 0;
     text-align: left;
-    /* box-shadow: 5px 5px 10px; */
+    box-shadow: 5px 5px 10px;
     font-weight: normal;
 }
 

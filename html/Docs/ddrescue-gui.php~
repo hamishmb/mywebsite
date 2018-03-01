@@ -2,7 +2,7 @@
 
 <!-- Documentation For DDRescue-GUI
 This file is part of my website.
-Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+Copyright (C) 2016-2018 Hamish McIntyre-Bhatty
 My website is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or,
 at your option, any later version.
@@ -33,20 +33,20 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'mainnavigation.php' ; ?>
         <!-- Content of the Page -->
         <div id="MainContent">
-            <h1>Documentation For DDRescue-GUI</h1>
+            <h1>User Guide For DDRescue-GUI</h1>
             <p>
-            The current version of the documentation is for DDRescue-GUI 1.7.1 and Higher, for both Mac and Linux.
+            The current version of the user guide is for DDRescue-GUI 1.7.1 and Higher, for both Mac and Linux.
             </p>
 
             <p>
-            You can view the documentation online, or download in a few formats. Source code for the documentation can be found at <a href="https://github.com/hamishmb/docs" target="_blank">https://github.com/hamishmb/docs</a>.
+            You can view the user guide online, or download in a few formats. Source code for the user gui can be found at <a href="https://github.com/hamishmb/docs" target="_blank">https://github.com/hamishmb/docs</a>.
             </p>
 
             <p>
             <ul>
-                <li><a href="ddrescue-gui/index.html" target="_blank">View Documentation Online</a></li>
-                <li><a href="ddrescue-gui-documentation.pdf">PDF</a></li>
-                <li><a href="ddrescue-gui-documentation.epub">EPUB (for mobile devices)</li></a>
+                <li><a href="ddrescue-gui/index.html" target="_blank">View Online</a></li>
+                <li><a href="ddrescue-gui.pdf">PDF</a></li>
+                <li><a href="ddrescue-gui.epub">EPUB (for mobile devices)</li></a>
             </ul>
             </p>
         </div>

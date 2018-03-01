@@ -2,7 +2,7 @@
 
 <!-- About Page
 This file is part of my website.
-Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+Copyright (C) 2016-2018 Hamish McIntyre-Bhatty
 My website is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or,
 at your option, any later version.
@@ -70,7 +70,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
                 </article>
                 <article>
                     <h2>About me</h2>
-                    <img class="Screenshot" src="/files/Profile/m.jpg" alt="Profile Picture">
+                    <img class="Screenshot" src="/files/Profile/96x96.jpg" alt="Profile Picture">
                     <p>
                     I am a university student studying for a Computing and IT degree, and I enjoy programming in my free time. I find it rewarding to help people, and I also like to keep learning new things (hence why I wrote this website). Currently, I am a skilled Python developer, and know how to use HTML5 and CSS3, and I'm currently writing my next program in C++. I also enjoy cycling, acting, climbing, and gardening when I can.
                     </p>

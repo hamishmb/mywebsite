@@ -79,7 +79,7 @@ if (isset($_GET['program_name'])) {
 
             <section>
                 <?php
-                    display_changelogs($relinfo_table, $program_user_friendly_name);
+                    display_changelogs($relinfo_table, $program_name, $program_user_friendly_name);
                 ?>
             </section>
         </div>
