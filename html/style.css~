@@ -1,6 +1,6 @@
 /* Stylesheet
 This file is part of my website.
-Copyright (C) 2016-2017 Hamish McIntyre-Bhatty
+Copyright (C) 2016-2018 Hamish McIntyre-Bhatty
 My website is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3 or,
 at your option, any later version.
@@ -20,6 +20,8 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 html {
     background: rgb(255,255,255); /* Set background below footer to white in case the page doesn't need to scroll */
     font-family: sans-serif; /* Use a sans-serif font because it's easier to read, esp. for those who have dyslexia or similar */
+    font-size: 15px;
+    line-height: 1.7em;
 }
 
 body {
@@ -47,7 +49,10 @@ body {
     display: inline;
     list-style-type: none;
     padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: relative;
+    font-size: 15px;
 }
 
 /* -- Links In Main Navigation -- */
@@ -192,6 +197,8 @@ a, img {
 
 /* -- Headers -- */
 h1, h2, h3, h4, h5, h6, h7, h8 {
+    font-family: "Segoe UI";
+    font-weight: normal;
     text-align: center;
 }
 
