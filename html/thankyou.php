@@ -92,7 +92,10 @@ if (isset($_GET['program_name'])) {
         <!-- Update the counter -->
         <?php
 
-        $query = "SELECT * FROM " . $downloads_table . " WHERE File = '{$_GET['file']}'";
+        //Change whitespaces to %20s.
+        $file = str_replace(' ', '%20', $_GET['file']);
+
+        $query = "SELECT * FROM " . $downloads_table . " WHERE File = '{$file}'";
         $result = mysqli_query($connection, $query);
 
         die_if_not_successful_query($result);
@@ -102,7 +105,7 @@ if (isset($_GET['program_name'])) {
 
         $query = "UPDATE " . $downloads_table . " SET ";
         $query .= "Counter = '{$counter_value}' "; 
-        $query .= "WHERE File = '{$_GET['file']}'";
+        $query .= "WHERE File = '{$file}'";
         $result = mysqli_query($connection, $query);
         die_if_not_successful_query($result);
         
