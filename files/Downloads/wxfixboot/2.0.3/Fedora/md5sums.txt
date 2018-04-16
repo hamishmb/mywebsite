@@ -1,0 +1,2 @@
+8cf48ee759df1d89498d3ad246a9451c  wxfixboot-2.0.3-1.1.noarch.rpm
+66fe9a568d15e186d286f8608d6efc70  wxfixboot-2.0.3-1.1.noarch.rpm.asc
