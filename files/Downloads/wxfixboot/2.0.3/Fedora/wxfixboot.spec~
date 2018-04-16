@@ -1,0 +1,42 @@
+Name:           wxfixboot
+Version:        2.0.2~update2
+Release:        1%{?dist}
+Summary:        Utility to assist with fixing the bootloader on a computer quickly.
+Group:          Applications/System
+License:        GPLv3+
+URL:            http://www.launchpad.net/wxfixboot/2.x/2.0.2
+Source0:        %{name}-%{version}.tar.gz
+BuildArch: noarch
+
+Requires:	python, wxPython, coreutils, util-linux, kmod, iputils, e2fsprogs, file, bash, lshw, lvm2, dmidecode, binutils, python-beautifulsoup4
+
+%description
+Utility to assist with fixing the bootloader on a computer quickly.
+
+%prep
+%autosetup -c wxfixboot
+
+%install
+rm -rf $RPM_BUILD_ROOT
+mkdir -p %{buildroot}%{_datadir}/wxfixboot/
+mkdir -p %{buildroot}%{_datadir}/applications
+mkdir -p %{buildroot}%{_datadir}/pixmaps
+cp -rv sampleconfig Tools Tests images other GetDevInfo LICENSE Tests.py WxFixBoot.py SystemInfoNoteBookSharedFunctions.py AuthenticationDialog.py %{buildroot}%{_datadir}/wxfixboot/
+cp -rv wxfixboot.desktop %{buildroot}%{_datadir}/applications
+cp -rv wxfixboot.png %{buildroot}%{_datadir}/pixmaps
+chmod -R a+rx %{buildroot}%{_datadir}/wxfixboot/
+
+%files
+/usr/share/wxfixboot/*
+/usr/share/applications/wxfixboot.desktop
+/usr/share/pixmaps/wxfixboot.png
+
+%changelog
+* Wed May 31 2017 Hamish McIntyre-Bhatty hamishmb@live.co.uk 1.2
+- Added Tests and Tests.py.
+
+* Wed Oct 05 2016 Hamish McIntyre-Bhatty hamishmb@live.co.uk 1.1
+- Added privacy policy directory, /other.
+
+* Fri Jul 08 2016 Hamish McIntyre-Bhatty hamishmb@live.co.uk 1.0
+- Created initial package.

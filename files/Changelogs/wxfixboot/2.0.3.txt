@@ -1,0 +1,14 @@
+WxFixBoot (2.0.3):
+  * Changes since v2.0.2~update1:
+  *
+  * Fix for the emergency exit function, which sometimes failed to work or failed to save the log file.
+  * Depress the authentication button upon hitting enter - stops a user from trying to authenticate multiple times in rapid succession.
+  * Fix an issue when modifying bootloaders when the bootloader is unknown.
+  * Warn the user against modifying EFI bootloaders if the partition they reside on was not found.
+  * Enable LILO's "compact" option to speed the boot process up when using LILO.
+  * Fix a bug very occasionally causing a crash in coretools.TearDownChroot().
+  * Don't crash if an unpartitioned disk is present - pulled in from new getdevinfo module.
+  * Fix some issues with the bootloader options window.
+  * Improve handling of replacing an unknown / missing bootloader.
+  * Fix issues with LILO and ELILO installation target.
+  * Link to my website in the about dialog.
