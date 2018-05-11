@@ -21,7 +21,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
     <head>
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Licenses - errormania.altervista.org</title>
+        <title>Licenses - hamishmb.altervista.org</title>
         <?php include_once '../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'About'; ?>
         <!--[if lte IE 9]>
