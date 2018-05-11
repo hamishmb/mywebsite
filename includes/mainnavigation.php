@@ -64,6 +64,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             <ul class="Museum">
                 <li class="first"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/ddrescue-gui") { echo "class='CurrentPage'"; } ?> href="/html/museum.php?program_name=ddrescue-gui"><br>DDRescue-<br>GUI<br></a></li>
                 <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/wxfixboot") { echo "class='CurrentPage'"; } ?> href="/html/museum.php?program_name=wxfixboot"><br>WxFixBoot<br></a></li>
+                <li><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/getdevinfo") { echo "class='CurrentPage'"; } ?> href="/html/museum.php?program_name=getdevinfo"><br>GetDevInfo<br></a></li>
                 <li class="last"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Museum/wineautostart") { echo "class='CurrentPage'"; } ?> href="/html/museum.php?program_name=wineautostart"><br>Wine Autostart<br><br></a></li>
             </ul>
 
