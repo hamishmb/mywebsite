@@ -58,6 +58,10 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 
                     WxFixBoot is entirely open-source and can work on multiple Linux distros at once, as well as supporting all the common bootloaders (grub2, grub2-efi, lilo, elilo, grub-legacy for transitioning old systems to grub2). It uses a more advanced version of the disk information obtainer used in DDRescue-GUI, so it detects LVM and RAID disks as well, so fixing your bootloader can be made simple and easy. Finally, WxFixBoot can also check your hard disks for errors and bad sectors, as well as backing up and restoring your bootloaders' configuration and making a diagnostic system report to aid you if you require assistance with your system.
                     </p>
+                    <h3>GetDevInfo</h3>
+                    <p>
+                    Originally built into the source code of Wine Autostart, DDRescue-GUI, and WxFixBoot, the getdevinfo module is a Python module that makes it easy to obtain device information on macOS and Linux, in a way that can be parsed easily by automated software tools. It works on Both Python 2.7 and Python 3.*. Packages are available for this program on PyPI, as well as standard installable packages for your Linux distribution. The PyPI packages pull in all required Python dependencies for you.
+                    </p>
                     <h3>Stroodlr</h3>
                     <p>
                     Stroodlr is the Super reTRo Object OrienteD Linux message Relay, a simple commandline chat client. It allows users on different machines on the local network to send messages to each other. Stroodlr makes used of the C++ Boost library to provide socket support, and is written to be efficient, so it runs just fine even on a Raspberry Pi. Currently Stroodlr is in development and isn't fully functional, but if you want to download it, head to the downloads page from the navigation bar at the top.<br><br>
