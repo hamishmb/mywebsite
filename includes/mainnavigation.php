@@ -24,7 +24,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
 <div id="navigation">
     <ul id="navlist">
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Home") { echo "class='CurrentPage'"; } ?> href="/index.php">Home</a></li>
-        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/blog">Blog</a></li>
+        <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Blog") { echo "class='CurrentPage'"; } ?> href="/blog/">Blog</a></li>
         <li class="main"><a <?php if ($GLOBALS["CURRENTPAGE"] == "Screenshots") { echo "class='CurrentPage'"; } ?> href="/html/screenshots.php">Screenshots</a></li>
         <li class="main"><a <?php if (preg_match("/changelogs/i", $GLOBALS["CURRENTPAGE"])) { echo "class='CurrentPage'"; } ?> href="#">Changelogs</a>
 
