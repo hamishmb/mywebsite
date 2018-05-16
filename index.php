@@ -15,7 +15,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
-The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+The GNU GPL version 3 is available on the site at www.hamishmb.com/license.php.-->
 
 <html lang="en">
     <head>
@@ -26,7 +26,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
         <?php include_once './config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'Home'; ?>
         <link href="./html/style.css" rel="stylesheet" type="text/css">
-        <title>Welcome to my website - hamishmb.altervista.org</title>
+        <title>Welcome to my website - www.hamishmb.com</title>
     </head>
     <body>
         <!-- Navigation Between Pages -->
