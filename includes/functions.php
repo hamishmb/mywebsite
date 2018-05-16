@@ -13,7 +13,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
-The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+The GNU GPL version 3 is available on the site at www.hamishmb.com/license.php.-->
 
 <!-- Include database connection and table data.-->
 <?php include_once $GLOBALS["INCLUDESDIR"] . 'db.php' ; ?>

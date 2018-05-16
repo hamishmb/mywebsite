@@ -15,7 +15,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
-The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+The GNU GPL version 3 is available on the site at www.hamishmb.com/license.php.-->
 
 <!-- Figure out what program we're offering downloads for -->
 <?php
@@ -51,7 +51,7 @@ if (isset($_GET['program_name'])) {
             <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <![endif]-->
         <link href="/html/style.css" type="text/css" rel="stylesheet">
-        <title><?php echo $program_user_friendly_name; ?> Museum - hamishmb.altervista.org</title>
+        <title><?php echo $program_user_friendly_name; ?> Museum - www.hamishmb.com</title>
         <?php include_once '../config.php' ; ?>
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'db.php' ; ?>
         <?php include_once $GLOBALS["INCLUDESDIR"] . 'tables.php' ; ?>
