@@ -15,13 +15,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with My website.  If not, see <http://www.gnu.org/licenses/>.
 
-The GNU GPL version 3 is available on the site at hamishmb.altervista.org/license.php.-->
+The GNU GPL version 3 is available on the site at www.hamishmb.com/license.php.-->
 
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <link href="/html/style.css" rel="stylesheet" type="text/css">
-        <title>Licenses - hamishmb.altervista.org</title>
+        <title>Licenses - www.hamishmb.com</title>
         <?php include_once '../config.php' ; ?>
         <?php $GLOBALS["CURRENTPAGE"] = 'About'; ?>
         <!--[if lte IE 9]>
@@ -67,7 +67,7 @@ The GNU GPL version 3 is available on the site at hamishmb.altervista.org/licens
             You should have received a copy of the GNU General Public License<br>
             along with My website.  If not, see &lthttp://www.gnu.org/licenses/&gt.<br><br>
 
-            The GNU GPL version 3 is available on this site at <a href="http://www.hamishmb.altervista.org/license.html" target="_blank">www.hamishmb.altervista.org/license.html</a><br><br>
+            The GNU GPL version 3 is available on this site at <a href="http://www.hamishmb.com/license.html" target="_blank">www.hamishmb.com/license.html</a><br><br>
             </p>
         </div>
         <!-- Footer -->
