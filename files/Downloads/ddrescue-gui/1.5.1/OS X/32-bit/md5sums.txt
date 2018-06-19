@@ -1,1 +1,0 @@
-8af67a401f6a6fe6dbd087af2b442cd5  ./DDRescue-GUI-32bit.dmg

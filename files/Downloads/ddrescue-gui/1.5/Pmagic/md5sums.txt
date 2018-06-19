@@ -1,1 +1,0 @@
-eee8be558a01d289072225524f00e5b5  ./ddrescue-gui_1.5pmagic-0ubuntu1~ppa1.tar.gz

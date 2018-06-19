@@ -1,1 +1,0 @@
-49462b44746c67d772a48774b1aeaa90  ddrescue-gui_1.3trusty-0ubuntu1~ppa1.tar.gz

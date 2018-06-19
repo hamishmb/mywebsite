@@ -1,1 +1,0 @@
-be1529f8b356e61eb7493155ef83d7f3  ./ddrescue-gui_1.7~zesty-0ubuntu1~ppa1_all.deb

@@ -1,1 +1,0 @@
-144a16c100f840982d6d8aeb1aa508ce  ./ddrescue-gui_1.4~rc4trusty-0ubuntu1~ppa1_all.deb

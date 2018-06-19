@@ -1,1 +1,0 @@
-c52e270338d8ab33d17ff4296465c395  ./wxfixboot-2.0~pre2-1.fc24.x86_64.rpm

@@ -1,1 +1,0 @@
-b8ee1fb653cd6b4455720e26af1d4c7e  ddrescue-gui_1.7.2~otherdistro~update1-0ubuntu1~ppa1.tar.gz

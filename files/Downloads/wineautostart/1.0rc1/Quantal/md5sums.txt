@@ -1,1 +1,0 @@
-b9b6bc56c1930cea9f52e8c2a3e8f813  ./wineautostart_1.0rc1quantal-0ubuntu1~ppa1.tar.gz

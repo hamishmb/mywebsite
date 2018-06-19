@@ -1,1 +1,0 @@
-ca42a3cce8970a547d96882b00d3beae  ./ddrescue-gui_1.6.1~yakkety-0ubuntu1~ppa1_all.deb

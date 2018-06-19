@@ -1,1 +1,0 @@
-1ed262fdd7341c4fc29080c4d5cd39cc  ./wineautostart_0.7-ubuntu_all.deb

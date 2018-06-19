@@ -1,2 +1,0 @@
-38b81176ca415ff2874f63f941b08c6d  stroodlr_0.9yakkety-0ubuntu1~ppa1_amd64.deb
-f770575be40e5273021f20a4ec2f2c51  stroodlr_0.9yakkety-0ubuntu1~ppa1_i386.deb

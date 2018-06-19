@@ -1,1 +1,0 @@
-a905497f36b9c458f86d6f839757e9b3  ./wineautostart_2.0.1trusty-0ubuntu1~ppa1_all.deb

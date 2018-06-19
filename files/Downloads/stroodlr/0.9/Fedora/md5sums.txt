@@ -1,3 +1,0 @@
-0ef8d9cd758a2e17c648e8ff1239b998  stroodlr-0.9-1.fc24.x86_64.rpm
-6818cad5e1732e2a281b3758936f2492  stroodlr-0.9-1.fc25.x86_64.rpm
-ef8e2001b41b99017dd2001ecfe1d174  stroodlr-0.9-1.fc26.x86_64.rpm

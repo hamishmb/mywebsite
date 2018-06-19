@@ -1,1 +1,0 @@
-d83bcdde04f9392171b366364705c18f  ./ddrescue-gui-1.7.1~update1-1.1.noarch.rpm

@@ -1,2 +1,0 @@
-a7d8633c9e123f48bd93b5fbd5938ae0  stroodlr_0.9trusty-0ubuntu1~ppa1_amd64.deb
-1be77aeb8806232b65e4f1b8ce52a7f6  stroodlr_0.9trusty-0ubuntu1~ppa1_i386.deb

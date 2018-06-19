@@ -1,1 +1,0 @@
-0ea85e331313a52891733a751ceaab7a  ./wineautostart_1.0rc1saucy-0ubuntu1~ppa1.tar.gz

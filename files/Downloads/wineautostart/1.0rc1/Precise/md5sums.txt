@@ -1,1 +1,0 @@
-e36158514de74b41a6f826fa23396e5a  ./wineautostart_1.0rc1precise-0ubuntu1~ppa1.tar.gz

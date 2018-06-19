@@ -1,1 +1,0 @@
-897ab0c30dd33b0a84ea95075e11848d  ./wineautostart_2.0.2yakkety-0ubuntu1~ppa1_all.deb

@@ -1,4 +1,0 @@
-DDRescue-GUI(1.7.2):
-  * Changes since v1.7.1:
-
-  * Add support for running on ddrescue 1.23.

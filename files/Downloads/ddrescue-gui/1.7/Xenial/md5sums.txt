@@ -1,1 +1,0 @@
-7a4b7e323dfb09be09a9fd54d569c06c  ./ddrescue-gui_1.7~xenial-0ubuntu1~ppa1_all.deb

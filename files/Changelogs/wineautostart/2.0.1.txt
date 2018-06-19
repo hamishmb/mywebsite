@@ -1,5 +1,0 @@
-Wine Autostart (2.0.1);
-
-  * Changes since 2.0:
-  * Fix a bug that very occasionally causes the backend to start two or more times,
-    and display the same dialogs to the user more than once.

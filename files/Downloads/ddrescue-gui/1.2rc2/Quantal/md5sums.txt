@@ -1,1 +1,0 @@
-88f7cf68265d3c61f5afbfc690a0ffed  ddrescue-gui_1.3rc1quantal-0ubuntu1~ppa1.tar.gz

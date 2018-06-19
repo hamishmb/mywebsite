@@ -1,2 +1,0 @@
-3df212c0409dbecddbf82d8944fc3f24  wxfixboot_2.0.3~pmagic-0ubuntu1~ppa1.tar.gz
-85f2c6352b6e50672ccd741835baed68  wxfixboot_2.0.3~pmagic-0ubuntu1~ppa1.tar.gz.asc

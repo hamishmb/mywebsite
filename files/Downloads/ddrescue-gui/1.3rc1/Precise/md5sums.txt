@@ -1,1 +1,0 @@
-f57d134781e9359e5a6c8c0f4ea48cd4  ddrescue-gui_1.3~rc1precise-0ubuntu1~ppa1.tar.gz

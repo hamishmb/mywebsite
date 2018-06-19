@@ -1,1 +1,0 @@
-aaff67e165cbc5ab4ab6d514f41a384b  ./ddrescue-gui_1.4wily-update1-0ubuntu1~ppa1_all.deb

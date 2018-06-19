@@ -1,1 +1,0 @@
-ad892cb887c069d75dd7e57697381c67  ./ddrescue-gui_1.5.1otherdistro-0ubuntu1~ppa1.tar.gz

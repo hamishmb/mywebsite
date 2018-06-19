@@ -1,1 +1,0 @@
-d446139df89ff05dd3e273ac24b29d83  ./ddrescue-gui_1.4vivid-update1-0ubuntu1~ppa1_all.deb

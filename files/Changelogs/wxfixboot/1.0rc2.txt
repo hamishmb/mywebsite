@@ -1,3 +1,0 @@
-WxFixBoot (1.0~rc2):
-
-  * No changelog available.

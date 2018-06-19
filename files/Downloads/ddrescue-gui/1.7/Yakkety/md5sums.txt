@@ -1,1 +1,0 @@
-dbeb4f55bbf9a2b74cc2162e343bf23a  ./ddrescue-gui_1.7~yakkety-0ubuntu1~ppa1_all.deb

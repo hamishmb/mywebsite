@@ -1,1 +1,0 @@
-a6cd073780c4e69e02eab2c05a032b87  ddrescue-gui_1.0raring-0ubuntu1~ppa2.tar.gz

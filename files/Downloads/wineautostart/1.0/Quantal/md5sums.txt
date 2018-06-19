@@ -1,1 +1,0 @@
-7413c4fce54735c6dd605871ab7bc927  ./wineautostart_1.0quantal-0ubuntu1~ppa1_all.deb

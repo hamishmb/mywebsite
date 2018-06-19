@@ -1,9 +1,0 @@
-DDRescue-GUI (1.3~rc1):
-
-  * Fixed many bugs.
-  * OS detection is now functional (Linux or Mac)
-  * New cross-mpatible device info dialog, no longer needing zenity
-  * Devices included in output choice (with warning)
-  * Recovering another image before exit is now supported (UNTESTED)
-  * Are you sure dlg on exit
-  * Partial compatibility with OS X Mavericks (with precompiled ddrescue)

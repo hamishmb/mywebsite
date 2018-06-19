@@ -1,1 +1,0 @@
-b4e24ffcce61b6af2a6518cd2cdb042e  ./DDRescue-GUI-64-bit.dmg

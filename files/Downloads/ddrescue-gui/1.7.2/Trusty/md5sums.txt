@@ -1,1 +1,0 @@
-38507c94219e9ab20870002aff55d707  ./ddrescue-gui_1.7.2~trusty~update1-0ubuntu1~ppa1_all.deb

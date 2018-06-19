@@ -1,1 +1,0 @@
-6d35dff85304a151a6ae709f9308d6ce  ddrescue-gui_1.2precise-0ubuntu1~ppa1_all.deb

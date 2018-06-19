@@ -1,2 +1,0 @@
-730a8d73be525693b6cb2bb632ee6f19  stroodlr_0.9xenial-0ubuntu1~ppa1_amd64.deb
-46b3a03cb3f2f07734ade813813db2c4  stroodlr_0.9xenial-0ubuntu1~ppa1_i386.deb

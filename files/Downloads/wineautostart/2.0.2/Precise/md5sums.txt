@@ -1,1 +1,0 @@
-f3aaa5053a4704077df3dfb498feec75  ./wineautostart_2.0.2precise-0ubuntu1~ppa1_all.deb
